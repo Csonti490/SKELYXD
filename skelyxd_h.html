@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta információk-->
+    <!-- Az oldal pár szavas leírása -->
+	<meta name="description" content="Fansub oldal">
+	<!-- A weboldalunk kulcsszavai > keresőnken hasznos információ -->
+	<meta name="keywords" content="RWBY, World of Remnant">
+    <!--A weboldal szerzője-->
+	<meta name="author" content="CsontiXD">
+    <!--A weboldal tartalma töltse ki az eszközt amin épp megtekintjük. A reszponzív weoldal készítés egyik legfontosabb lépése-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="skelyxd_c.css">
+    <script src="skelyxd_j.js"></script>
+    <!--
+https://mahou-fansub-1.mozellosite.com/
+https://guddofansub.hu/
+https://mutekifansub.hu/index.php
+
+https://www.w3schools.com/css/css_link.asp
+    -->
+    <link rel="icon" type="image/x-icon" href="icons8-thriller-64.png">
+    <title>SkelyXD</title>
+</head>
+<body>
+    <!-- Menüsor -->
+    <nav>
+        <ul id="menu">
+            <li><a href="skelyxd_h.html">Főoldal</a></li>
+            <li><a href="skelyxd_p.html">Projektek</a></li>
+            <li><a href="">Csapattagok</a></li>
+            <li><a href="">Infók</a></li>
+            <li id="name">SkelyXD Subs</li>
+        </ul>
+    </nav>
+    <!-- Tartalom -->
+    <div id="tartalom">
+
+        <!-- Föoldal (h)-->
+        <h1 id="nev">SkelyXD Subs főoldal</h1>
+        <div class="posztok">
+            <h2>### Cím - <span id="datum">date</span> ###</h2>
+            <p>Semmi.</p>
+        </div>
+        <div class="posztok"><!--Így nekiálltam nulla tapasztalattam feliratot eszkábálni.-->
+            <h2>### Mese - <span id="datum">2022.12.15.</span> ###</h2>
+            <p>Akkor itt a mese ideje. :)<br>2021.03.14.-én ismerkedtem meg a RWBY sorozattal. Észrevettem, hogy nincsen meg az 5.évadnak egy része (5. résztől a 14.-ig). Keresgéltem de nem találtam seholsem magyar feliratot. Viszont az alap formázatlan videók fent voltak az interneten, így letöltöttem őket és elkezdtem utána nézegeti, hogy mégis hogyan lehet feliratot eszkábálni egy videóra. Első 2 feliratomat egy kis online "subtitle editor"-al keszítettem, de azóta már az <strong>Aegisub</strong> programmal készítem a feliratokat. Legalábbis próbálkozok :)</p>
+            <p>Akit esetleg érdekel a formázás: <a href="https://aegiformazas.wordpress.com/" title="Formázások magyarul">Formázások</a></p>
+            <p>A 8.évadot épp <a href="https://indavideo.hu/profile/Santii" target="_blank" title="Satti csatija (Indavideó)">Satii</a> fordítja. Ő vállalta be a 8.évadot.</p>
+        </div>
+        <div class="posztok">
+            <h2>### Az oldal létrehozva - <span id="datum">2022.11.18.</span> ###</h2>
+            <p>Miért is indult ez az oldal? Pontosan nem is tudom megmondani az okát. Csak nagyon akartam egy saját kis "fansub" oldalt készíteni. Majd még meglátom, hogy mégis mi is lesz ebből.</p>
+            <p>Mondjuk sose lesz készen 100%-osan igazán. Mert mindig lehetne valamin javítani vagy szépíteni. De legalább addig is gyakorlom a HTML, CSS és a JavaScipt-et.</p>
+        </div>
+        <!-- Videólejátszó (v)-->
+        <!--<h1 id="nev">A projekt címe</h1>
+        <table id="videos">
+            <tr>
+                <th>Itt lesz a videó címe</th>
+            </tr>
+            <tr>
+                <td id="video"><iframe width='660' height='415' src='https://www.youtube.com/embed/bU1-VzDbDbM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="episodes">
+                        <li id="one" onclick="EpisodeChange(1)">1. rész</li>
+                        <li id="two" onclick="EpisodeChange(2)">2. rész</li>
+                        <li id="three" onclick="EpisodeChange(3)">3. rész</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Az éppen aktuális rész rövid leírása</td>
+            </tr>
+        </table>
+        -->
+        <!-- Projektek fül (projects)-->
+        <!--<h1 id="nev">Projektek</h1>
+        <table id="t_projects">
+            <tr>
+                <th class="t_head">RWBY (5. évad)</th>
+                <th class="t_head">RWBY: World of Remnant</th>
+                <th class="t_head">?????</th>
+            </tr>
+            <tr>
+                <td class="t_body"><img class="kiskep" src="rwby_v5.jpg" alt=""></td>
+                <td class="t_body"><img class="kiskep" src="rwby_wor3.jpg" alt=""></td>
+                <td class="t_body"><img class="kiskep" src="loading.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td class="t_body">Fordító: CsontiXD</td>
+                <td class="t_body">Fordító: CsontiXD</td>
+                <td class="t_body">Fordító: CsontiXD</td>
+            </tr>
+            <tr>
+                <td class="t_body">Lektor: Yeet the meat, Mary</td>
+                <td class="t_body">Lektor: Yeet the meat, Mary</td>
+                <td class="t_body">Lektor: Yeet the meat, Mary</td>
+            </tr>
+            <tr>
+                <td class="t_foot">Részek: 4/14</td>
+                <td class="t_foot">Részek: 1/16</td>
+                <td class="t_foot">Részek: ?/?</td>
+            </tr>
+        </table>-->
+
+        <!-- Csapattagok fül (teams)-->
+        
+
+        <!-- Infók (Ez szerintem nem fog kelleni)-->
+
+
+
+
+
+        <!-- ////////////////////////////////////////////////////// -->
+
+        <!--Ez az epizód rövid áttekintést és magyarázatot ad Remnant világának a "Por" nevű energiaforrásról,<br>beleértve azt is, hogy Remnant lakói keveset tudnak róla, és a különféle felhasználási módokról.-->
+
+        <!--Random szöveg-->
+        <!--
+        <p>Lórum ipse azonban nem gározik szetelést. Kötri a tábor csíron báda szatlajtásának hadékos szalija a szapott nestetés sősége smányájából. A tiló által sankodnia tányos metőr bélyzetsége falmas zsüretvény „házbeli piség csíron olásokat” hitim adása viszonylag zsiglinek törös a fentebb melő szulettek szita előtt fikájában, hiszen ovánként nem dülleni a finizmus fogájába tetlegyvetes fenyző tandokságokat. (Noha a varternárból illetve gazna odások alapján vélyi, hogy „ségtes” a testum, a hanyósak alank vagy hezős kullása, a védteli házások házbeli mezésének nyecsemése is.) A pályos szerésszel hető, a sülés által „foszlónak” senyező (14 bornatáson szafátos) monik csókájában - az izmulág ságikus csókáin kívül - - egyedül a fölőt „fajdozja ki” a zönlelél a latos fenyző ismetőrök közül és hüveszi düllennie, amennyiben a „gerony” 18 bornatásnál salmatos, míg a „pockony” ennél tergős benitás. Radt vorzacska szerint ez azt oltolja, hogy a tiló „peresíti” a trény szakiánc dögőjével csacskos körségöt a házbeli kretre és az ehhez párnyátos manaszra abban a csókában, ha a moni vele nyúzott dülső közés (a kötés csókájában 18 bornatáson szafátos, a gerony csókájában 14 és 18 bornatás kásos közés) idet házbeli kretet rongnia. (Látszólag a vestes csak a 18 bornatáson szafátos benitást készkeséli, azonban aligha törös „pályosnak” a a sülő, aki abban a teződésben rong házbeli kretet, hogy ugtáját a vele való mezés miatt bármikor áboghatják, őt a bancos arlásban ugtája csíron brás rantjára fiúsíthatják.) A neverveg „nyesítő kasága” sokáig alagtarannak talanított: a levénykenyesek „kirgi” csévégő csipinének lensége.<br>Egy rózat van velük, párgyék szerint az elős nem más mint a siség rulája. Pajgnak el kell azonban búvogatnia hogy alpásak, de azt nem lehet tudni meddig kasorgatnak azok. Tárzó hogy csak ezt a két hazitás szárongták ki aztán kaszta a dellába! Párgyék enetet mindenesetre sokan harogatnának ilyen mezők lenni mint ők! Löltés fikum és a siség elős már gyatúrokkal ezelőtt tejtett mindent ebből a fercedvevényből, csak akkor nem teseztek a szalan csipiccek, és csak most forogatott meg a „vársem”... Mivel manapság a kéltő fészkély, legfőképp a szövesítés és az éltet, ezért szennyes simár olyan köszmészöt zednie, ami kevésbé felés hurkásos, vagy egyáltalán nem az. Ők palórász ríbolások, nem is ütelyek, ők humetek, molonok, konkák, bölcselők stb....<br>A szorózus sziták a várságok alatt lelődnek meg, de csak a lindás kozebránán. Általában szorózus lenkinteket gyújtnak, ezért borzsalan motolfolnia őket. Akár csak a várságoknál, szorózus sziták kakájához külön cservénylésre van kodása, amelyet a tátus tud ködnie. A melő szitákhoz nem lehet az őrülesekben pityelkednie, valamint nem lehet többet bortyognia. Egy szitát a lindás körsisményök vagy tátusok tudják fednie, a kaliárnak léges mensége is lehet. A tátusok az ápragos sítérepei a lindásnak. Ezek a fenységek süllyesztő csikával ködnek az egész lindás felett, beleértve a külepek szerheteinek srósát, külepek hurzsolnadátát, tatostyák és körsisményök mencsitét, stb.</p>
+        -->
+    </div>
+</body>
+</html>
