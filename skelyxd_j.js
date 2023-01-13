@@ -46,7 +46,7 @@ var videoSources = {
                 },
                 {
                     title: "Kingdoms / Királyságok",
-                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/G9kxEaBI#CBxKyD4vqpZdHvTSwzXmb873RpAyYKdqLUYWTMLPqE4" allowfullscreen ></iframe>`,
                     desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">The history and lore of Remnant revealing information about the four Kingdom's locations, politics and military structures.</p>`
                 },
                 {
