@@ -46,7 +46,7 @@ var videoSources = {
                 },
                 {
                     title: "Kingdoms / Királyságok",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/G9kxEaBI#CBxKyD4vqpZdHvTSwzXmb873RpAyYKdqLUYWTMLPqE4" allowfullscreen ></iframe>`,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/Kl0GGDbC#CLfPDYsqBRq_PNNSO2dA3nA9su7nTtFItvAGtLeZE5U" allowfullscreen ></iframe>`,
                     desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat második epizódja, amely a Remnant történetét és tudományát vizsgálja. Ebben a részben információkat tár fel a négy Királyság helyszíneiről, politikájáról és katonai struktúráiról.</p>`
                 },
                 {
