@@ -1,0 +1,2920 @@
+<style>
+    h1{
+        text-align: center; color: red;
+    }
+    h1#nev {
+        color: blue;
+    }
+</style>
+<title>Wikipédia</title>
+<h1 id="nev">WUNCS</h1>
+<h1>2023.01.24.</h1>
+<pre>
+    '''
+Készítsen egy osztályt Diak néven.
+    -Az osztály tulajdonságai legyenek: Név,kor,magasság,képzés.
+    -Készítse el a konstruktort.
+    -Készítsen egy segédmetódust mely az osztály objektumait az alábbi módon képes kiírni:
+        -"Neve: név, Kora: kor, Magasága: magasság cm, Képzése: képzés"
+    -Készítsen egy segédmetódust amely egy második kontruktorként működik.
+        -Ebben az esetben csak nevet meg a képzést kelljen megadni.
+        -A másik két tulajdonság random érték legyen (kor: 17-30, magasság 150-200)
+
+Készítsen két objektumot. Az elsőt a konstruktorral, a másodikat pedig a segédmetódussal inicializálja.
+Írja ki a két objektumot az outputra
+
+'''
+
+class Diak():
+    def __init__(self,neve,kora,magassaga,kepzese):
+        self.nev = neve
+        self.kor = kora
+        self.magassag = magassaga
+        self.kezpes = kepzese
+    def __str__(self):
+        return "Neve: {}, Kora: {}, Magassága: {} cm, Képzése: {}".format(self.nev,self.kor,self.magassag,self.kezpes)
+    def seged(neve,kepzese):
+        import random
+        '''nev = neve
+        kor = random.randint(17,30)
+        magassag = random.randint(150,200)
+        kepzes = kepzese
+        return Diak(nev,kor,magassag,kepzes)'''
+        return Diak(neve,random.randint(17,30),random.randint(150,200),kepzese)
+
+diak1 = Diak("Nagy Dávid",20,183,"Szoftver")
+diak2 = Diak.seged("Kis József","Matek")
+print(diak1)
+print(diak2)
+
+#Tanár mo.
+'''
+import random
+class Diak:
+    def __init__(self,nev,kor,magassag,kepzes):
+        self.neve = nev
+        self.kora = kor
+        self.magassaga = magassag
+        self.kezpese = kepzes
+    def __str__(self):
+        return "Neve: {}, Kora: {}, Magassága: {} cm, Képzése: {}".format(self.neve, self.kora, self.magassaga,self.kezpese)
+    def kiir(self):
+        return "Neve: {}, Kora: {}, Magassága: {} cm, Képzése: {}".format(self.neve, self.kora, self.magassaga,self.kezpese)
+    def letrehoz(nev,kepzes):
+        magas = random.randint(150,200)
+        kor = random.randint(17,30)
+        return Diak(nev,kor,magas,kepzes)
+
+d1 = Diak("Anna",20,160,"Szoftver")
+print(d1.neve,d1.kora,d1.magassaga,d1.kezpese)
+print(d1) #print(type(d1))
+print(d1.kiir()) #print(type(d1.kiir()))
+d2 = Diak.letrehoz("Zsolt","Mozgó")
+print(d2)
+'''
+</pre>
+<h1>2023.01.23.</h1>
+<pre>
+    '''
+Készítsen egy listát és metódus segítségével töltse fel 5db 1 és 100 közötti random generált számmal.
+A program segítségével nyissa meg a 'szambe.txt' nevű fájlt és tárolja el a tartalmát.
+Írjon egy metódust amely megvizsgálja,
+hogy a tárolt szám benne van e a generált listában.
+    Ha benne van akkor a visszatérési értéke legyen:
+    -'Benne van a lista x. indexén.'
+    Ha nincs benne akkor a visszatérési érték legyen:
+    -'Nincs benne a listában.'
+'''
+lista = []
+
+import random
+def feltolt(l):
+    for i in range(5):
+        l.append(random.randint(1,100)) #Teszt pl.: 15,18
+    return l
+lista = feltolt(lista)
+print(lista)
+
+f = open("szambe.txt","r",encoding="UTF-8")
+adat = f.read()
+f.close()
+def benne(l,data):
+    for i in range(len(l)):
+        if int(data) == l[i]:
+            return "Benne van a lista {}. indexén.".format(i)
+    return "Nincs benne a lisában"
+
+print(benne(lista,adat))
+
+#Tanár mo.
+'''
+import random
+l = []
+
+def feltolt():
+    for i in range(5):
+        l.append(random.randint(1,100))
+
+feltolt()
+print(l)
+f = open("szambe.txt","r",encoding="UTF-8")
+sz = int(f.read())
+print(type(sz),sz)
+def benne(lista,beolvasott_szam):
+    for i in range(len(lista)):
+        if lista[i] == beolvasott_szam:
+            return "{} benne van a(z) {}. indexen.".format(beolvasott_szam,i)
+    return "{} nincs benne.".format(beolvasott_szam)
+
+print(benne(l,sz))
+
+#másik féle mo.
+def benne2(lista,beolvasott):
+    if beolvasott in lista:
+        return "{} benne van a {}. indexen".format(beolvasott,lista.index(beolvasott))
+    return "Nincs benne."
+print(benne2(l,sz))
+'''
+
+print("----------")
+'''
+Készítsen egy második listát is.
+Az előző feladatban használt metódust írja át úgy, hogy bármilyen listát képes legyen feltölteni.
+Ezt a metódust felhasználva töltse fel a második listát is.
+    ...
+'''
+lista2 = []
+lista2 = feltolt(lista2)
+
+adatok = input("Kérek 5 számot vesszővel elválasztva (pl.: 1,2,3,4,5): ")
+
+szamok = adatok.split(",")
+#szamok = list(map(int,adatok.split(","))) # map("FunctionName",data)
+
+print(lista2)
+print(szamok)
+
+def ketlista(l1,l2):
+    db = 0
+    for i in range(len(l1)):
+        if int(l1[i]) in l2:
+            db += 1
+    return f"{db}db egyezés van a két listában."
+
+print(ketlista(szamok,lista2))
+
+#Tanár mo.
+'''
+def feltolt(lista):
+    for i in range(5):
+        lista.append(random.randint(1,100))
+    return lista
+
+l = feltolt(l)
+l2 = []
+l2 = feltolt(l2)
+def darabol(inputom):
+    lista = inputom.split(",")
+    for i in range(len(lista)):
+        lista[i] = int(lista[i])
+    return lista
+
+l3 = darabol(input("Kérek 5 számot vesszővel elválasztva: "))
+print(l2,l3)
+
+def hasonlit(lista1,lista2):
+    db = 0
+    for n in lista1:
+        if n in lista2:
+            db += 1
+    return "{}db szám egyezik meg a két listában".format(db)
+print(hasonlit(l2,l3))
+'''
+</pre>
+<h1>2023.01.20.</h1>
+<pre>
+    print("1. feladat:")
+szam = int(input("Kérek egy egész számot: "))
+szoveg = input("Írj be egy tetszőleges szöveget: ")
+print("megoldás:",end=" ")
+for i in range(szam):
+    print(szoveg.upper(),end=" ")
+
+#tanár mo.
+'''
+print("1. feladat:")
+szam = int(input("Kérek egy egész számot: "))
+szoveg = input("Kérek egy tetszőleges szót: ").upper()
+for i in range(szam):
+    print(szoveg.upper(),end=" ")
+'''
+
+print("\n\n2. feladat")
+
+def feladat2(nev):
+    lista = []
+    num = 0
+    db = 1
+    while num != "":
+        num = input(f"'{nev}' halmaz {db}. eleme: ")
+        if num not in lista:
+            if num != "":
+                lista.append(num)
+                db += 1
+            else:
+                db += 1
+        else:
+            print(f"HIBA! a(z) {num} már benne van a(z) {nev} halmazban!")
+    print(f"{nev} halmaz feltöltése befejeződött!")
+    return lista
+
+ahal = feladat2("A")
+print()
+bhal = feladat2("B")
+
+def parameter(ahal,bhal):
+    kozos = []
+    #Itt még hiányzik valami (eddig jutottam)
+    return kozos
+
+#tanár mo
+'''
+def halmaz(nev):
+    lista = []
+    i = 1
+    szam = input(nev+" lista "+str(i)+". eleme: ")
+    while szam != "":
+        if int(szam) not in lista:
+            i+=1
+            lista.append(int(szam))
+        else:
+            print("Ez a szám már szerepel!")
+        szam = input(nev + " lista " + str(i) + ". eleme: ")
+    print(nev+" lista feltöltése befejeződött!")
+    return lista
+
+l1 = halmaz("A")
+l2 = halmaz("B")
+print(l1)
+print(l2)
+
+def metszet(lista1, lista2):
+    m = []
+    for n in lista1:
+        if n in lista2:
+            m.append(n)
+    if len(m) > 0:
+        return m
+    else:
+        return "Nincs metszet!"
+
+print(metszet(l1,l2))
+'''
+# https://github.com/JuhaszZoltan/py_probavizsga_2122_verebely/blob/master/python_probavizsga_13ESZ.pdf
+</pre>
+
+<h1>2023.01.16.</h1>
+<pre>
+    class Szemely():
+    def __init__(self,Nev,Honap1,Honap2,Honap3):
+        self.Nev = Nev
+        self.Honap1 = Honap1
+        self.Honap2 = Honap2
+        self.Honap3 = Honap3
+    def __str__(self):
+        return "Adatok: {}, {}, {}, {}".format(self.Nev,self.Honap1,self.Honap2,self.Honap3)
+    def Atlag(self):
+        return f"A három hónap átlaga: {float((self.Honap1+self.Honap2+self.Honap3)/3)}"
+
+e1 = Szemely("A",1,2,3)
+print(e1)
+print(e1.Atlag())
+
+f = open("honapok.txt","r",encoding="UTF-8")
+adatok = f.read().split(",")
+
+print(adatok)
+
+# -----------------------------------------------
+
+#Szemely1 = Szemely("dd",adatok[0],adatok[1],adatok[2])
+#print(Szemely1)
+
+szemelyek = []
+modositok = [1,0.5,2]
+print(modositok)
+
+for i in range(3):
+    szemelyek.append(Szemely("Szemely"+str(i+1),float(adatok[0])*modositok[i],float(adatok[1])*modositok[i],float(adatok[2])*modositok[i]))
+
+'''
+for i in range(3):
+    #szemelyek.append(Szemely("Szemely"+str(i+1),adatok[0]/i,adatok[1]/i,adatok[2]/i))
+    if i == 0:
+        szemelyek.append(Szemely("Személy"+str(i+1),float(adatok[0]),float(adatok[1]),float(adatok[2])))
+    elif i == 1:
+        szemelyek.append(Szemely("Személy" + str(i + 1), float(adatok[0])/2, float(adatok[1])/2, float(adatok[2])/2))
+    else:
+        szemelyek.append(Szemely("Személy" + str(i + 1), float(adatok[0]) * 2, float(adatok[1]) * 2,float(adatok[2]) * 2))
+
+for n in szemelyek:
+    print(n,n.Atlag())
+'''
+
+# 2023.01.16. - tanár
+'''
+def feltolt():
+    f = open("honapok.txt","r",encoding="UTF-8")
+    adatok = f.read().split(",")
+    return adatok
+adatok = feltolt()
+'''
+</pre>
+
+<h1 id="nev">ÁDÁM</h1>
+<h1>2023.01.10.</h1>
+<pre>
+    #Tároljuk katonák adatait egy osztályban:
+class Katona():                                 #class Osztálynév():
+    def __init__(self,nev,kor,magassag,suly):   #def __init__ (self, többi felsorolva):
+        self.nev = nev                          #self.tulajdonság = tulajdonság
+        self.kor = kor                          #ez az összeshez
+        self.magassag = magassag
+        self.suly = suly
+#---------------------------------------------
+#Példányosítás: készítsünk egy példányt ehhez az osztályhoz:
+katona1 = Katona("Béla",35,181,90)
+#példánynév = Osztálynév(AdatokMegfelelőSorrendben)
+#---------------------------------------------
+#Az osztályhoz tartozó metódusok:
+    def NevKorKiir(self):
+        return '{} katona {} éves.'.format(self.nev,self.kor)
+    #-Az osztály alatt, betabulátorozva legyen
+    #-Zárójelbe paraméternek mindig (self) lesz
+    #-A változók a {}-ek helyére kerülnek majd
+    #-format() után self.változónév, megfelelő sorrendben
+#---------------------------------------------
+#Egy kötőjelekkel tagolt stringből akarjuk példányosítani:
+    #Az osztályhoz írunk egy új függvényt:
+    def kötőjeles(info):#itt már nem self, mert külső adatból dolgozunk.
+    #Megadjuk, hogy kötőjel alapján tagolja az adatokat:
+        nev,kor,magassag,suly = (info).split('-')
+    #Aztán példányosítsa:
+        return Katona(nev,kor,magassag,suly)
+
+#Itt van meghívva a gyakorlatban ez a függvény:
+katona2 = kötőjeles("Béla-35-181-90")
+#Ha / jelből akarjuk, akkor csak átírjuk a sémát:
+    def perjeles(info):
+        nev,kor,magassag,suly = (info).split('/')
+        return Katona(nev,kor,magassag,suly)
+katona3 = perjeles("Béla/35/181/90")
+#-----------------------------------------------------
+#Ez az osztály eltárolja az illető nevét és hogy 
+# milyen ételeket szeret/nem szeret:
+class Evő():
+    def __init__(self, nev, szeret=[],utal=[]): #lehet lista is
+        self.nev = nev
+        self.szeret = szeret
+        self.utal = utal
+    def izles(self, kaja):
+        szoveg = '{} {}-t eszik'.format(self.nev, kaja) #Sablonmondat első fele
+        if kaja in self.szeret:
+            return szoveg + ' és szereti azt!'
+        elif kaja in self.utal:
+            return szoveg + ' és ki nem állhatja!'
+        else:
+            return szoveg + '!'
+
+e1 = Evő("XY", ["rizs","csirke"],["brokkoli","répa"])
+#A név nem listaelem, de a másik kettő az igen
+#-----------------------------------------------------
+Egy ország akkor nagy, ha legalább 100 Millió 
+lakosa vagy 100 Ezer km2 területe van. Osztály:
+class Ország():
+    def __init__(self,nev,nepesseg,terulet):
+        self.nev = nev
+        self.nepesseg = nepesseg
+        self.terulet = terulet
+        self.nepsuruseg = self.nepesseg / terulet
+        self.nagye = nepesseg>100 or terulet>100
+#A nepsuruseg és nagy-e tulajdonság automatikusan 
+#generálódik a többi alapján.
+#-----------------------------------------------------
+Példafeladat:
+a.: Legyen egy alkalmazott osztály névvel, korral, 
+fizetéssel.
+class Alkalmazott():
+    def __init__(self,nev,kor,fizu):
+        self.nev = nev
+        self.kor = kor
+        self.fizu = fizu
+
+b.: Példányosítsuk az osztályt egy darabbal.
+alkalmazott1 = Alkalmazott("Kovács_János",35,250000)    #Megfelelő sorrendben adjuk meg az adatokat
+print(alkalmazott1.nev) #Ellenőrzésképp kiíratom
+
+c.: Bővítsük ki az osztályt egy fizetésemelés 
+    metódussal, ami 10%-kal növeli a fizut.
+#Az osztályon belülre rakjuk, ezért van a def is betabulátorozva
+    def fizuemel(self):
+        return self.fizu * 1.1
+
+print(alkalmazott1.fizuemel())  #Ellenőrzés
+
+d.: Összetett mondatban fogalmazzuk meg egy 
+    alkalmazott nevét és korát.
+
+print('Alkalmazottunk neve {}, kora pedig {} év.'.format(alkalmazott1.nev,alkalmazott1.kor))
+#-----------------------------------------------------
+</pre>
+<h1>2022.12.09. - napjainkig</h1>
+<pre>
+    #Python 2022.12.09.
+#Python osztályok:
+'''
+-Összefüggő adatok, ami leírnak egy objektumot
+-Akárhányszor páldányosítható
+-Pl.: Ember osztály,  különböző egyedek, de ugyanúgy
+épülnek fel az adataik
+'''
+#--------------------------------------
+#Katona osztály névvel, korral, magassággal, súllya:
+class Katona():
+    def __init__(self, nev, kor, mag, suly):
+        self.nev = nev
+        self.kor = kor
+        self.mag = mag
+        self.suly = suly
+    def kormutat(self):
+        return '{} jelentkező {} éves.'.format(self.nev,self.kor)
+    def magmasmutat(self):
+        return '{} {} cm magas.'.format(self.nev, self.mag)
+    def sulymutat(self):
+        return '{} {} kilót nyom.'.format(self.nev, self.suly)
+
+kat1 = Katona("Adam",27,181,73)
+print(kat1.nev)
+kat2 = Katona("XY",29,178,68)
+print(kat2.kor)
+
+print(kat2.kormutat())
+print(kat2.magmasmutat())
+print(kat2.sulymutat())
+#----------------------------------------
+
+class Ember():
+    def __init__(self, vezetek, kereszt):
+        self.vezetek = vezetek
+        self.kereszt = kereszt
+        self.teljes = '{} {}'.format(vezetek,kereszt)
+        self.email = '{}.{}@gmail.com'.format(vezetek,kereszt).lower()
+
+e1 = Ember("Kiss","Adam")
+print(e1.email)
+#----------------------------------------
+
+#Az osztály most kövesse nyomon, hogy hány példányt készítünk
+class User():
+    user_szam = 0
+    def __init__(self,fn):
+        self.fn = fn
+        User.user_szam += 1
+
+u1 = User("XY")
+u2 = User("YX")
+print(User.user_szam) #2 lesz az eredmény, mert 2 user van (vagy u1.user_szam)
+#--------------------------------------------------------
+'''
+Feladat: A zeneszerző osztályban van nev, szd, orszag, mufaj.
+Az osztály tartsa számon a generált páldányok mennyiségét is.
+'''
+print("-----")
+class Zeneszerzo():
+    z_szam = 0
+    def __init__(self, nev, szd, orszag, mufaj):
+        self.nev = nev
+        self.szd = szd
+        self.orszag = orszag
+        self.mufaj = mufaj
+        Zeneszerzo.z_szam += 1
+
+z1 = Zeneszerzo("Donald Trump","Rómeó és Júlia","USA","Románc")
+z2 = Zeneszerzo("Soros","MAGYAR szankciók","Hungary","Dokumentum film")
+z3 = Zeneszerzo("Orbán","Brüsszel visszavág","Brüsszel","Akció")
+
+print(Zeneszerzo.z_szam)
+print(z1.mufaj)
+print(z2.szd)
+print(z3.nev)
+
+#Tanár mo.
+'''
+class Zeneszerzo2():
+    zenedarab = 0
+    def __init__(self,nev, szd, orszag, mufaj):
+        self.nev = nev
+        self.szd = szd
+        self.orszag = orszag
+        self.mufaj = mufaj
+        Zeneszerzo2.zenedarab += 1
+
+zz = Zeneszerzo2("a","aa","aaa","aaaa")
+print(zz.szd)
+'''
+print("-----")
+#--------------------------------------------------
+'''
+class Osztálynév():
+    OsztálySpecifikusVáltozó ide
+    def __init__(self,TulajdonságListaIde):
+        self.tulajdonság = tulajdonság
+        (Az összesre megismételjük)
+    
+    def EsetlegesFüggvény(self):
+        ...
+Példányosítás: Példány1 = Osztálynév(AdatokSorbanMegadva)
+Kiírás: print(példánynév.tulajdonság)
+'''
+///////////////////////////////////////////////////////////////////////////////
+#Python - 2022.12.13.
+
+#Python osztályok:
+class Név():
+    def __init__(self,vezetek,kereszt):
+        self.vezetek = vezetek.capitalize() #Első betű nagybetű
+        self.kereszt = kereszt.capitalize()
+        self.teljes = self.vezetek + " " + self.kereszt
+        self.monogram = self.vezetek[0] + "." + self.kereszt[0] + "."
+
+n1 = Név("nagy", "Dávid")
+print(n1.teljes)
+#---------------------------------
+'''
+A szám osztályunk pédányosításakor csak 1 számot kelljen megadni.
+Viszont az osztály ebből generáljon 2 további tulajdonságot:
+    hogy hány egészszer van meg abban a számban 3 meg a 9.
+'''
+class Szám():
+    def __init__(self,szam):
+        self.szam = szam
+        self.harom = szam//3 #Mennyiszer van meg benne maradék nélkül
+        self.kilenc = szam//9
+
+number1 = Szám(14)
+#print(number1.szam,number1.harom,number1.kilenc)
+print('{0}, {1}, {2}'.format(number1.szam,number1.harom,number1.kilenc))
+
+#tanár mo.
+'''class számok():
+    def __init__(self, szám):
+        self.egy = szam
+        self.harom = szam // 3
+        self.kilenc = szam // 9'''
+
+#----------------------------------
+'''
+Készítsünk egy Könyv osztályt, amiben
+kezeljük cím és az író tulajdonságokat.
+Legyen hozzá 2 segédfüggvény:
+    - "a könyv címe: CÍM"
+    - "A könyvet "XY írta"
+'''
+print("-------------------")
+class Könyv():
+    def __init__(self,cim,szerzo):
+        self.cim = cim
+        self.szerzo = szerzo
+    def cimkiir(self):
+        return 'a könyv címe: {}'.format(self.cim)
+    def xykiir(self):
+        return 'a könyvet {0} írta'.format(self.szerzo)
+
+ember1 = Könyv("Shadow and Bone","Leigh Bardugo")
+#print(ember1.cim)
+print(ember1.cimkiir())
+print(ember1.xykiir())
+
+#tanár
+class Könyv2():
+    def __init__(self,cím,iro):
+        self.cim = cim
+        self.iro = iro
+    def cimkerdez(self):
+        return 'A könyv címe: {}'.format(self.cim)
+    def irokerdez(self):
+        return 'a könyvet {} írta'.format(self.szerzo)
+
+#-----------------------
+
+'''
+a függvény bekér 2 számot.
+Az első számot osztjuk 2 hatványával, amit a második jelöl
+'''
+
+def oszt(elso,masodik):
+    return "{:.0f}".format(elso/(pow(2,masodik)))
+
+print(oszt(80,3))
+
+def oszt(x, y):
+    returtn x // (2**y)
+    
+def oszt(x, y):
+    import math
+    return math.floor(x/2**y)
+
+from math import floor
+def oszt(x, y):
+    return floor(x/2**y)
+////////////////////////////////////////////////////////////////////////
+# 2023.01.10. - Python (osztályok)
+'''
+Készítsünk egy osztályt az Alkalmazottról akinek van
+vezetékneve, keresztneve és fizetése.
+Legyen benne egy olyan funkció is,
+amely képes példányosítani
+egy kötőjelekkel tagolt string alapján is.
+'''
+
+
+class Alkalmazott():
+    def __init__(self,veznev,kernev,fizetes):
+        self.veznev = veznev
+        self.kernev = kernev
+        self.fizetes = fizetes
+    def kotojel(tordel):
+        vez,ker,fiz = tordel.split("-")
+        return Alkalmazott(vez,ker,fiz)
+
+a1 = Alkalmazott("Nagy","Dávid",1000000)
+a2 = Alkalmazott.kotojel("X-Y-300")
+
+print(a1.kernev)
+print(a2.kernev)
+
+'''
+class Alkalmazott:
+    def __init__(self,vez,ker,fizu):
+        self.vez = vez
+        self.ker = ker
+        self.fizu = fizu
+    def kotojelbol(info):
+        vez,ker,fizu = (info).split("-")
+        return Alkalmazott(vez,ker,fizu)
+alk1 = Alkalmazott("Szabó","János",3000)
+alk2 = Alkalmazott.kotojelbol("Szabó-János-3000")
+'''
+//////////////////////////////////////////////////////////
+'''
+Vizsgáljunk meg egy szavakból álló listát.
+Összesen hány nagybetű van benne?
+nagyotszámol("Én","hello","Tea","mIcsODa") -> 5
+'''
+
+def nagyotszámol(lista):
+    db = 0
+    for i in lista:
+        for j in i:
+            if j == j.upper():
+                db+=1
+    return db
+    
+print(nagyotszámol(["Én","hello","Tea","mIcsODa"]))
+
+'''
+def nagyotszámol(lista):
+    számol = 0
+    for szo in lista:
+        for betu in szo:
+            if betu.isupper():
+                számol += 1
+    return számol
+
+def nagyotszámol(lista):
+    számol = 0
+    for i in lista:
+        for j in j:
+            if (j.isupper()) == True:
+                számol += 1
+    return számol
+'''
+//////////////////////////////////////////////
+
+'''
+Megadunk egy rakás számlistát, melyek
+tartalmát egybe kell fűznünk.
+Pl.: ([1,2,3], [4,5], [6,7]) -> [1,2,3,4,5,6,7]
+
+    Határozatlan elemszámú bemeneti értéknél: (*lista)
+'''
+
+def egybe(*lista): # * - nem tudjuk, hogy milyen hosszú a lista
+    # * - Nem tudjuk a paraméterek darabszámát, hogy mennyivel dolgozunk
+    result = []
+    for i in lista:
+        result += i
+    return result
+    '''
+    #Másik féle mo.
+    result2 = []
+    for i in lista:
+        for j in i:
+            result2.append(j)
+    return result2
+    '''
+    
+print(egybe([1,2,3], [4,5], [6,7]))
+
+'''
+#Segéd magamnak
+def nev(*nevek):
+    result = ""
+    for i in nevek:
+        result += i + " "
+    return result
+
+harmadik = "Patrik"
+print(nev("Dávid","Dominik", harmadik))
+# Ha kiszedem a "harmadik"-at, attól még működik a program.
+'''
+
+def egyberak(*elemek):
+    molista = []
+    for i in elemek:
+        for j in i:
+            molista.append(j)
+    return molista
+/////////////////////////////////////////////////////
+# 2023.01.11 - Python - Programiz.com
+'''
+Készítsünk egy osztályt számítógépekről:
+a: PC osztály: HDD,RAM,CPU,VRAM tulajdonságokkal
+b: Tesztkéént példányosítsunk
+c: Az osztályt egészítsük ki egy segédmetódussal
+ami mondatba foglalva közli a RAM méretét.
+'''
+class PC():
+    def __init__(self,HDD,RAM,CPU,VRAM):
+        self.HDD = HDD #Mb
+        self.RAM = RAM #Mb
+        self.CPU = CPU #Ghz
+        self.VRAM = VRAM #Mb
+    def RAMmeret(self):
+        return "A RAM mérete: {} Gb".format(self.RAM)
+    def __str__(self):
+        return "A gép: HDD {}Gb, RAM {}Gb, CPU {}MHz VRAM {}Gb".format(self.HDD,self.RAM,self.CPU,self.VRAM)
+        
+gep1 = PC(1,2,3,4)
+
+print(gep1.RAMmeret())
+print(gep1)
+
+'''
+#tanár mo.
+class Pc():
+    def __init__(self,hdd,ram,cpu,vram):
+        self.hdd = hdd #Mb
+        self.ram = ram #Mb
+        self.cpu = cpu #Ghz
+        self.vram = vram #Mb
+    def ramméret(self):
+        return "Önnen {} GB RAM-ja van".format(self.ram)
+        
+pc1 = Pc(500,16,4,8)     
+print(pc1.ramméret())
+'''
+///////////////////////////////////////////////////////////////////
+def tízösszeg(lista):
+    mo = 0
+    for i in range(0,len(lista)):
+        n_str = str(lista[i])
+        if n_str[0].isdigit():
+            elso = n_str[0]
+        else:
+            elso = n_str[1]
+        if int(elso)+int(n_str[-1]) == 10:
+        #if int(elso)+int(n_str[len(n_str)-1])
+            mo += 1 #megoldás növelése 1-el
+    return mo
+
+print(tízösszeg([19, 43, 2098])) # -> 2
+#utolsó elem indexe: [-1]
+//////////////////////////////////////////////////////////////////////////////////
+# 2023.01.13 - Python
+'''
+Pc osztály (hdd,ram,cpu,vram)
+    -Legyen a osztályban egy érték, ami
+    nyomon követi, hogy eddig hány pc
+    példányt generáltunk.
+    -Új tulajdonság, ami Mb-ban tárolja
+    a pc HDD-je méretét. (x1024)
+'''
+class Pc():
+    pcszam = 0
+    def __init__(self,hdd,ram,cpu,vram):
+        self.hdd = hdd #GB
+        self.ram = ram #MB
+        self.cpu = cpu #Ghz
+        self.vram = vram #MB
+        Pc.pcszam += 1
+        self.hddMB = hdd*1024 #MB
+    def ramméret(self):
+        return "Önnen {} GB RAM-ja van".format(self.ram)
+        
+pc1 = Pc(500,16,4,8)     
+print(pc1.ramméret())
+print("---")
+print("Eddig eltárolt PC-k:",Pc.pcszam)
+print("A pc1-nek a HDD-je MB-ban:",pc1.hddMB)
+
+pc2 = Pc(500,16,4,8) 
+#print(f"Eddig eltárolt PC-k: {Pc.pcszam} db")
+
+///////////////////////////////////////////////////
+'''
+négyzetköb([4,8]) -> True
+(2^2 = 4 és 2^3 = 8)
+    - matematikai modul használata
+    - lista formátumú bekérés
+'''
+import math
+def négyzetköb(lista):
+    ''' #Modul nélkül
+    n = lista[0] // 2
+    k = lista[1] // 3
+    return n==k
+    '''
+    n = math.pow(math.sqrt(lista[0]),3)
+    k = lista[1]
+    return n==k
+ 
+print(négyzetköb([4,8]))
+
+#Modul nélkül - tanár
+def négyzetköb2(lista):
+    x = lista[1]/lista[0]
+    if x**2==lista[] and x**3==lista[1]:
+        return True
+    return False
+///////////////////////////////////////////////////////////////////////
+#Python 2023.01.17.
+'''
+Egy számot vizsgálunk, hogy az valamilyen
+másiknak a faktoriálisa-e.
+faktoriálise(24) --> 24
+(mert: 4! = 4*3*2*1 = 24)
+    - if else és/vagy while ciklus
+'''
+
+def faktoriálise(n):
+    '''
+    i = 1
+    result = 1
+    igaz = False
+    resultbool = False
+    while igaz == False:
+        result += result * i
+        i += 1
+        if result == n:
+            igaz = True
+            resultbool = True
+        if result > n:
+            igaz = True
+    return resultbool
+    '''
+    # Vagy ez:
+    i = 1
+    result = 1
+    while result < n:
+        result += result * i
+        i += 1
+    return result == n
+
+#-------------------------------------------
+def faktorialise1(n):
+    if n === 0:
+        return 1
+    else:
+        return n*faktorialise1(n-1)
+#-------------------------------------------
+def faktorialise2(n):
+    i = 0
+    while faktorialise2(i)<n:
+        i += 1
+    return faktorialise2(i) == n
+#-------------------------------------------
+def faktorialise3(n):
+    x = 1
+    for i in range(1,n+1):
+        if i*x == n:
+            return True
+            break
+        else:
+            x = x*1
+    return False
+#-------------------------------------------
+
+print(faktoriálise(24))
+print(faktoriálise(5))
+////////////////////////////////////////////////////////////////////////////
+'''
+Formafüggetlen listakezelés:
+Adjuk össze a számlista tartalmát,
+akármilyen összetettségi fok van.
+Pl.:
+([1, 2, 3]) -> 6
+([1, [2, [1]], 3]) -> 7
+
+    - for ciklus
+    - type() függvény
+'''
+def feladat(lista):
+    result = 0
+    for i in lista:
+        if type(i) == int:
+            result += i
+        else:
+            result += feladat(i)
+    return result
+    
+
+print(feladat([1, 2, 3]))
+print(feladat([1, [2, [1]], 3]))
+
+'''
+def listaösszeg(lista):
+    s = 0
+    for x in lista:
+        if type(x) == int:
+            s = s + x
+        else:
+            s = s + listaösszeg(x)
+    return s
+'''
+////////////////////////////////////////////////////////////////
+'''
+Két szám kell.
+Hányszor felezhező meg az első, hogy
+még nagyobb maradjon a másodiknál
+Pl.:
+félszám(4666, 544) -> 3
+#(4666 -> 2333 -> 1166.5 -> 583.25)
+'''
+
+def félszám(num1,num2):
+    db = 0
+    while num1/2 > num2:
+        num1 = num1/2
+        db += 1
+    return db
+    
+print(félszám(4666, 544))
+
+'''
+def hányszorfelez(a,b):
+    számláló = 0:
+    while a > b:
+        a = a/2
+        számláló += 1
+    return számláló -1
+
+def hányszoprfelez2(a,b):
+    if a <= b:
+        return -1
+    return 1 + hányszorfelez2(a/2,b)
+'''
+///////////////////////////////////////////////////////////////
+'''
+Egy darab számot kérünk be.
+melyik szám faktoriálisát osztjuk a bekért számmal, hogy a maradék 0 legyen
+(6) -> 3 (mert 3!-t ha osztjuk 6-tal, akkor lesz a maradék végre 0)
+1! = 1 % 6 > 0
+2! = 2 % 6 > 0
+3! = 6 % 6 === 0
+'''
+print("---")
+import math
+def szam(n):
+    i = 1
+    while math.factorial(i) % n != 0:
+        i += 1
+    return i
+    
+print(szam(6))
+
+'''
+def faktososzt(n):
+    segéd = 1
+    for x in range(1,n+1):
+        segéd *= x
+        if segéd % n == 0:
+            return (x)
+
+import math
+def faktooszt2(n):
+    for i in range(1,n+1):
+        if math.factorial(i)%n == 0:
+            return i
+'''
+///////////////////////////////////////////////////////////
+#Python 2023.01.18.
+'''
+Készítsünk egy tanuló osztályt, ami árolja
+a diákok ID-jét, Nevét és Évfolyamát.
+Legyen egy almetódus, ami összefüggő
+mondatban kiírja a 3 adatot.
+Egy másik almetódus tegye lehetővé a példányosítást egy '#' jelekkel tagolt strinhből.
+
+'''
+
+class Osztaly(): #Tanuló név XD
+    def __init__(self,ID,nev,evfolyam):
+        self.ID = ID
+        self.nev = nev
+        self.evfolyam = evfolyam
+    def __str__(self):
+        return "ID: {}; Név: {}; Évfolyam: {}".format(self.ID,self.nev,self.evfolyam)
+    def szetszed(adat):
+        ID,nev,evfolyam = (adat).split("#")
+        return Osztaly(ID,nev,evfolyam)
+    def szetszed2(self): #Ha a szóköz helyén is '#'-van
+        adat = self.split("#")
+        ID = adat[0]
+        nev = adat[1]+" "+adat[2]
+        evfolyam = adat[3]
+        return Osztaly(ID,nev,evfolyam)
+        
+ember1 = Osztaly(11,"Nagy Dávid","13B")
+print(ember1)
+ember2 = Osztaly.szetszed("12#Rafael Patrik#13B")
+print(ember2)
+ember21 = Osztaly.szetszed2("12#Rafael#Patrik#13B")
+print(ember21)
+'''
+#tanár mo.
+class Tanuló():
+    def __init__(self,id,név,évfolyam):
+        self.id = id
+        self.név = név
+        self.évfolyam = évfolyam
+    def kiír(self):
+        return '{}-nek {} az ID-je és {} évfolyamos.'.format(self.id,self.név,self.évfolyam)
+    def tagolt(adat):
+        id, név, évfolyam = (adat).split("/")
+        return Tanuló(id,név,évfolyam)
+'''
+/////////////////////////////////////////////////
+
+'''
+Adjuk meg a Fibonacci sorozat 50-nél kisebb tagjait
+
+1.tag: 0
+2.tag: 1
+3. tagtól: az előző kettő tag összege
+
+0 1 1 2 3 5 8 13 ...
+'''
+
+fibonacci = []
+
+a = 0
+b = 1
+while b < 50:
+    fibonacci.append(a)
+    nth = a + b
+    a = b
+    b = nth
+
+print(fibonacci)
+
+'''
+#tanár mo.
+t = 0
+t1 = 1
+osszeg = 0
+lista = [0,1]
+while osszeg < 50:
+    osszeg = t + t1
+    if osszeg > 50:
+        break
+    lista.append(osszeg)
+    if t > t1:
+        t1 = osszeg
+    else:
+        t = osszeg
+        
+print(lista)
+'''
+'''
+#tanár mo.
+x,y = 0,1
+while y < 50:
+    print(y) #print(y,end=" ")
+    x,y = y,x+y
+'''
+//////////////////////////////////////////////////////////////////////
+#Python - 2023.01.20.
+'''
+A függvény 2 paramérert kérjen be.
+    - egy kételemű listából álló listát
+    - és egy külön számot
+Pl.: ([[1, 2], [2,3], [1,3], ,[4, 5], [0,1]],2) -> 3
+    - A számpárok halmazok határait jelölik.
+    Hány halmazba esik bele a külön szám?
+    - A halmaz határértéke is érvényes még
+'''
+
+def feladat1(lista,szam):
+    result = 0
+    for elem in lista:
+        if elem[0] <= szam <= elem[1]:
+            result += 1
+    return result
+
+print(feladat1([[1, 2], [2, 3], [1, 3], [4, 5], [0, 1]],2))
+#tanár mo.
+def hányhalmaz1(halmazok,szám):
+    számoló = 0
+    for x in halmazok:
+        if szám >= x[0] and szám <= x[1]:
+            számoló += 1
+    return számoló
+    
+def hányhalmaz2(halmazok,szám):
+    számoló = 0
+    for i in halmazok:
+        if i[0] == szám or i[1] == szám:
+            számol += 1
+        else:
+            for y in range(i[0],i[1]):
+                if y == szám:
+                    számoló += 1
+    return számoló
+////////////////////////////////////////////////////
+'''
+nagyobb([3, 4, 1, 2]) -> 2
+Hány szám nagyobb a listában, mint
+az épp aktuálisan előző elem?
+    - tetszőleges hossz
+    - range()
+'''
+print("-----")
+def nagyobb(lista):
+    result = 0
+    for i in range(len(lista)-1):
+        if lista[i] < lista[i+1]:
+            result += 1
+    return result
+
+print(nagyobb([3, 4, 1, 2]))
+
+#tanár mo.
+def nagyobb1(szamok):
+    eredmény = 0
+    for i in range(1,len(szamok)):
+        if szamok[i] > szamok[i-1]:
+            eredmény += 1
+    return eredmény
+
+'''
+#Véletlen szám generálása:
+#Előszor beimportáljuk a kellő modult:
+from random import randint
+#Aztán generálunk egy random számot:
+x = randint(1,10)
+#X értéke egy 1-10 közti szám lesz
+-----------------------------
+Ki kell találni egy 10 és 30 közötti számot 5 próbálkozásból.
+- véletlenszerűen generált szám
+- tippek bekérése a felhasználótól
+    int(raw_input("Üzenet bekérésekor"))
+- Szöveges üzenet nyerés/vereség után.
+'''
+/////////////////////////////////////////////////////////////////////////////
+from random import randint
+probalkozas = 5
+kitalalando = randint(10,30)
+while probalkozas != 0:
+    szam = int(input(f"Kérek egy számot 10 és 30 között (ennyit próbálkozhatsz: {probalkozas}): "))
+    #print(f"A megoldás: {kitalalando}")
+    probalkozas -= 1
+    if szam > kitalalando:
+        print("A kitalálandó szám kisebb.")
+    elif szam < kitalalando:
+        print("A kitalálandó szám nagyobb.")
+    else:
+        print("Eltaláltad.")
+        break
+    if probalkozas == 0:
+        print(f"Nem sikerült kitalálnod. A helyes szám: {kitalalando}")
+
+'''
+#Tanár mo.
+from random import randint
+
+helyesszám = randint(10,30)
+
+tippekmég = 5
+
+while tippekmég > 0:
+    tipp = int(raw_input("Írj egy számot"))
+    if tipp == helyesszám:
+        print "Nyertél"
+        break
+    tippekmég -= 1
+else:
+    print("Vesztettél.")
+'''
+//////////////////////////////////////////////////////////
+# 2023.01.24. - Python
+'''
+Kérjünk be egy kételemű listát.
+(lehetőleg tobbjegyű számok legyenek)
+Egyenlő-e a kát szám számjegyeinek az összege?
+Pl.: ([105, 42])
+(mert 1+0+5 = 4+2 = 6) -> True
+'''
+
+def szamjegyosszeg(lista):
+    szam1 = 0
+    szam2 = 0
+    for i in str(lista[0]):
+        szam1 += int(i)
+    for i in str(lista[1]):
+        szam2 += int(i)
+    return szam2==szam1
+
+print(szamjegyosszeg(([105, 42])))
+
+#Tanár mo.
+def egyenlőösszege(lista):
+    sz1 = str(lista[0])
+    sz2 = str(lista[1])
+    összeg1 = 0
+    összeg2 = 0
+    for i in sz1:
+        összeg1 += int(i)
+    for j in sz2:
+        összeg2 += int(i)
+    return összeg1 == összeg2
+
+print(egyenlőösszege([12,34]))
+
+'''
+Egy darab egyjegyű számot kérünk be.
+Ebből építünk egy annyi allistából,
+azon belül annyi elemből álló halmazt.
+'''
+
+def allista(szam):
+    lista = []
+    lista2 = []
+    for i in range(szam):
+        lista2.append(szam)
+    for j in range(szam):
+        lista.append(lista2)
+    return lista
+
+print(allista(2))
+print(allista(3))
+
+def mátrixos(n):
+	matrix = []
+	for i in range(n):
+		sor = []
+		for i in range(n):
+			for.append(n)
+		matrix.append(sor)
+	return matrix
+--------------------------------------
+def matirxos2(n):
+	return [[n]*n]*n
+////////////////////////////////////
+'''
+Vegyünk egy többjegyű számot és fordítsuk meg a jegyek sorrendjét
+Pl.: 943 --> 349
+    - mo változó kezdetben 0
+    - while ciklus
+    - // és % osztások
+    - előszor vesszük a 10-zel osztás maradékát
+    - megszorozzuk 10-zel a mo-t
+    - és hozzáadjuk a maradékszámot
+    - kell még egy 10-zel osztás egész része is a vége felé
+'''
+
+print("-----")
+def fordit(szam):
+    molist = []
+    mo = ""
+    betuk = str(szam)
+    for i in range(len(betuk)):
+        molist.insert(0,betuk[i])
+    for i in molist:
+        mo += i
+    return int(mo) #szam -> molist -> mo
+    '''
+    index = len(szam)-1
+    result = ""
+    while index >= 0:
+        result += str(szam[index])
+        index -= 1
+    return int(result)
+    '''
+
+print(fordit(943))
+
+def megrodít(n):
+    megfordszam = 0
+    while n > 0:
+        maradek = n % 10
+        megfordszam = (megfordszam*10)+maradek
+        n = n // 10
+    return megfordszam
+</pre>
+<h1>2022.10.11.</h1>
+<pre>
+    Függvény/metódus: egyszer kell csak megírni a
+kódot, utána bármennyiszer meghívható.
+
+def függvénynév(paraméterek):
+    a függvény kódja
+    (tabulátorokra figyeljünk)
+    return megoldás (mindig kell return)
+
+print(függvénynév(konkrét értékek)
+----------------------------------
+Feltételes műveletek (If-ek):
+if LogikaiÁllítás:
+    Lefutó kód, ha teljesül
+else:
+    Kód, minden más esetre
+----------------------------------
+Ciklusok: megadott alkalommal fut le 
+a benne lévő kód.
+for i in felsorolás:
+    kód, ami sokszor ismétlődik
+----------------------------------
+int(): innen számként értelmezi
+-----
+str(): innen szövegként
+-----
+len(): hosszúságmérés (hány
+    karakterből/elemből áll a változó)
+-----
+append(): extra tartalom hozzáfűzése
+    egy adott változóhoz
+    Pl. változó.append(Extra)
+-----
+set(): gyűjtemény, ami a megmért változó 
+    karaktereit tartalmazza, de csak 1x
+    Pl. set("alma") --> ["a","l","m"]
+-----
+count(): megszámounk valamit
+    változó.count(karakter)
+-----
+type(): megvizsgáljuk egy változó típusát
+    Pl.: a = 5 --> type(a) --> a megoldás int lesz
+-----
+=   : sima művelet
+==  : tartalomegyezőség vizsgálatánál
+=== : tartalom és típus is egyezzen
+    Pl. 5 === "5" --> False
+-----
+Műveletek:
+ ** hatványozás      (2**3=8)
+ %  maradékos osztás (5%2=1)
+-----
+Amikor önmagához kell hozzáadni/szorozni:
+Pl.
+    érték = érték + 2 helyett:
+    érték += 2
+  (érték -= 1; érték *= 2)
+-----
+Példa1 - Hány közös betű van a 2 bekért szóban?
+def közös(szo1,szo2):   #itt 2 paraméter kell (a 2 szó)
+    megoldás = []       #ebbe kerülnek majd a talált közös betűk
+    for i in set(szo1): #végigmegyünk szó1 betűgyűjteményén
+        for j in set(szo2):#minden betűt összevetünk a másik szóval
+            if j == i:  #Ha valahol egyezik a 2 betű:
+                megoldás.append(j)#Akkor az a betű bekerül a megoldáslistába
+    return len(megoldás)#Végül a lista hossza hossza kell csak
+
+print(közös("alma", "hal")) ➞ 2
+----------------------------------
+Példa2 - Hány allista van a nagylistában?
+def listaszám(nagylista):
+    megoldás = 0            #Ebbe számoljuk majd az allisták számát
+    for i in nagylista:     #Végigmegyünk a bekért lista elemein
+        if type(i) == list: #Ha az adott elem lista típusú
+            megoldás += 1   #akkor a listaszámolónk nő 1-el
+    return megoldás
+--MásikMegoldás--
+def listaszám(lista):
+    return str(lista).count('[') - 1
+#Itt megszámoljuk a nyitózárójeleket
+#str(), mert csak szöveg formában tud végigmenni rajta
+#-1, mert van egy fő nyitó is
+print(listaszám([[1], [2, 3]])) ➞ 2
+----------------------------------
+Példa3 - A lista minden számából készítsünk 1-1 listát.
+def listaszoroz(alaplista): #Bekér egy listát
+    megoldás = []           #Ebbe fog kerülni az összetett megoldáslista
+    for i in alaplista:     #Végigmegyünk a bekért listán
+        lista = []          #Segédlista
+        for j in range(len(alaplista)):#A belső For a bekért lista hosszáig megy
+            lista.append(i) #Az adott listaelem X alkalommal bekerül a segédlistába
+        megoldás.append(lista)#Ha teljes a segédlista, akkor hozzáfűzzük a megoldáshoz
+    return megoldás
+
+print(([4, 5])) ➞ [[4, 4], [5, 5]]
+----------------------------------
+Példa4 - Keressük meg a számlista legnagyobb elemét.
+def legnagyobbszám(számok):
+    legnagyobb = számok[0]#= számlista 1. eleme (0. index)
+    for i in számok:
+        if i > legnagyobb:#Ha az új listaelem nagyobb, mint az eddig tárolt változó
+            legnagyobb = i#Akkor az lesz az új "legnagyobb"
+    return legnagyobb
+
+print(legnagyobbszám([4, 5, 1, 3])) ➞ 5
+----------------------------------
+Példa5 - Kérjünk be 2 többjegyű számot és nézzük 
+meg, hogy mennyi az adott számjegyek közti különbség 
+(adott tizedes helyeken) összege.
+def különbség(szam1, szam2):
+    összeg = 0  #Ebbe gyűjtjük majd a különbségek összegét
+    n1 = str(szam1)#szövegként kell értelmezni...
+    n2 = str(szam2)#... hogy végigmehessünk az egyedi karaktereken
+#(mert számként nem tudjuk az egyedi számjegyeket nézni
+    for i in range(len(szam1):#Annyiszor fusson le, ahány számjegy van
+        összeg += abs(int(n1[i])-int(n2[i]))
+        #abs(): abszolútérték (mindig pozitív)
+    return összeg
+
+print(különbség(234, 489))# ➞ 12 (2+5+5 = 12)
+-----------------------------------
+Példa6 - A bekért számlistában megjelenik-e a 7?
+Akár többjegyű szám részeként is (pl: 573).
+def hetes(lista):
+    for i in lista:     #Végig a lista számain
+        for j in str(i):#Végig az adott szám jegyein
+            if int(j) == 7:#Ha az egy az 7
+                return "Bumm"
+    return "Nincs hetes"
+
+print(hetes([2, 55, 60, 97, 86])) ➞ "Bumm!"
+print(hetes([6, 24, 92] ➞ "Nincs hetes"
+////////////////////////////////////////////////////////////////////////
+#2022.10.11.
+'''
+indexkeres(["a","a","b","a","b","a"], "a")
+-> [0, 1, 3, 5]
+Egy listát és egy külön karaktert kér be:
+    EGy listát és egy "keresett karakter".
+A lista hanyadik elemein (indexek) vannak a keresett elemek?
+A megoldás azon elemek indexeiből álló lista.
+    - len()
+    - append()
+    - ==
+    - megoldáslista.append(i)
+    -if bekértlista[i] == keresettBetű ...
+'''
+#1. feladat
+def indexkeres(lista, karakter):
+    mo = []
+    for i in range(len(lista)):
+        if lista[i] == karakter:
+            mo.append(i)
+    return mo
+'''
+def indexkeres(lista,keresett):
+    mo = [] #Ebben mennek majd az indexek
+    #végigmegyünk lista hosszáig:
+    for i in range(0, len(lista)):
+#Ha egy listaelem egyezik a keresetteL:
+        if lista[i] == keresett:
+#Akkor annak az indexe bekerül az mo-ba:
+            mo.append(i)
+    return mo
+'''
+
+print(indexkeres(["a","a","b","a","b","a"], "a"))
+print(indexkeres(["ab","a","ab"],"ab"))
+////////////////////////////////////////////////////
+#2022.10.11. - Nagy Dávid
+#1. feladat
+print("--- 1. feladat ---")
+def nagyobbminttiz(szam):
+    vanbenne = "A megadott szám nem kisebb mint 10."
+    if szam < 10:
+        vanbenne = "A megadott szám kisebb mint 10."
+    return vanbenne
+
+print(nagyobbminttiz(6))
+print(nagyobbminttiz(11))
+    
+#2. feladat
+print()
+print("--- 2. feladat ---")
+lista = [3,4,1,7]
+def legkisebbszam(lista):
+    mini = lista[0]
+    for i in lista:
+        if i < mini:
+            mini = i
+    return mini
+
+print("A lista: ",lista)
+print("A lista legkisebb száma:",legkisebbszam(lista))
+
+
+#3. feladat
+print()
+print("--- 3. feladat ---")
+def vanbennee(lista,keresett):
+    van = []
+    for i in range(len(lista)):
+        if lista[i] == keresett:
+            van.append(i)
+    if len(van) == 0:
+        return "Nincs a szövegben",keresett,"betű."
+    return "Van a szövegben",keresett,"betű."
+
+print(vanbennee("Vanbenne","e"))
+print(vanbennee("NincsNincs","e"))
+</pre>
+<h1> 2022.09.13.-2022.11.22.</h1>
+<pre>
+    python programiz.com
+#--------------------------------------
+2022.09.13.
+#--------------------------------------
+#def függvénynév(paraméterek):
+ #   tartalom
+  #  return ValamiMegoldás
+    
+#print(függvénynév(érték))
+#-------------------------------
+#Feladat: A függvény megnéz egy számot és
+#a négyzetére emeljük.
+
+def negyzet(n): #def négyzet(a):
+    a = n ** 2 #return a*a
+    return a
+print(negyzet(2)) #print(négyzet(2))
+#----------------------------------------
+#Feladat2:
+#Egy farmon vannak csirkék, tehenek, malacok.
+#A függvény ezen állatok számát kréje be, és
+#abból kiszámolja, hogy a farmon hány láb van.
+#pl.: print(farm(5, 7, 3)) --> 50
+
+def labakszama(a, b, c):  #def farm(cs, t, m): #sorrendre figyeljünk majd
+    # cs=cs*2 t=t*4 m=m*4 #önmagával modosítom
+    #össz = cs + t + m
+    #return össz
+    return ((a*2) + (b*4) + (c*4)) #mindig return a végén
+print(labakszama(5,7,3)) #print(farm(3, 5, 7))
+#--------------------------------------
+#Fealadat3:
+#Számoljuk ki egy kosármeccwsen a szerzett
+#pontok összegét. (Vannak 2 és 3 pontos dobások)
+
+def kosarmeccs(ket,harom): #def kosár(ketpontos,harompontos):
+    eredmeny = (ket*2)+(harom*3)
+    #kettesek = ketpontos * 2
+    #harmasok = harompontos * 3
+    return eredmeny #eredm = kettesek*harmasok
+print(kosarmeccs(12,8)) #print(kosár(7, 4))
+#----------------------------
+#Változótípus konvertálása:
+    #333 --> str(333) --> "333"
+    #"333" --> int("333") --> 333
+#Nem a tényleges jelentés a lényeg, hanem
+#hogy miként értelmezi a gép.
+
+#Feladat: legyen 2 rövid függvény, amik
+    #egyikből másikba konvertálják a
+    #megadott értéket.
+    
+def szöveglesz(szam):
+    szöveg = str(szam)
+    return szöveg
+def számlesz(szoveg):
+    szám = int(szoveg)
+    ered = szám + 1
+    return ered
+
+print(szöveglesz(333))
+print(számlesz("333"))
+
+#def szöveggé(szöveg):
+#    return int(szöveg)
+#def szöveggé(szám)
+#    return str(szám)
+#-------------------------------------------------
+#For ciklus:
+#        - megadott ideig/alkalommal ismétlődik
+#        - átmeneti változót használ
+        
+lista1 = [1, 2, 3]  #a számlistánk
+for i in lista1:    #végigmegy a listán
+    print(i)        #kiíratja az elemet
+#Tehát végigmegy az elemeken és
+#minden alkalommal kiírja az épp
+#soron következő listaelemet
+for x in "alma":
+    print(x)
+#Itt meg betűnként megy végig a
+#szövegváltozón.
+
+#for i in range(a, b): #Mettől meddig
+#    ...
+#Feladat: Írjunk egy függvényt, ami hatványoz.
+#   - Két paraméter: melyik számot, hanyadikra
+#   - Nem szabad: ** (2**4)
+#   - Helyette a for x in range(...) ciklus
+
+def hatvanyos(szam1,szam2): #alap, hatvány
+    eredmeny = szam1
+    for i in range(1, szam2): #2**4
+         eredmeny *= szam1
+    return eredmeny
+    
+print(hatvanyos(2,3))
+
+#def hatványozó(alap, hatvány):
+ #   eredm = alap #vele azonos értékű segédv.
+ #   for x in range(1,hatvány):
+ #       eredm *= alap
+ #   #Újra és újra megszorozza magával az
+ #   #alapszámot annyiszor, amennyi a hatvány.
+ #   return eredm
+
+#Feladat: Írjunk egy konvertáló
+#függvényt, ami másodpercekben adja
+#vissza az óra/perc-ben megadott időt.
+#Pl.: print(idő(1,10)) --> 4200
+#mert 1 óra 10 perc = 4200 sec.
+
+def idő(óra,perc):
+    mp = (óra*60*60) + (perc*60) #percek += óra * 60
+    return mp # return percek * 60
+print(idő(1,10))
+#-----VAGY-----
+#def időketto(óra,perc):
+#    sec = (óra * 3600) + (perc * 60)
+#    return sec
+#--------------------------------------
+2022.09.20.
+#--------------------------------------
+#Egyenlőségvizsgálat:
+#
+#=       Matematikai műveleteknél
+#==      Sima egyenlőségvizsgálatnál (érték)
+#===     Ha a tartalom mellett a típust is mézzük
+#--------------------
+#If-else:
+#	if (LogikaiVizsgálat):
+#		Műveletek, ha teljesűl
+#	elif (MásikLogikaiÁllítás):
+#		Művelet, ha ez a másik feltétel telj.
+#	else:
+#		Műveletek, ha nem teljesül
+#--------------------		
+#A függbény nézze meg, hogy egy adott
+#bekért szám negatív-e?
+
+def poz(a):#if negatíve(szam):
+    if(a>=0): #if szam <0:
+        return "Pozitív"; #return True
+    else: #else:
+        return "Nem pozitív" #return False
+
+print(poz(3))
+#--------------------
+#Számlisták:
+#lista1 = [4, 5, 1, 3]
+#a = lista1[0]
+#    - a tartalma = 4
+#    - listanév[index]
+#    - az index 0-val kezdődik
+#    - listanév[0] --> A lista 1. eleme
+#    - listanév[1] --> A lista 2. eleme
+#--------------------
+#Keressük meg egy lista legnagyobbb elemét.
+#Pl.:
+#legnagyobbszám([4, 5, 1, 3]) -> 5
+#legnagyobbszám([300, 200, 600, 150]) -> 600
+#    - for ciklus
+#    - if-else
+#    - lista indexelés
+
+lista1 = [4, 5, 1, 3]
+lista2 = [300, 200, 600, 150]
+def legnagyobbszám(lista): #def maximumkeres(lista):
+    nagy = lista[0] #max = lista[0] #Kezdetben az 1. elem a legnagyobb elem
+    for i in lista: #for i in lista: #Végigmegyünk a listán
+        if i>nagy: # if i > max: #"Ha az adott elem nagyobb"
+            nagy = i # max = i #"Akkor az az új max"
+    return nagy # return max #Ez már a for-on kívül van
+            
+print(legnagyobbszám(lista1)) # print maximumkeres([2,7,9,3,4])
+print(legnagyobbszám(lista2))  
+
+#print(max(lista1)) #!!!Ezt nem vettük!!!
+#print(max(lista2)) #!!!Ezt nem vettük!!!
+#--------------------
+#Alakítsuk át úgy, hogy a legkisebb elemet keresse
+def minimum(lista):
+    kicsi = lista[0]
+    for i in lista:
+        if i<kicsi:
+            kicsi = i
+    return kicsi
+
+print(minimum([2, 7, 9, 3, 4]))
+#print(min([2, 7, 9, 3, 4])) #!!!Ezt nem vettük!!!
+#--------------------
+#A függvényünk keresse meg a legkisebb és
+#legnagyobb elem különbségét.
+#Pl.: [10, 4, 1, 4, -10, -50, 32, 21] -> 82
+def kisnagykülönbség(lista):
+    kicsi = lista[0]
+    nagy = lista[0]
+    for i in lista:
+        if i<kicsi:
+            kicsi = i
+        if i>nagy:
+            nagy = i
+    return nagy-kicsi
+
+print(kisnagykülönbség([10, 4, 1, 4, -10, -50, 32, 21]))
+#print(max([10, 4, 1, 4, -10, -50, 32, 21])-min([10, 4, 1, 4, -10, -50, 32, 21])) #!!!Ezt nem vettük!!!
+#--------------------
+#--------------------
+#A függvényünk számítsa ki a megadott
+#szám faktoriálisát.
+#            4! = 4*3*2*1
+#kivétel:    0! = 1
+
+def faktorialis(szam):
+    if(szam != 0): 
+        for i in range(1, szam):
+            szam *= i
+        return szam
+    elif (szam == 0):
+        return 1
+    else:
+        return "Negatív számnak nincsen faktoriálisa!" #!!!Csak gondolom!!!
+print(faktorialis(3))
+
+#def fakt(n):
+#    valasz = 1
+#    if n == 0:
+#        return valasz
+#    else:
+#        for i in range(n): #1-től n-ig megy
+#            valasz *= i+1
+##valasz új értéke = önmaga * az egyel nagyobbal
+#    return valasz
+#print(fakt(3))
+#--------------------
+#karakterlista = ['k','a','m','l']
+#    - betűk idézőjelbe
+#    - for ezen is működik
+#in parancs:
+#Szerepel-e a betű változóban lévő karakter
+#a karakterlistában?
+#betű = 'm'
+#    if betű in karakterlista:
+#        return True
+#Bekérünk egy szöveget és megszámoljuk,
+#hogy hány darab magánhangzó van benne?
+#Pl.:
+#mhszamol("valami") -> 3
+#mhszamol("hely") -> 1
+#    -for, segédváltozó (magánhangzólista)
+
+segédváltozó = ['a','á','e','é','o','ó','ö','ő','ü','ű','i','í'] #mh
+
+def mhszamol(szoveg): #def magánhangzók(szo):
+    a = 0 #osszesen = 0
+    for i in szoveg: #for i in szo
+        if i in segédváltozó: #if i in mh
+            a += 1 #osszesen += 1
+    return a #return osszesen
+
+print(mhszamol("miafene")) #print(magánhangzók("ezazaszo"))
+#--------------------
+#-Karaktercsere:
+#    - replace parancs
+#    - váltónév.replace(mit,mire)
+#szo = "valami"
+#alt = "@"
+#szo = szo.replace("a",alt)
+#A függvény 2 paramétert kér be:
+#   egy szót és karakter.
+#Pl.:
+# csere("valami", "#") --> "v#l#m#"
+# for, if, replace()
+
+def csere(szo,mit): #def karaktercsere(szoveg, kar):
+#Végigmegy a szó betűin
+    for i in szo: #for i in szoveg:
+    #Ha az adott betű szerepel a magánh. listában
+        if i in segédváltozó: # if kar in "aeiou": #Nem csak lista jó
+            szo = szo.replace(i,mit) #szoveg = szoveg.replace(i,kar)
+    return szo #return szoveg
+
+print(csere("valami","#")) #print(karaktercsere("valami","#"))
+#----------------------------------------
+2022.09.27.
+#----------------------------------------
+#Nagybetűsség vizsgálata: isupper()
+    #változó.isupper() --> True/False
+    #Pl.: betu = "S" --> betu.isupper --> True
+#Hozzáfűzés: append()
+    #a = [2,3]
+    #b = [4,5]
+    #B-t csatoljuk hozzá a-hoz:
+    #a.append(b)    <-- mihez.append(mit)
+#Indexkeresés:
+    #index()
+    #Pl.:
+         #betűtömb = ["a","b","c"]
+         #              0   1   2 (indexek)
+         #Keressük meg "b" indexét.
+         #betűtömb.index("b")
+         #HolKeresse.index(MinekAzIndexeKell)
+#-------------------------------------------------
+#Feladat:Függvénnyel vizsgáljunk egy szöveget.
+        #A megoldás egy lista legyen, ami a szó
+        #nagybetűinek az indexeit tartalmazza.
+        #Pl.: ("eQuINoX") -> [1, 3, 4, 6]
+        #     ("efhwgs") -> []
+
+def holazindex(szoveg):
+    indexek = []#Ebbe kerülnek majd az indexek
+    for betu in szoveg:#Végigmegy a szó betűin
+        if betu.isupper():#Ha az a betű nagy
+            #Akkor annak az indexét feljegyzi:
+            indexek.append(szoveg.index(betu))
+    return indexek
+            
+    
+print(holazindex("eQuINoX")) #[1, 3, 4, 6]
+#print(holazindex("eQuINoX")) #[0, 2, 4, 5, 0]
+print(holazindex("efhwgs"))
+#-------------------------------------------------
+#megfordit(True) -> False
+#megfordit(False) -> True
+#megfordit(0) -> "bool kellene"
+def megfordit(a):
+    if type(a) is not bool:
+#type(VizsgálandóVáltozó)
+#is not: ugyazaz, mint a !=
+        return "bool kellene"
+    if a == False:
+        return True
+    if a == True:
+        return False
+
+print(megfordit(True))
+print(megfordit(False))
+print(megfordit(0))
+
+#-------------------------------------------------
+#Hosszúságvizsgálat:
+    #len()
+    #Pl.: a = "val" --> len(a) = 3
+#-----
+#Karaktergyűjtemény:
+    #set()
+    #b = "alma" --> set(b) --> ["a","l","m"]
+    #A gyűjteményben csak egyszer szerepel
+    #minden betű, hiába fordul elő többször
+    #a szövegen belül
+#-------------------------------------------------
+#Feladat: A függvény vizsgáljon meg 2 szót.
+         #Hány olyan betű van, ami mindkettőben szerepel?
+         #Pl: közös("alma", "hal") -> 2 ("a" és "l")
+         
+def kozos(a, b):
+    lista = [] #ebbe mennek majd a közös betűk
+    for i in set(a): #1 set-ben 1 betű csak 1x szerepelhet
+        for j in set(b):
+            if i in j: # if i == j:
+#Egyezéskor fűzze hozzá a talált betűt:
+                lista.append(j)
+#Az egyezések számát a lista hossza adja:
+    return len(lista)
+
+print(kozos("alma","hal"))
+#-------------------------------------------------
+#-------------------------------------------------
+#Feladat: Hány darab lista van a főlistában?
+#Pl.: ([[1, 2, 3]]) -> 1 VAGY ([[2,3],[1,6]]) -> 2 
+#Segítség:
+#        -count() --> változó.count('dolog')
+#        -type() --> típusvizsgálat
+#        -str() --> szöveggé konvertálás
+
+def listaszam(nagylista):
+    szamol = 0
+    for kislista in nagylista:
+        if type(kislista) == list: #Ha lista típusú
+            szamol += 1
+    return szamol
+#---VAGY---
+def listaszam2(lista):
+    return str(lista).count('[') - 1
+#-1 a főlista miatt, ami mident magába foglal
+#stringként értelmezzük, mert a számon nem tud végigmenni
+
+print(listaszam([[2,3],[1,6]]))
+print(listaszam2([[2,3],[1,6]]))
+#-------------------------------------------------
+2022.10.04.
+#-------------------------------------------------
+#(Python)
+#többszörös([4, 5]) -> [[4, 4],[5, 5]]
+#A függvény egy listát kér be.
+#Minden elemből csináljon egy allistát.
+#Allista elemszám = eredeti elemszám.
+#    -Kettős for (beágyazott)
+#    -range()
+
+def többszörös(alaplista):
+    megoldás = []#Ez lesz a végleges majd
+    for i in alaplista:
+        lista2 = []#Ez lesz mindig a kis allista
+        for j in range(len(alaplista)):#alaplista hosszán
+            lista2.append(i)
+        megoldás.append(lista2)#allistát a mo.-hoz
+    return megoldás
+    
+print(többszörös([4, 5]))
+#----------------------------
+#Összefoglalás:
+    
+#Függvény/metődus: csak egyszer kell megírni egy kódot,
+#utána bármennyiszer és bárhonnan meghívható a programon belül.
+#    -A feladatokat mindig ebben oldjuk meg.
+
+#def függvénynév(paraméterek):
+#    A függvény kódja
+#    (tablulátorok mértéke)
+#    return megoldás (mindig)
+
+#print(függvénynév(KonkrétÉrtékek))
+#----------------------------
+#Feltételes műveletek (If-ek):
+
+#if LogikaiÁllítás:
+#    Lefutó kód, ha teljesül
+#else:
+#    Kód minden más esetre
+#----------------------------
+#Ciklusok: megadott alkalommal fut le.
+
+#for i in valami:
+#    "valami" hosszúságáig fut le
+    
+#for i in range(X):
+#    X alkalommal fut le
+#---------------------------- 
+#str(): szöveggé konvertál pl. egy számot.
+#    (mondjuk, ha a jegyeken kell végigmenni)
+#-----
+#int(): számértékké konvertál
+#    (pl. az előző művelet visszacsinálása)
+#-----
+#len(): hosszúságmérés
+#    (hány karakterből áll egy változó tartalma)
+#-----
+#append(): extra tartalom hozzáadása egy meglévő változóhoz.
+#    Pl. változónév.append(ExtraRész)
+#-----
+#set():karaktergyűjtemény, ami az adott szó betűit tartalmazza
+#    (mindet csak 1x)
+#    Pl. set("alma") --> "a", "l", "m"
+#-----
+#count(): megszámol egy adott karaktert
+#    Pl. változónév.count(karakter)
+#-----
+#type(): megvizsgálja egy változó típusát
+#    Pl. a = 5 --> type(a) az int lesz
+#-----
+#= sima művelet
+#== tartalomegyezőség vizsgálatánál
+#=== tartalom és típus is egyezik-e
+#    Pl. 7 === "7" --> False
+#-----
+#Műveletek:
+#    Hatványozás: ** (2**3=8)
+#    Maradékos osztás: % (13%5=3)
+#    Önmagával művelet: +=, -=, *=, ...
+#----------------------------  
+#Példa1 - Hány közös betű van a 2 bekért szóban?
+
+def közös(szo1,szo2):#2 paraméter van (2 szó)
+    megoldás = []    #Talált betűk majd ide
+    for i in set(szo1):#végig szó1 betűin
+        for j in set(szo2):#a 2. szó összes betűjével összevetjük
+            if j == i: #Ha van egy egyezés
+                megoldás.append(j)#Akkor bekerül a megoldásba
+    return len(megoldás)#csak a számuk kellett
+
+print(közös("alma","hal")) # --> 2
+#----------------------------  
+#Feladat: Bekérünk 2 darab, egyenlő hosszú számot.
+#A megoldás legyen az azonos helyeken lévő jegyek különbségének összege.
+#Pl.: (234,489) --> 12 (mert:2+5+5=12)
+#    - a 2 szám egyezzene hosszúságban
+#    - abs(): abszolútérték
+#    - abs(-5) --> 5; abs(4) --> 4
+
+def kulonbseg(sz1,sz2):
+    megoldas = 0
+    for i in range(len(str(sz1))):
+            megoldas += abs(int(str(sz1)[i])-int(str(sz2)[i]))
+    return megoldas
+
+print(kulonbseg(234,489))
+
+def különbség(szam1, szam2):
+    összeg = 0#megoldás ide gyűlik
+    n1 = str(szam1)#stringként kell értelmezni
+    n2 = str(szam2)#hogy hozzáférjünk a jegyekhez
+#A számjegyek mennyiségével egyenlő alkalommal fog lefutni
+    for i in range(len(n1)):
+#int() mert a számoláshoz vissza kell alakítani
+        összeg += abs(int(n1[i])-int(n2[i]))
+#abs() nehogy negatív érték jöjjön ki.
+    return összeg
+
+print(különbség(234, 489))
+#----------------------------
+#Feladat: A 7-es számjegyet keressük a listában.
+#Az is elég, ha egy többjegyű szám egyik a 7.
+#hetes([2, 55, 60, 97, 86]) -> "Talált"
+#hetes([5, 34, 46, 68, 91]) -> "Nincs hetes"
+
+def hetes(lista):
+    for i in lista:
+        for j in str(i):
+            if str(j) == "7":
+                return "Talált"
+    return "Nincs hetes"
+                
+def het(sz1):
+    meg=0
+    megoldas=""
+    for i in sz1:
+        for j in str(i):
+            if j =="7":
+                meg +=1
+    if meg >0:
+        megoldas="Talált"
+    else:
+        megoldas="Nincs hetes"
+    return megoldas
+    
+
+print(hetes([2, 55, 60, 97, 86]))
+print(het([2, 55, 60, 97, 86]))
+print(hetes([5, 34, 46, 68, 91]))
+
+def he(lista):
+    n1 = str(lista)
+    for i in range(len(n1)):
+        if "7" in n1:
+            return "Talált"
+        else:
+            return "Nincs hetes"
+
+print(he([2, 55, 60, 97, 86]))
+
+def h(lista):
+    for i in lista:#fégigmegy a listán
+        for j in str(i):#adott szám jegyein
+            if int(j) == 7:
+                return "Talált"
+    return "Nincs hetes"
+            
+print(h([2, 55, 60, 97, 86]))
+#----------------------------
+#A bekért listát módosítsuk úgy, hogy az
+#eredeti szám helyére az akkumulatív összeg kerüljön.
+#Új szám = eredetiek összege addig a pontig
+#Pl.: ([1, 2, 3, 4]) -> [1, 3, 6, 10]
+#                    +   1  2  3   4
+#                           1  2   3
+#                              1   2
+#                                  1
+
+#    - Üres tartalomra külön eset (if-else)
+#    - append
+#    - len()
+
+def akku(lista):#Befejezetlen
+    megoldas = []
+    if len(lista) != 0:
+        for i in lista:
+            megoldas.append(i)
+        return megoldas
+    return "Üres a lista"
+
+print(akku([1, 2, 3, 4]))
+
+def akku2(lista):
+    temp = []
+    temp2 = []
+    for i in lista:
+        x = sum(temp2)
+        temp.append(x+i)
+        temp2.append(i)
+    return temp
+    
+print(akku2([1, 2, 3, 4]))
+
+def akkumulatív(lista):
+    if len(lista) == 0:#Üres input esetén
+        return []
+    else:#rendes esetben
+        segéd = []#ebbe gyűlnek az összegek
+        összeg = 0#
+        for i in lista:
+            összeg += i
+            segéd.append(összeg)
+#Így az összeg mindig hozzáfűződik a listához, mielőtt nőne.
+    return segéd
+
+print(akkumulatív([1, 2, 3, 4]))
+#--------------------------------------------
+2022.10.04. Python - WD
+#--------------------------------------------
+t1 = [1,2,5,3]
+#a = max(t1)
+#print(a)
+def maxt(tomb):
+    maxi = 0
+    for n in tomb:
+        if n>maxi:
+            maxi = n
+    return maxi
+    
+#print(maxt(t1))
+#---------------------------------
+lista123 = [1,2,3,4,5,57]
+def hetes(lista):
+    for i in lista:
+        if "7" in str(i):
+            return "Talalt"
+    return "Nope"
+
+print(hetes(lista123))
+#-
+def he(lista):
+    n1 = str(lista)
+    
+    if "7" in n1:
+        return "Talált"
+    else:
+        return "Nincs hetes"
+
+s = he(lista123) #(Most itt ez a sor felesleges)
+if (he(lista123) == "Talált"):
+    s = he(lista123)+" mert zsenik vagyunk"
+print(s)
+#---------------------------------
+t = [2,5,9]
+for i in t:
+    print(i)
+#---------------------------------
+'''
+import math as m
+alma = m.sqrt(4)
+print(alma)
+'''
+#----------------------
+l = [2,31,123,17]
+#Összegzés tétele
+def osszegzes(lista):
+    osszeg = 0
+    for n in range(len(lista)):
+        osszeg += lista[n]
+    '''
+    for n in lista:
+        osszeg += n;
+    '''
+    return osszeg
+    #format("Lista elemeinek összege: ",osszeg)
+    
+print(l) 
+print("Lista értékeinek összege: ",osszegzes(l))
+#print(sum(l))
+
+
+s = "alma"
+print(s[0])
+for n in s:
+    print(n)
+#-------------------------------------------------
+#Python - 2022.10.18.
+'''
+Bekérunk egy számlisát. Az eredmény egy kételemű számlista legyen, ami a páros és páratlan számok összegeit külön mutatja.
+Pl.:
+különösszegek([1, 2, 3, 4, 5, 6]) -> [12, 9]
+12 = 2+4+6; 9 = 1+3+5
+'''
+def különösszegek(lista):
+    paros = 0
+    paratlan = 0
+    for i in lista:
+        if i % 2 == 0:
+            paros += i
+        if i % 2 != 0: # if i % 2 == 1
+            paratlan += i
+    molista = [paros,paratlan]
+    return molista
+    
+print(különösszegek([1, 2, 3, 4, 5, 6]))
+'''
+#Tanár mo.
+def kül(lista):
+    ptlan, paros = 0, 0
+    for i in lista:
+        if i%2:
+            paros += i
+        else:
+            ptlan += i
+    return [paros,ptlan]
+
+print(kül([1, 2, 3, 4, 5, 6]))
+'''
+#---------------------
+'''
+Listává konvertálás: list()
+Tagolás: split()
+m = "Ez egy példa mondat"
+Készitsünk egy listát, amink elemei ezen mondat szavai:
+ml = list(m.split(" "))
+    - TagolandóVáltozó.split("tagolandókarakter")
+----
+Adjuk vissza a mondat leghosszabb szavát.
+Pl.: mondatos("Melyik a leghosszabb szó ebben")
+    - for, if, len()
+'''
+def mondatos(m):
+    ml = list(m.split(" "))
+    nagy = ""
+    for i in ml:
+        if len(i) > len(nagy):
+            nagy = i
+    return "A leghosszabb szó a mondatban: "+nagy
+
+print(mondatos("Melyik a leghosszabb szó ebben"))
+'''
+def leghosszabb(mondat):
+    a = list(mondat.split(" "))
+    max = 0
+    for i in a:
+        if lin(i) > max:
+        leghosszabb = i
+        max = len(i)
+    return leghosszabb
+    
+print(leghosszabb("Melyik a leghosszabb szó ebben")) 
+'''
+#---------------------
+'''
+A függvény találja meg a mediánt egy számlistában.
+Median: a számok növekvő sorrendbe rendezése után...
+    ...páratlan elemszámnál a középső elem
+    ...párosnál pedig a 2 középső átlaga
+Parancsok:
+    sorted(): lista = sorted(lista1)
+'''
+def median(lista):
+    slista = sorted(lista)
+    med = 0
+    if len(slista) % 2 == 0:
+        med = slista[int(len(slista)/2)]
+        med2 = slista[(int(len(slista)/2))-1] # // - elveti a maradékot
+        return (med+med2)/2
+    if len(slista) % 2 != 0:
+        med = slista[int(len(slista)/2)]
+        return med
+        #return "Páratlan lista középső eleme: "+str(med)
+
+#print(median([1,3,2]))
+#print(median([1,3,2,4]))
+print("Páratlan lista középső eleme: "+str(median([1,3,2])))
+print("Páros lista középső eleme: "+str(median([1,3,2,4])))
+
+#Tanár mo.
+def median2(lista):
+    hossz = len(lista)
+    rendezett = sorted(lista)
+    if hossz % 2 == 1:#Ha páratlan elemszámú a lista
+        return rendezett[hossz//2]
+    else:#ha páratlan
+        megoldas = (rendezett[hossz//2] + rendezett[hossz//2-1])/2
+        return round(megoldas, 1)#1 tizedesre kerekítve
+#---------------------
+'''
+Vegyünk egy páros elemszámú listát.
+Fogjuk a 2. felét és másoljuk rá az 1. felére.
+Pl.: feles([2,3,4,5]) --> [4,5,4,5]
+Viszont ha az eredeti számokkal a 2. fél
+összege egyezik, akkor minden marad eredetiben
+'''
+def kétfél(lista):
+    a = 0 #a és b a 2 fél összege miatt kell
+    b = 0
+    c = [] #Ez lesz a megoldás
+    szam = int(len(lista)/2)#Hány elem egy fél
+    for i in range(szam):
+        a += lista[i]#A 2 féllista feltöltése
+        b += lista[szam+i]
+    for i in range(szam):
+        if a >= b:
+            c.append(lista[i])
+        else:
+            c.append(lista[szam+i])   
+    for i in range(szam):
+        if a > b:
+            c.append(lista[i])
+        else:
+            c.append(lista[szam+i])
+    return c
+
+print(kétfél([2,3,4,5]))
+#-----------------------------------------------
+2022.10.21.
+#Python
+'''
+Egy szöveglistát vizsgálunk.
+Az utolsó elem kiadja-e az összes
+korábbi elem együttes kombinációját?
+Pl.:
+(["abc", "de", "fg", "abcdefg"]) --> true
+
+    - Utolsó elem indexe: [-1]
+    - range()
+    - len()
+    - str()
+'''
+
+def asd(lista):
+    a = ""
+    for i in range(len(lista)-1):
+        a += lista[i]
+    return a == lista[-1]
+    
+
+print(asd(["abc", "de", "fg", "abcdefg"]))
+'''
+#Tanár mo
+def egyezike(lista):
+    rész = "" #Ide jönnek a részelemek
+    for i in range(len(lista)-1):
+    #Lista hossza-1, mert at utolsó nem kell
+        rész += str(lista[i])
+    return lista[-1] == rész #Logikai állítás eredmény
+'''
+#-----------------------------------------------
+'''
+Python - 2022.10.25.
+Vegyünk egy számtömböt. Nézzük meg, hogy a számok mind berendezhetőek-e egyesével növekvőbe?
+Pl.:
+folyt([5, 1, 4, 3, 2]) -> True
+folyt([5, 1, 3, 2, 6]) -> False
+    -lista = sorted(lista)
+    -for i in range(len(lista)-1):
+    -len()
+    -indexkműveletek (pl. lista[i+1])
+    -or (vagy művelet)
+    -if lista[i] == lista[i+1] or ...
+'''
+"""
+#Dominik mo.
+def folyt(l): #szerk alatt
+    l2 = sorted(l)
+    x = l2[0]
+    for i in l2:
+        if i == x+1:
+            x = i
+    if x == l2[-1]:
+        return True
+    return False
+"""
+
+#Tanár mo.
+def folyt(lista):
+    lista = sorted(lista)
+    for i in range(len(lista)-1):
+        if lista[i] == lista[i+1] or lista[i+1] != lista[i]+1:
+            return False
+    return True 
+        
+print(folyt([5, 1, 4, 3, 2]))
+print(folyt([5, 1, 3, 2, 6]))
+print(folyt([7, 8, 4, 1, 9]))
+#--------------------------------------------------------
+'''
+Két dobókockával játszunk.
+3-szor dobunk egyszerre.
+A dobott számok összege hozzáadódik az összpontszámhoz.
+VIszont, ha a 2kocka bármikor ugyanarra a számra érkezik, akkor Game Over, 0 pont.
+Pl.:
+kockázás([(1, 2), (3, 4), (5, 6)]) -> 21
+'''
+def kockázás(lista):
+    pontszam = 0
+    for a, b in lista:#értékpároknál lehet
+        if a == b:
+            return 0
+        pontszam += a+b;
+    return pontszam
+
+    
+print(kockázás([(1, 1), (3, 4), (5, 6)]))
+print("-----------------------")
+'''
+strip()
+    - felesleges szóközök és tabulátorok
+    levágása a szöveg elejéről/végéről
+    - szövegváltozó.strip()
+    - " alma    " -> "alma"
+-----
+Feladat: Számoljuk meg egy adott szövegben a duplikátum karaktereket.
+Pl.: ("Hello World!") -> 3 (2L + 1O)
+    - Eredetit nem számolja bele
+    - strip() az esetleges szóközök miatt
+     . for, if, len(), append()
+'''
+
+def dupliszam(szoveg):
+    lista1 = []
+    for i in szoveg.strip():#strip() is itt lesz
+        if i not in lista1:
+            lista1.append(i)#appendelés
+    return len(szoveg)-len(lista1)#kivonási művelet
+
+def dupliszam2(szoveg):
+    return len(szoveg)-len(set(szoveg))
+
+print(dupliszam("Hello World!"))
+print(dupliszam2("Hello World!"))
+--------------------------------------------------------
+Python - 2022.11.08.
+'''
+Egy számot vizsgál a függvény. A kérdés, hogy csak a 3, csak az 5, vagy egyszerre mindkettő többszöröse-e?
+A válasz szövegesen legyen, akkor is, a egyikkel sem osztható.
+'''
+#1. feladat
+def haromvot(szam):
+    if szam % 5 == 0 and szam % 3 == 0:
+        return "A három és az öt többszöröse is"
+    if szam % 3 == 0:
+        return "A három többszöröse"
+    if szam % 5 == 0:
+        return "Az öt többszöröse"
+    else:
+        return "Se a három, se az öt többszöröse"
+
+print(haromvot(3))
+print(haromvot(5))
+print(haromvot(15))
+print(haromvot(4))
+
+#Tanár mo.
+'''
+def többszörös(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return "Mindkettővel osztható"
+    elif num % 5 == 0:
+        return "Csak 5-tel"
+    elif num % 3 == 0:
+        return "Csak 3-mal"
+    else:
+        return "Egyikkel sem"
+'''
+#2. feladat
+'''
+Most 3 számot nézünk.
+az első két szám szorzatának utolsó számjefgye egyenlő-e a harmadik szám utolsó számjegyével.
+'''
+
+def ellenorzes(a,b,c):
+    mo = a % 10 * b % 10
+    if mo % 10 == c % 10:
+        return True
+    else:
+        return False
+    
+print(ellenorzes(3,5,5))
+--------------------------------------------------------
+#3. feladat
+'''
+([">>", "<<", "<<<"]) -> "<<<"
+([">", "<<", "<"]) -> "<<"
+([">>", "<"]) -> ">"
+'''
+'''
+Az ellentétes kacsacsőrök kiütik egymást.
+Mennyi marad végül, és melyik irányba?
+    -for range(), indexelés
+    -string többszörözése:
+        "a" * 3 --> "aaa"
+'''
+
+def kacsacsorok(l):
+    bal = 0
+    jobb = 0
+    for i in l:
+        for j in i:
+            if j == ">":
+                bal += 1
+            else:
+                jobb += 1
+    if bal > jobb:
+        return ">"*(bal-jobb)
+    if jobb > bal:
+        return "<"*(jobb-bal)
+    if jobb == bal:
+        return "Egyenlő"
+    
+print(kacsacsorok([">>", "<<", "<<<"]))
+print(kacsacsorok([">", "<<", "<"]))
+print(kacsacsorok([">>", "<"]))
+print(kacsacsorok([">>", "<<"]))
+print("----- Itt a feladat vége -----")
+
+#Tanár mo.
+'''
+def kacsacsörös(lista):
+    ures = ""
+    bal = 0
+    jobb = 0
+    for elem in lista:
+        for i in range(len(elem)):
+            if elem[i] == "<":
+                bal += 1
+            if elem[i] == ">":
+                jobb += 1
+    if bal == jobb:
+        return ures
+    if bal > jobb:
+        return "<"*(bal-jobb)
+    if jobb > bal:
+        return ">"*(jobb-bal)
+
+print(kacsacsörös([">>","<"]))
+
+'''
+#------------------------------------------------------------------------------
+2022.11.15
+#Python
+'''
+Egy 5 elemű tömb jelöli az adott munkanapokon ledolgozott órák számát. Ebből számolunk heti fezetést.
+    Alap órabér: 10 Euró (napi 8 óráig)
+    Túlórabér: 15 Euró (8 felettiek)
+    Pl.:
+    hetifizu([8,8,7,10,9]) --> 435
+    
+'''
+
+def hetifizu(lista):
+    mo = 0
+    for i in lista:
+        if i <= 8:
+            mo += i*10
+        if i > 8:
+            mo += 80+((i-8)*15)
+    return mo
+
+print(hetifizu([8,8,7,10,9]))
+
+'''
+#Tanár mo.
+def hetifizu(orak):
+    osszeg = 0
+    for i in orak:
+        if i <= 8:
+            osszeg += i*10
+        else:
+            osszeg += 80+(i-8)*15
+    return osszeg
+'''
+
+#---------------------------
+'''
+ValószínűségMátrix:
+    - minden szám 0 és 1 között van
+    - a sorok összege mindenhol 1
+    - sorok száma = oszlopok száma
+valmatrix([
+    [0.5, 0.5, 0.0],
+    [0.2, 0.5, 0.3],
+    [0.1, 0.2, 0.7]
+]) -> True
+Segítség:
+    - sum(tömb) -> [2,7] --> 9
+    - for, if, !=
+    #---
+    for-on belül:
+        for a 0 és 1 közti vizsgálathoz
+        if a sorösszegekhez
+        if sor/oszlopszám egyezőséghez
+    - len(), sum(), !=
+'''
+def valmatrix(x):
+    sor = 0
+    oszlop = 0
+    summ = 0
+    for i in x:
+        sor += 1
+        for j in i:
+            oszlop += 1
+            summ += j
+    oszlop = oszlop/sor
+    if sor == oszlop and summ / sor == 1:
+        return True
+    else:
+        return False
+        
+print(valmatrix([[0.5, 0.5, 0.0],[0.2, 0.5, 0.3],[0.1, 0.2, 0.7]]))
+
+'''
+#Tanár mo
+def valmatrix(matrix):
+    for sor in matrix:
+	#Sorhossz = oszlophossz?:
+        if len(sor) != len(matrix):
+            return False
+	#Sorösszeg = 1?:
+        if sum(sor) != 1:
+            return False
+	#Minden szám 0 1 közti?
+        for i in sor:
+            if i < 0 or i > 1:
+                return False
+    return True
+'''
+#----------------------------------------
+'''
+mátrixkivon([
+    [1, 2, 3],
+    [4, 5, 6],
+    [3, 8, 6]
+], [
+    [1, 2, 3],
+    [2, 3, 5],
+    [3, 8, 6]
+]) -> [
+    [0, 0, 0],
+    [2, 2, 1],
+    [4, 0, 3]
+]
+
+- 2 egforma mátrix
+- zgyanazon helyen lévő számokat vonjuk ki
+- 2 nagytomb legyen
+- 2 üres segédlista kezdésnek
+- for range()
+- append()
+- dupla index (a[i][j])
+
+'''
+#tanár
+def mátrixkivon(ma1,m2): #2 külön változó kell
+    mo = [] #végleges
+    sor []#egyedik sorok
+    for i in range(len(m1)):
+        for j in range(len(m1[i])):
+            sor.append(m1[i][j] - m2[i][j])#hozzáfűzés
+        mo.append(sor)#hozzáfűzés
+        sor = []#sorváltozó kiürítése
+    return mo
+
+'''
+def mátrixkivon(ma1,m2): 
+    mo = []
+    sor [] #Ezekkel töltődik fel majd az mo.
+    for i in range(len(m1)): #teljes mátrixon
+        for j in range(len(m1[i])): #1 soron végig
+	    #Ugyanazon helyen lévő elemek különbsége
+            sor.append(m1[i][j] - m2[i][j])
+        mo.append(sor) #Feltöltött sor a mo.-hoz
+        sor = [] #sor kiűrításe a kövi körre
+    return mo
+
+'''
+
+''' #Robi  
+def m(lst: [], lst2: []) -> []:
+    resList = []
+    if len(lst) != len(lst2):
+        return "Nem jó"
+    for i in range(len(lst)):
+        for j in range(len(lst[i])):
+            resList.append(lst[i][j]-lst2[i][j])
+    return resLst
+'''
+
+'''#Dominik
+def mátrixkivon(x,y):
+    result = []
+    for i in range(len(x)):
+        temp = []
+        for j in range(len(x[i])):
+            temp.append(int(x[i][j])-int(y[i][j]))
+        result.append(temp)
+    return result
+'''
+
+print(mátrixkivon([[1, 2, 3],[4, 5, 6],[3, 8, 6]],[[1, 2, 3],[2, 3, 5],[3, 8, 6]]))
+///////////////////////////////////////////////////////////////////////////
+2022.11.22.
+
+#Python
+'''
+clear():
+    - kiürít egy megadott listát
+    - Pl.: l = ["aa"] --> l.clear() --> l=[]
+---
+insert():
+    - berakunk egy új elemet egy listába,
+    meghatározott helyen
+    - listanév.insert(Hova,Mit)
+    - Pl.: l=["aaa"] --> l.insert(2,"b")
+      --> l=["aaba"]
+    - l.insert("a"*3) #hármat rak bele
+---
+lépcsőzetes("hello") -> [
+    "hello",
+    " hello",
+    "  hello",
+    "   hello",
+    "    hello",
+    "     hello",
+    "    hello",
+    "   hello",
+    "  hello",
+    " hello",
+    "hello"
+]
+
+-len() valami kétszereséig
+-üres segédlista
+-clear(), insert()
+-indexek miatt segédváltozó
+'''
+
+#saját
+def lépcsőzetes(szo):
+    l = []
+    db = 0
+    for i in range(len(szo)*2+1):
+        if i < len(szo):
+            l.insert(i,(db*"*"+szo))
+            db+=1
+        else:
+            l.insert(i,(db*"*"+szo))
+            db-=1
+        print(l[i])
+    return l
+
+print(lépcsőzetes("hello"))
+
+'''
+#tanár
+def lépcsőzetes(szo):
+    lista = []
+    index = len(szo)*2
+    for i in range(len()*2):
+        index -= 1
+        if i < len(szo*2)/2:
+            lista.clear()#kiürítés
+            lista.insert(0, (" "*i)+szo)#szóköz+szó berakás
+        else:
+            lista.clear()#kiürítés
+            lista.insert(0, (" "*index)+szo)#szóköz+szó berakás
+        print(lista)
+
+print(lépcsőzetes("hello"))
+'''
+'''
+#Domika
+def lepcso(x):
+    result = []
+    temp = 0
+    for i in range(2*len(x)+1):
+        result.insert(0,(temp*" ")+x)
+        if i<len(x):
+            temp+=1
+        else:
+            temp-=1
+        print(result[0])
+    return result
+    
+print(lepcso("hello"))
+'''
+
+'''
+Random szám generálása:
+Kód tetején: from random import randint
+Kód belül: randint(Alsóhatár,FelsőH)
+ - határérték még benne van
+'''
+from random import randint as rnd
+'''
+A függvény generáljon egy 5 jegyű számot.
+Minden számjegy legyen más, de 1-5 közti.
+Pl.: 12345,21345, 53412 ...
+    -randint()
+    -nincs bekért paraméter
+    -logikai tagadás
+
+'''
+
+def otjegyu():
+    szam = "" #saját
+    i = 0
+    while i != 5: #while len(szam)<5:
+        a = rnd(1,5)
+        if str(a) not in szam:
+            szam += str(a)
+            i+=1
+    return szam
+    '''#Domi
+    result = ""
+    for i in range(1000):
+        t = rnd(1,5)
+        if str(t) not in result:
+            result += str(t)
+    return result
+    '''
+    '''#tanár
+    szam = ""
+    while len(szam)<5:
+        segéd = str(rnd(1,5))
+        if segéd not in szam:
+            szam += segéd
+    return int(szam)
+    '''
+print(otjegyu())
+
+'''
+Tagolás:
+    -split()
+    -Egy összetett tartalmat feltagol
+    egyedik darabokra, amit eltárolhatunk
+    -Pl.: ab = ["alfa","béta"]
+    a, b = ab.split()
+    a = "alfa" és b = "béta"
+---
+Névlistából készítsünk monogramlistát.
+print(monogram(["Kovács Béla", "Nagy Miklós"]))
+--> ["K. B.", "N. M."]
+    -kezdetben üres megoldáslista
+    -for range()
+    -split()
+    -append(valtozo + ". "+ ...)
+'''
+
+def monogram(lista):
+    result = []
+    for i in range(len(lista)):
+        a, b = lista[i].split()
+        szo = a[0]+". "+b[0]+"."
+        result.append(szo)
+    return result
+
+
+print(monogram(["Kovács Béla", "Nagy Miklós"]))
+
+'''
+def monogram(nevek):
+    mo = []
+    for név in nevek:
+        vez, ker = név.split()#split
+        mo.append(vez[0]+". "+ker[0]+".")#appendelés
+    return mo
+
+'''
+
+
+--------------------------
+</pre>
+<h1 id="nev">ZOLI</h1>
+<a href="https://mega.nz/folder/y4EWVDhI#c5N2YbdsR4dP9a_l3_qE_Q" target="_blank" style="color: green;">Ide katt!</a>
+<h1 id="nev">JOZSI</h1>
+<pre>
+    m - margin;
+</pre>
