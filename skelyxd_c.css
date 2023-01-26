@@ -1,0 +1,326 @@
+:root { /*https://blog.hubspot.com/website/web-safe-html-css-fonts*/
+  --fekete: #111111;
+  --sotetszurke: #1a1a1a;
+  --szurke: #333333;
+  --alap: snow;
+  /*Random színek*/
+  --zold: #00D900;
+  --zold2: green;
+  --pink: #f900aa;
+  --pink2: #B4007B;
+  --fekete2: #0D0E0E;
+  --sotetszurke2: #181A1B;
+  --szurke2: #262A2B;
+  --kek: rgb(78, 190, 227);
+  --kek2:rgb(22, 71, 187);
+}
+
+/*Alap*/
+body {
+  text-align: justify;
+  font-size: 18px;
+  background-color: var(--sotetszurke2);
+  color: var(--alap);
+  text-align: justify;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+/*Menü*/
+nav {
+  border: 1px solid var(--zold);
+  /*width: 1500px;
+  float: center;
+  margin: 0 auto;*/
+}
+
+ul#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--fekete);
+}
+
+ul#menu > li {
+  float: left;
+  width: 140px;
+}
+  
+ul#menu > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  min-width: 100px;
+}
+
+ul#menu > li a:hover {
+  background-color: var(--szurke);
+  font-weight: bold;
+}
+
+ul#menu li#name { /* Ez változik */
+  float: right;
+  padding: 16px;
+  text-align: center;
+  width: 120px;
+}
+
+/*Tartalom*/
+div#tartalom {
+  margin: 10px auto;
+  border: 1px solid var(--pink2);
+  background-color: var(--fekete);
+  min-height: 100vh;
+  padding: 0px 30px;
+}
+p#versions {
+  color: var(--alap);
+  border: 1px solid var(--zold);
+  background-color: var(--fekete);
+  margin: 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Posztok */
+div.posztok {
+  border: 2px solid var(--zold2);
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px #888888;
+  max-width: 1000px;
+  background-color: var(--sotetszurke2);
+}
+div.posztok>h2, div.posztok>p {
+  padding: 0px 10px;
+}
+div.posztok>h2 {
+  color: var(--kek);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--szurke2);
+  margin-top: 10px;
+  text-align: center;
+}
+div.posztok a {
+  color: goldenrod;
+  text-decoration: none;
+}
+div.posztok a:hover{
+  text-decoration: underline;
+}
+
+div.posztok p#datum {
+  font-size: 80%;
+  text-align: right;
+  color: #888888;
+}
+
+/*Csapattagok fül*/
+div.tagok {
+  border: 2px solid var(--zold2);
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px #888888;
+  max-width: 1000px;
+  background-color: var(--sotetszurke2);
+}
+div.tagok>p {
+  min-height: 50px;
+}
+div.tagok>h2, div.tagok>p {
+  padding: 0px 10px 0px 0px;
+}
+div.tagok>h2 {
+  color: rgb(78, 190, 227);
+  border-bottom: 1px solid var(--szurke2);
+  margin-top: 10px;
+  text-align: center; 
+  padding-bottom: 5px;
+}
+div.tagok img {
+  width: 50px;
+  float: left;
+  margin: 0px 10px;
+}
+
+/* Projektek fül 2.0 */
+#big_div {
+  text-align: center;
+}
+div.p_all {
+  color: var(--alap);
+  text-align: center;
+  width: 250px; /*Ez kell!*/
+  border: 2px solid red;
+  border-radius: 20px;
+  margin: 10px;
+  display: inline-block;
+  background-color: var(--szurke2);
+}
+div.p_center > a > img:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+.kiskep {
+  width: 225px;
+  height: 318px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .5s ease;
+}
+p.p_up {
+  font-weight: bold;
+  font-size: 18px;
+  height: 20.5px;
+  text-align: center;
+  padding: 20px auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Ezek*/
+p.p_down {
+  height: 61px;
+  margin: 5px auto;
+}
+
+/* Projektek fül */
+/*table#t_projects { 
+  border-collapse: separate;
+  border-spacing: 30px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.p_head, .p_body, .p_foot {
+  background-color: var(--szurke);
+  text-align: center;
+  width: 320px;
+}
+
+.p_head {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.p_foot {
+  border-radius: 0px 0px 20px 20px;
+  border-spacing: 0px 0px 0px 4000px;
+}
+
+.kiskep {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+/* Videólejátszó fül */
+table#videos { 
+  border-collapse: collapse;
+  /*border-spacing: 30px 0px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*INFÓ fül*/
+p.kerdes {
+  color: var(--kek);
+  font-weight: bold;
+  text-decoration: underline;
+}
+p.valasz {
+  color: var(--alap);
+  margin-left: 20px;
+  line-height: 1.3;
+}
+span#elerhetoseg {
+  color: #888888;
+  font-style: italic;
+}
+
+/* Videó fül */
+table#videos {
+  text-align: center;
+  width: 660px;
+}
+td#video {
+  height: 415px;
+}
+
+/* videó kis előnézes képe infókkal */
+.kiskep2 {
+  height: 250px;
+  display: block;
+  border: 2px solid white;
+  margin: 5px auto;
+}
+#soriinfo {
+  text-align: justify;
+  padding: 10px;
+  margin: 0px;
+  border: 1px solid white;
+  min-height: 150px;
+}
+
+ul#episodes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul#episodes > li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  min-width: 100px;
+  background-color: var(--sotetszurke);
+  margin: 5px 10px;
+  border: 1px groove var(--szurke2);
+}
+td#video {
+  height: 438px;
+  margin: 0px;
+}
+td#leiras {
+  text-align: justify;
+  min-height: 100px;
+  max-height: 100px;
+}
+td#leiras>p#lone {
+  text-align: center;
+  margin: 0px;
+  text-decoration: underline;
+  border: 1px solid white;
+  border-bottom: none;
+}
+td#leiras>p#ltwo {
+  text-align: justify;
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid white;
+  border-top: none;
+}
+td#leiras a {
+  color: goldenrod;
+  text-decoration: none;
+}
+td#leiras a:hover {
+  text-decoration: underline;
+}
