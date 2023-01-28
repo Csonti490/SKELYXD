@@ -109,11 +109,11 @@ div.posztok>h2 {
   margin-top: 10px;
   text-align: center;
 }
-div.posztok a {
+a {
   color: goldenrod;
   text-decoration: none;
 }
-div.posztok a:hover{
+a:hover{
   text-decoration: underline;
 }
 
