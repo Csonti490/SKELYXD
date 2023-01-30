@@ -31,6 +31,7 @@ p {
 h1 {
   text-align: center;
 }
+
 /*Menü*/
 nav {
   border: 1px solid var(--zold);
@@ -38,7 +39,6 @@ nav {
   float: center;
   margin: 0 auto;*/
 }
-
 ul#menu {
   list-style-type: none;
   margin: 0;
@@ -46,12 +46,10 @@ ul#menu {
   overflow: hidden;
   background-color: var(--fekete);
 }
-
 ul#menu > li {
   float: left;
   width: 140px;
 }
-  
 ul#menu > li a {
   display: block;
   color: white;
@@ -60,12 +58,10 @@ ul#menu > li a {
   text-decoration: none;
   min-width: 100px;
 }
-
 ul#menu > li a:hover {
   background-color: var(--szurke);
   font-weight: bold;
 }
-
 ul#menu li#name { /* Ez változik */
   float: right;
   padding: 16px;
@@ -109,18 +105,17 @@ div.posztok>h2 {
   margin-top: 10px;
   text-align: center;
 }
+div.posztok p#datum {
+  font-size: 80%;
+  text-align: right;
+  color: #888888;
+}
 a {
   color: goldenrod;
   text-decoration: none;
 }
 a:hover{
   text-decoration: underline;
-}
-
-div.posztok p#datum {
-  font-size: 80%;
-  text-align: right;
-  color: #888888;
 }
 
 /*Csapattagok fül*/
@@ -158,7 +153,7 @@ div.tagok img {
 div.p_all {
   color: var(--alap);
   text-align: center;
-  width: 250px; /*Ez kell!*/
+  width: 250px;
   border: 2px solid red;
   border-radius: 20px;
   margin: 10px;
@@ -202,22 +197,18 @@ p.p_down {
   margin-right: auto;
   margin-bottom: 15px;
 }
-
 .p_head, .p_body, .p_foot {
   background-color: var(--szurke);
   text-align: center;
   width: 320px;
 }
-
 .p_head {
   border-radius: 20px 20px 0px 0px;
 }
-
 .p_foot {
   border-radius: 0px 0px 20px 20px;
   border-spacing: 0px 0px 0px 4000px;
 }
-
 .kiskep {
   width: 300px;
   height: 400px;
@@ -253,7 +244,7 @@ span#elerhetoseg {
 /* Videó fül */
 table#videos {
   text-align: center;
-  width: 660px;
+  max-width: 660px;
 }
 td#video {
   height: 415px;
@@ -281,10 +272,8 @@ ul#episodes {
   overflow: hidden;
   display: inline-block;
 }
-
 ul#episodes > li {
-  float: left;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 5px;
@@ -295,13 +284,12 @@ ul#episodes > li {
   border: 1px groove var(--szurke2);
 }
 td#video {
-  height: 438px;
+  min-height: 438px;
   margin: 0px;
 }
 td#leiras {
   text-align: justify;
   min-height: 100px;
-  max-height: 100px;
 }
 td#leiras>p#lone {
   text-align: center;
