@@ -171,6 +171,7 @@ div.p_center > a > img:hover {
   margin-left: auto;
   margin-right: auto;
   transition: .5s ease;
+  border-radius: 10px;
 }
 p.p_up {
   font-weight: bold;
@@ -178,7 +179,6 @@ p.p_up {
   height: 20.5px;
   text-align: center;
   padding: 20px auto;
-  
   display: flex;
   justify-content: center;
   align-items: center;

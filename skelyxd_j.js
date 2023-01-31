@@ -77,9 +77,29 @@ var videoSources = {
             ]
         },
         {
-            title: "Openingek",
+            title: "RWBY: Fairy Tales ",
             ti: "Szinopszis",
-            de: `<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRI89wHJogKV2Hx3Zqv34y89PgwaYFAMRuXF9dRp3qTLn1cxsA6" class="kiskep2"><p id ="soriinfo">Kíváncsi voltam, hogy mégis milyen lehet openingeket lefordítani, mivel szerintem teljesen más, mint egy párbeszédet lefordítani.<br><br>Eddigi Openingek: RWBY 5.évad, RWBY 8.évad, SSnVR, TSKD</p>`,
+            de: `<img src="https://cdn.roosterteeth.com/image/upload/t_l/f_auto/3/b434b4ae-decb-4d40-bf57-5353908c45cb/original/1634938924.jpg" class="kiskep2"><p id ="soriinfo">See the stories that shaped the world of Remnant. RWBY Fairy Tales is a new RWBY mini series that brings Remnant's most famous fairy tales to life like never before.</p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "RWBY 9. évad", //
+            ti: "Szinopszis",
+            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>After the harrowing events of Volume 8, our heroines are thrust into an unknown world–the Ever After! However, once Team RWBY explores this strange and mysterious realm, they quickly discover it might not be quite as unknown as they first assumed. As they journey to find a way back home, they'll have to overcome some of their toughest challenges yet–the struggle of their own identities, and whether or not they're equipped to stop Salem. (fordítás hamarosan...)</p>`,
+            episodes: [
+                {
+                    title: "Előzetes",
+                    sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/EZY1d9KONGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+                    desc: `<p id="lone">Az előzetes rövid leírása</p><p id="ltwo">- - - - -</p>`,
+                }
+            ]
+
+        },
+        {
+            title: "Zenék",
+            ti: "Szinopszis",
+            de: `<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRI89wHJogKV2Hx3Zqv34y89PgwaYFAMRuXF9dRp3qTLn1cxsA6" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
             episodes: [
                 {
                     title: "RWBY: The Triumph",
@@ -102,11 +122,6 @@ var videoSources = {
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/49891/Tensei_shitara_Ken_deshita?q=tensei%20shitara%20ken%20deshita&cat=anime" target="_blank" title="MAL link">Tensei shitara Ken deshita</a> Openingje.<br>Zeneszerzők: Kishida Kyoudan & The Akeboshi Rockets</p>`
                 }
             ]
-        },
-        {
-            title: "RWBY 9. évad",
-            ti: "Szinopszis",
-            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>After the harrowing events of Volume 8, our heroines are thrust into an unknown world–the Ever After! However, once Team RWBY explores this strange and mysterious realm, they quickly discover it might not be quite as unknown as they first assumed. As they journey to find a way back home, they'll have to overcome some of their toughest challenges yet–the struggle of their own identities, and whether or not they're equipped to stop Salem. (fordítás hamarosan...)</p>`,
         }
     ]
 }
@@ -151,6 +166,9 @@ function ProjectChange(n) {
             break;
         case 4:
             localStorage.setItem('result', 4);
+            break;
+        case 5:
+            localStorage.setItem('result', 5);
             break;
     }
 }
