@@ -3,19 +3,22 @@
   --sotetszurke: #1a1a1a;
   --szurke: #333333;
   --alap: snow;
-  /*Random színek*/
   --zold: #00D900;
-  --zold2: green;
-  --pink: #f900aa;
   --pink2: #B4007B;
   --fekete2: #0D0E0E;
   --sotetszurke2: #181A1B;
   --szurke2: #262A2B;
+  --szurke3: #2C2F31;
   --kek: rgb(78, 190, 227);
   --kek2:rgb(22, 71, 187);
+ /*Nem használt színek*/
+  --zold2: green;
+  --pink: #f900aa;
+  --kek3: rgb(19, 0, 90);
+  --kek4: rgb(0, 0, 92);
 }
 
-/*Alap*/
+/* Alap */
 body {
   text-align: justify;
   font-size: 18px;
@@ -62,7 +65,7 @@ ul#menu > li a:hover {
   background-color: var(--szurke);
   font-weight: bold;
 }
-ul#menu li#name { /* Ez változik */
+ul#menu li#name {
   float: right;
   padding: 16px;
   text-align: center;
@@ -88,10 +91,10 @@ p#versions {
 
 /* Posztok */
 div.posztok {
-  border: 2px solid var(--zold2);
+  border: 2px solid var(--szurke3);
   margin: 30px auto;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px 1px #888888;
+  box-shadow: 2px 2px 5px -1px #888888;
   max-width: 1000px;
   background-color: var(--sotetszurke2);
 }
@@ -99,7 +102,8 @@ div.posztok>h2, div.posztok>p {
   padding: 0px 10px;
 }
 div.posztok>h2 {
-  color: var(--kek);
+  color: var(--kek2);
+  text-shadow: 0.5px 0.5px var(--kek);
   padding-bottom: 5px;
   border-bottom: 1px solid var(--szurke2);
   margin-top: 10px;
@@ -118,32 +122,41 @@ a:hover{
   text-decoration: underline;
 }
 
-/*Csapattagok fül*/
+div.p_all {
+  color: var(--alap);
+  text-align: center;
+  width: 250px;
+  border: 2px solid red;
+  border-radius: 20px;
+  margin: 10px;
+  display: inline-block;
+  background-color: var(--szurke2);
+}
 div.tagok {
-  border: 2px solid var(--zold2);
-  margin: 30px auto;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px 1px #888888;
-  max-width: 1000px;
+  color: var(--alap);
+  text-align: center;
+  width: 250px;
+  border: 2px solid var(--szurke3);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px -1px #888888;
+  margin: 10px;
+  display: inline-block;
   background-color: var(--sotetszurke2);
 }
-div.tagok>p {
-  min-height: 50px;
-}
-div.tagok>h2, div.tagok>p {
-  padding: 0px 10px 0px 0px;
-}
 div.tagok>h2 {
-  color: rgb(78, 190, 227);
-  border-bottom: 1px solid var(--szurke2);
-  margin-top: 10px;
-  text-align: center; 
-  padding-bottom: 5px;
+  text-align: center;
 }
 div.tagok img {
-  width: 50px;
-  float: left;
-  margin: 0px 10px;
+  width: 80px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+div.tagok p, div.tagok h2 {
+  margin: 15px 0px;
 }
 
 /* Projektek fül 2.0 */
@@ -183,39 +196,10 @@ p.p_up {
   justify-content: center;
   align-items: center;
 }
-/*Ezek*/
 p.p_down {
   height: 61px;
   margin: 5px auto;
 }
-
-/* Projektek fül */
-/*table#t_projects { 
-  border-collapse: separate;
-  border-spacing: 30px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-}
-.p_head, .p_body, .p_foot {
-  background-color: var(--szurke);
-  text-align: center;
-  width: 320px;
-}
-.p_head {
-  border-radius: 20px 20px 0px 0px;
-}
-.p_foot {
-  border-radius: 0px 0px 20px 20px;
-  border-spacing: 0px 0px 0px 4000px;
-}
-.kiskep {
-  width: 300px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 /* Videólejátszó fül */
 table#videos { 
@@ -225,7 +209,7 @@ table#videos {
   margin-right: auto;
 }
 
-/*INFÓ fül*/
+/* Infók fül */
 p.kerdes {
   color: var(--kek);
   font-weight: bold;
