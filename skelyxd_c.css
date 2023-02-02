@@ -159,7 +159,7 @@ div.tagok p, div.tagok h2 {
   margin: 15px 0px;
 }
 
-/* Projektek fül 2.0 */
+/* Projektek fül */
 #big_div {
   text-align: center;
 }
@@ -223,6 +223,10 @@ p.valasz {
 span#elerhetoseg {
   color: #888888;
   font-style: italic;
+}
+span.semmi {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Videó fül */
