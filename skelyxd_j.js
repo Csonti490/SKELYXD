@@ -52,12 +52,18 @@ var videoSources = {
                     sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/uwciRSLQ#j9WYHnDoAj9rHMJEePpvRNJ6VeMH2_Wqj5TGlUmUbak" allowfullscreen ></iframe>`,
                     desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">Az érzelmek fokozódnak, ahogy Ruby és Weiss rájön, hogy Yang még nem bocsátott meg Blake-nek. Illia belső konfliktusa egyre nő. Blake rájön, hogy a családja veszélyben van.</p>`
                 }
+                ,
+                {
+                    title: "A Perfect Storm / A Tökéletes Vihar",
+                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
+                    desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">Raven táborát Cinder bandája megtámadja, miközben a Tavasz Hajadon után kutatnak. Ilia hagy egy levelet Blake-nek, amelyben arra kéri, hogy találkozzon vele titokban.</p>`
+                }
             ]
         },
         {
             title: "RWBY: World of Remnant",
             ti: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant - Szinopszis
-            de: `<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1bJ3NYB5IhQgF2tjcndk_t29SV7ToA6Q2HWhyKglsYvtUQhWu" class="kiskep2"><p id ="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titkos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét rögzítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
+            de: `<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1bJ3NYB5IhQgF2tjcndk_t29SV7ToA6Q2HWhyKglsYvtUQhWu" class="kiskep2"><p id ="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1 - részenkénti rövid leírás
                 {
                     title: "Dust / Por",
@@ -77,16 +83,18 @@ var videoSources = {
             ]
         },
         {
-            title: "RWBY: Fairy Tales ",
-            ti: "Szinopszis",
-            de: `<img src="https://cdn.roosterteeth.com/image/upload/t_l/f_auto/3/b434b4ae-decb-4d40-bf57-5353908c45cb/original/1634938924.jpg" class="kiskep2"><p id ="soriinfo">See the stories that shaped the world of Remnant. RWBY Fairy Tales is a new RWBY mini series that brings Remnant's most famous fairy tales to life like never before.</p>`,
+            title: "RWBY: Fairy Tales", // +(szino.) https://rwby.fandom.com/wiki/RWBY:_Fairy_Tales
+            ti: "Szinopszis", // // https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
+            de: `<img src="https://cdn.roosterteeth.com/image/upload/t_l/f_auto/3/b434b4ae-decb-4d40-bf57-5353908c45cb/original/1634938924.jpg" class="kiskep2"><p id ="soriinfo">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br><br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span style="float:right;">- Ozpin Professzor</span>&nbsp;</p>`,
             episodes: [
             ]
         },
         {
-            title: "RWBY 9. évad", //
-            ti: "Szinopszis",
-            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>After the harrowing events of Volume 8, our heroines are thrust into an unknown world–the Ever After! However, once Team RWBY explores this strange and mysterious realm, they quickly discover it might not be quite as unknown as they first assumed. As they journey to find a way back home, they'll have to overcome some of their toughest challenges yet–the struggle of their own identities, and whether or not they're equipped to stop Salem. (fordítás hamarosan...)<br><br>Előzetes: <a href="https://www.youtube.com/embed/EZY1d9KONGA" target="_blank" title="Youtube">Magyar feliratos</a></p>`,
+            title: "RWBY 9. évad",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
+            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a href="https://www.youtube.com/watch?v=EZY1d9KONGA" target="_blank" title="Youtube">Link</a></p>`,
+            episodes: [
+            ]
         },
         {
             title: "Zenék",
@@ -110,7 +118,7 @@ var videoSources = {
                 },
                 {
                     title: "Tensei Shitara Ken Deshita",
-                    sourceCode: `- Egyenlőre még nincsen videó -`,
+                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/49891/Tensei_shitara_Ken_deshita?q=tensei%20shitara%20ken%20deshita&cat=anime" target="_blank" title="MAL link">Tensei shitara Ken deshita</a> Openingje.<br>Zeneszerzők: Kishida Kyoudan & The Akeboshi Rockets</p>`
                 }
             ]
