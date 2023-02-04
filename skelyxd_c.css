@@ -300,3 +300,17 @@ td#leiras a {
 td#leiras a:hover {
   text-decoration: underline;
 }
+#bttn1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--sotetszurke);
+  margin: 5px 10px;
+  border: 1px groove var(--szurke2);
+}
+#bttn1:hover {
+  background-color: var(--alap);
+  color: var(--fekete);
+  transition: 0.5s ease;
+  box-shadow: 2px 2px 5px -1px #888888;
+}

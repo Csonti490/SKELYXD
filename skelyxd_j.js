@@ -92,7 +92,7 @@ var videoSources = {
         {
             title: "RWBY 9. évad",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
-            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a href="https://www.youtube.com/watch?v=EZY1d9KONGA" target="_blank" title="Youtube">Link</a></p>`,
+            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet()">Link</a></p>`,
             episodes: [
             ]
         },
@@ -196,4 +196,15 @@ function hover(element)
 function hoverOff(element)
 {
     element.style.backgroundColor = "#1a1a1a";
+}
+
+function Mehet(){
+    document.getElementById("episodeTitle").innerHTML = `Előzetes`;
+    document.getElementById("video").innerHTML = `<iframe width="660" height="380" src="https://www.youtube.com/embed/EZY1d9KONGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
+    document.getElementById("episodes").style.display="none";
+}
+function Vissza(){
+    document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].ti}`;
+    document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
+    document.getElementById("episodes").style.display="block";
 }
