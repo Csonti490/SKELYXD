@@ -17,7 +17,7 @@
   --kek3: rgb(19, 0, 90);
   --kek4: rgb(0, 0, 92);
 }
-
+/*Font: https://fonts.google.com/specimen/Yatra+One?preview.text=SkelyXD%20Subs&preview.text_type=custom&category=Display,Handwriting*/
 /* Alap */
 body {
   text-align: justify;
@@ -147,8 +147,7 @@ div.tagok>h2 {
   text-align: center;
 }
 div.tagok img {
-  width: 80px;
-  height: 100px;
+  height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
