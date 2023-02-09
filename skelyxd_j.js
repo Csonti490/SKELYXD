@@ -200,7 +200,7 @@ function hoverOff(element)
 
 function Mehet(){
     document.getElementById("episodeTitle").innerHTML = `Előzetes`;
-    document.getElementById("video").innerHTML = `<iframe width="660" height="380" src="https://www.youtube.com/embed/EZY1d9KONGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
+    document.getElementById("video").innerHTML = `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0" allowfullscreen ></iframe><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
     document.getElementById("episodes").style.display="none";
 }
 function Vissza(){
