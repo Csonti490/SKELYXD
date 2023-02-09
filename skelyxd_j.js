@@ -68,17 +68,17 @@ var videoSources = {
                 {
                     title: "Dust / Por",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/DtMQnS5D#oNb7qSnczIsnF704pwDE3DKjAOqIrm608IFT0WwqHbw" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat első epizódja, amely Remnant történetét és tudományát vizsgálja. Ez az epizód a Porkristályok titokzatos erejével foglalkozik.</p>`
+                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat első epizódja, amely Remnant történetét és tudományát taglalja. Ez az epizód a Porkristályok titokzatos erejével foglalkozik.</p>`
                 },
                 {
                     title: "Kingdoms / Királyságok",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/Kl0GGDbC#CLfPDYsqBRq_PNNSO2dA3nA9su7nTtFItvAGtLeZE5U" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat második epizódja, amely a Remnant történetét és tudományát vizsgálja. Ebben a részben információkat tár fel a négy Királyság helyszíneiről, politikájáról és katonai struktúráiról.</p>`
+                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat második epizódja, amely a Remnant történetét és tudományát taglalja. Ebben a részben információkat tár fel a négy Királyság helyszíneiről, politikájáról és katonai struktúráiról.</p>`
                 },
                 {
                     title: "Grimm / Grimm",
                     sourceCode: `- Egyenlőre nincsen elérhető videó -`,
-                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat harmadik epizódja, amely a Remnant történetét és tudományát vizsgálja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p>`
+                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat harmadik epizódja, amely a Remnant történetét és tudományát taglalja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p>`
                 }
             ]
         },
