@@ -176,6 +176,15 @@ div.p_center > a > img:hover {
   opacity: 0.5;
   transition: .5s ease;
 }
+/* 'Nagyít'-ja a képet */
+/*div.p_center > a > .kiskep:hover {
+  transform: scale(1.1);
+}
+div.p_center {
+  overflow: hidden;
+  margin: 0 auto;
+}*/
+/* transform: scale(1.1); <- img-re */
 .kiskep {
   width: 225px;
   height: 318px;
@@ -184,6 +193,8 @@ div.p_center > a > img:hover {
   margin-right: auto;
   transition: .5s ease;
   border-radius: 10px;
+
+  transition: 0.5s all ease-in-out;
 }
 p.p_up {
   font-weight: bold;
@@ -196,7 +207,7 @@ p.p_up {
   align-items: center;
 }
 p.p_down {
-  height: 61px;
+  /*height: 61px;*/
   margin: 5px auto;
 }
 

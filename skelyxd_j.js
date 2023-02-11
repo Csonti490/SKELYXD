@@ -92,7 +92,14 @@ var videoSources = {
         {
             title: "RWBY 9. évad",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
-            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet()">Link</a></p>`,
+            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Link</a></p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
+            de: `<img src="https://m.media-amazon.com/images/I/81abHt1msdL._RI_.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Link</a></p>`,
             episodes: [
             ]
         },
@@ -170,6 +177,9 @@ function ProjectChange(n) {
         case 5:
             localStorage.setItem('result', 5);
             break;
+        case 6:
+            localStorage.setItem('result', 6);
+            break;
     }
 }
 
@@ -198,9 +208,11 @@ function hoverOff(element)
     element.style.backgroundColor = "#1a1a1a";
 }
 
-function Mehet(){
+function Mehet(adat){//<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0" allowfullscreen ></iframe>
     document.getElementById("episodeTitle").innerHTML = `Előzetes`;
-    document.getElementById("video").innerHTML = `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0" allowfullscreen ></iframe><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
+    //document.getElementById("video").innerHTML = `${adat}`;
+    document.getElementById("video").innerHTML = `<iframe width="660" height="380" frameborder="0" src="${adat}" allowfullscreen ></iframe>`;
+    document.getElementById("video").innerHTML += `<button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
     document.getElementById("episodes").style.display="none";
 }
 function Vissza(){
