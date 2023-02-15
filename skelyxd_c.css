@@ -324,3 +324,10 @@ td#leiras a:hover {
   transition: 0.5s ease;
   box-shadow: 2px 2px 5px -1px #888888;
 }
+
+/* Tesztek */
+#neo_kep {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
