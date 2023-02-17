@@ -8,9 +8,9 @@ WIKI - https://en.wikipedia.org/wiki/RWBY
 var videoSources = {
     series: [
         {
-            title: "RWBY 5. évad", 
+            title: "RWBY 5. évad",
             ti: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
-            de: `<img src="https://musicart.xboxlive.com/7/84a45000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.évad.</p>`,
+            de: `<img src="images/v5.jpg" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.évad.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=5 - részenként rövid leírás
                 {
                     title: "Welcome to Haven / Üdv Haven-ben",
@@ -63,7 +63,7 @@ var videoSources = {
         {
             title: "RWBY: World of Remnant",
             ti: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant - Szinopszis
-            de: `<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1bJ3NYB5IhQgF2tjcndk_t29SV7ToA6Q2HWhyKglsYvtUQhWu" class="kiskep2"><p id ="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
+            de: `<img src="images/rwby_world_of_remnant_poster.jpg" class="kiskep2"><p id ="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1 - részenkénti rövid leírás
                 {
                     title: "Dust / Por",
@@ -85,28 +85,28 @@ var videoSources = {
         {
             title: "RWBY: Fairy Tales", // +(szino.) https://rwby.fandom.com/wiki/RWBY:_Fairy_Tales
             ti: "Szinopszis", // // https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
-            de: `<img src="https://cdn.roosterteeth.com/image/upload/t_l/f_auto/3/b434b4ae-decb-4d40-bf57-5353908c45cb/original/1634938924.jpg" class="kiskep2"><p id ="soriinfo">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br><br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span style="float:right;">- Ozpin Professzor</span>&nbsp;</p>`,
+            de: `<img src="images/rwby_fairy_tales_poster.jpg" class="kiskep2"><p id ="soriinfo">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br><br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span style="float:right;">- Ozpin Professzor</span>&nbsp;</p>`,
             episodes: [
             ]
         },
         {
             title: "RWBY 9. évad",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
-            de: `<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3dc09fec-d88c-4720-9165-a23eb7a4b095/der6mr4-b221c837-4319-44dc-87f0-52986c4cbb17.jpg/v1/fill/w_1280,h_1844,q_75,strp/my_rwby_volume_9_poster_by_tehshraid_der6mr4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg0NCIsInBhdGgiOiJcL2ZcLzNkYzA5ZmVjLWQ4OGMtNDcyMC05MTY1LWEyM2ViN2E0YjA5NVwvZGVyNm1yNC1iMjIxYzgzNy00MzE5LTQ0ZGMtODdmMC01Mjk4NmM0Y2JiMTcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.HQze4s-uo4XXSSMU0Dwf-Cx7ZvvmwEFquiX4D7cRt-I" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Link</a></p>`,
+            de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Link</a></p>`,
             episodes: [
             ]
         },
         {
             title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
-            de: `<img src="https://m.media-amazon.com/images/I/81abHt1msdL._RI_.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Link</a></p>`,
+            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Link</a></p>`,
             episodes: [
             ]
         },
         {
             title: "Zenék",
             ti: "Szinopszis",
-            de: `<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRI89wHJogKV2Hx3Zqv34y89PgwaYFAMRuXF9dRp3qTLn1cxsA6" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
+            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
             episodes: [
                 {
                     title: "RWBY: The Triumph",
@@ -159,8 +159,8 @@ function EpisodeDefault(){
 
 }
 //document.getElementById("pn").innerHTML
-function ProjectChange(n) {
-    localStorage.removeItem('result');
+function ProjectChange(n) { // rwby v5; rwby wor; rwby ft; rwby v9; rwby x jl; zenék
+    localStorage.removeItem('result'); // v1, v2, v3, v4, v5, v6, v7, v8, v9, rwby wor, rwby ft, rwby x jl, zenék, rwby t, rwby shorts
     switch (n){
         case 1:
             localStorage.setItem('result', 1);
