@@ -159,8 +159,8 @@ function EpisodeDefault(){
 
 }
 //document.getElementById("pn").innerHTML
-function ProjectChange(n) { // rwby v5; rwby wor; rwby ft; rwby v9; rwby x jl; zenék
-    localStorage.removeItem('result'); // v1, v2, v3, v4, v5, v6, v7, v8, v9, rwby wor, rwby ft, rwby x jl, zenék, rwby t, rwby shorts
+function ProjectChange(n) {
+    localStorage.removeItem('result');
     switch (n){
         case 1:
             localStorage.setItem('result', 1);
