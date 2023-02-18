@@ -109,7 +109,7 @@ div.posztok>h2 {
   margin-top: 10px;
   text-align: center;
 }
-div.posztok p#datum {
+div.posztok p.datum {
   font-size: 80%;
   text-align: right;
   color: #888888;
