@@ -329,8 +329,7 @@ td#leiras a:hover {
 /* Tesztek */
 #neo_kep {
   width: 300px;
-  /*display: block;*/
   margin: 0 auto;
-  display: flex;
-  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
 }
