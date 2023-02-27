@@ -331,5 +331,12 @@ td#leiras a:hover {
   width: 300px;
   margin: 0 auto;
   position: absolute;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
+  /*bottom: 0px;*/
+}
+.foot {
+  position: relative;
+  height: 300px;
+  width: 300px;
 }
