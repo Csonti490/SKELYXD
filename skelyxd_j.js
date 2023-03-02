@@ -125,7 +125,7 @@ var videoSources = {
                 },
                 {
                     title: "RWBY: Inside",
-                    sourceCode: `- Elérhető videó hamarosan -`,
+                    sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.évad Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p>`
                 },
                 {
