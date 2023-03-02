@@ -106,7 +106,7 @@ var videoSources = {
         {
             title: "Zenék",
             ti: "Szinopszis",
-            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
+            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, RWBY 9.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
             episodes: [
                 {
                     title: "RWBY: The Triumph",
@@ -122,6 +122,11 @@ var videoSources = {
                     title: "Shokei Shoujo no Virgin Road: Paper Bouquet",
                     sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/iL9NGfxSg7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/47162/Shokei_Shoujo_no_Virgin_Road" target="_blank" title="MAL link">Shokei Shoujo no Virgin Road</a> Openingje.<br>Komponálta: Cassie Wei & Yamato Kasai<br>Énekli: Cassie Wei / Mili</p>`
+                },
+                {
+                    title: "RWBY: Inside",
+                    sourceCode: `- Elérhető videó hamarosan -`,
+                    desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.évad Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p>`
                 },
                 {
                     title: "Tensei Shitara Ken Deshita",

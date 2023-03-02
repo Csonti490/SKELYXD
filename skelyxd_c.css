@@ -327,18 +327,10 @@ td#leiras a:hover {
 }
 
 /* Tesztek */
-.foot {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  margin: 0 auto;
-}
-.foot a {
-  position: absolute;
-  bottom: 0px;
-  text-align: center;
-}
 #neo_kep {
   width: 300px;
+  /*display: block;*/
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
 }
-
