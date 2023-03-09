@@ -5,6 +5,7 @@ egyik - https://rwby.fandom.com/wiki/Volume_5
 masik - https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
 WIKI - https://en.wikipedia.org/wiki/RWBY
 */
+var iimmgg = `<img src="images/sad.jpg" alt="Nincs elérhető videó" id="sad">`;
 var videoSources = {
     series: [
         {
@@ -49,13 +50,13 @@ var videoSources = {
                 },
                 {
                     title: "Alone Together / Egyedül Együtt",
-                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/uwciRSLQ#j9WYHnDoAj9rHMJEePpvRNJ6VeMH2_Wqj5TGlUmUbak" allowfullscreen ></iframe>`,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/uwciRSLQ#j9WYHnDoAj9rHMJEePpvRNJ6VeMH2_Wqj5TGlUmUbak" allowfullscreen ></iframe>`,
                     desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">Az érzelmek fokozódnak, ahogy Ruby és Weiss rájön, hogy Yang még nem bocsátott meg Blake-nek. Illia belső konfliktusa egyre nő. Blake rájön, hogy a családja veszélyben van.</p>`
                 }
                 ,
                 {
                     title: "A Perfect Storm / A Tökéletes Vihar",
-                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
+                    sourceCode: iimmgg,
                     desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">Raven táborát Cinder bandája megtámadja, miközben a Tavasz Hajadon után kutatnak. Ilia hagy egy levelet Blake-nek, amelyben arra kéri, hogy találkozzon vele titokban.</p>`
                 }
             ]
@@ -77,7 +78,7 @@ var videoSources = {
                 },
                 {
                     title: "Grimm / Grimm",
-                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
+                    sourceCode: iimmgg,
                     desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat harmadik epizódja, amely a Remnant történetét és tudományát taglalja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p>`
                 }
             ]
@@ -92,14 +93,64 @@ var videoSources = {
         {
             title: "RWBY 9. évad",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
-            de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Link</a></p>`,
-            episodes: [
+            de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Ugrás a videóhoz</a></p>`,
+            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=9
+                {
+                    title: "A Place of Particular Concern / A Különös Aggodalmas Hely",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">Team RWBY washes up on an huge island in unknown location with Jaune and Neo, while their friends and the people of both Altas and Mantle journey across Vacuo.</p>`
+                },
+                {
+                    title: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">In which Team RWBY gets more than they bartered for.</p>`
+                },
+                {
+                    title: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">In which the rules of a game are broken.</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">7. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                }
             ]
         },
         {
             title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
-            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Link</a></p>`,
+            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
             episodes: [
             ]
         },
@@ -125,7 +176,7 @@ var videoSources = {
                 },
                 {
                     title: "RWBY: Inside",
-                    sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="640" height="360" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
+                    sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="660" height="380" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.évad Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p>`
                 },
                 {
@@ -163,7 +214,7 @@ function EpisodeDefault(){
     document.getElementById("episodes").innerHTML = pagination;
 
 }
-//document.getElementById("pn").innerHTML
+
 function ProjectChange(n) {
     localStorage.removeItem('result');
     switch (n){
@@ -213,7 +264,7 @@ function hoverOff(element)
     element.style.backgroundColor = "#1a1a1a";
 }
 
-function Mehet(adat){//<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0" allowfullscreen ></iframe>
+function Mehet(adat){
     document.getElementById("episodeTitle").innerHTML = `Előzetes`;
     //document.getElementById("video").innerHTML = `${adat}`;
     document.getElementById("video").innerHTML = `<iframe width="660" height="380" frameborder="0" src="${adat}" allowfullscreen ></iframe>`;
