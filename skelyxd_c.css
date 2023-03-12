@@ -24,7 +24,7 @@
 body {
   text-align: justify;
   font-size: 18px;
-  background-image: url(tst/background.jpg);
+  background-image: url(images/background.jpg);
   
   /*background-color: var(--sotetszurke2);*/
   color: var(--alap);
