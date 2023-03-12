@@ -16,13 +16,17 @@
   --pink: #f900aa;
   --kek3: rgb(19, 0, 90);
   --kek4: rgb(0, 0, 92);
+  /**/
+  --feketeat: rgba(17,17,17,0.6);
 }
 /*Font: https://fonts.google.com/specimen/Yatra+One?preview.text=SkelyXD%20Subs&preview.text_type=custom&category=Display,Handwriting*/
 /* Alap */
 body {
   text-align: justify;
   font-size: 18px;
-  background-color: var(--sotetszurke2);
+  background-image: url(tst/background.jpg);
+  
+  /*background-color: var(--sotetszurke2);*/
   color: var(--alap);
   text-align: justify;
 }
@@ -47,7 +51,7 @@ ul#menu {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--fekete);
+  background-color: var(--feketeat);
 }
 ul#menu > li {
   float: left;
@@ -76,14 +80,14 @@ ul#menu li#name {
 div#tartalom {
   margin: 10px auto;
   border: 1px solid var(--pink2);
-  background-color: var(--fekete);
+  background-color: var(--feketeat);
   min-height: 100vh;
   padding: 0px 30px;
 }
 p#versions {
   color: var(--alap);
   border: 1px solid var(--zold);
-  background-color: var(--fekete);
+  background-color: var(--feketeat);
   margin: 0px;
   text-align: center;
   padding: 5px;
@@ -340,3 +344,13 @@ td#leiras a:hover {
   height: 380px;
   margin: 0 auto;
 }
+/* Fejléces kép
+#imgheader {
+  padding: 4px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+*/

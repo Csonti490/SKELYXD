@@ -1,7 +1,6 @@
 /*
 Remnant is the future-fantasy world of RWBY, with airships, gadgets, high-tech weaponry and a form of natural energy called Dust existing side by side.
 RNRJ - https://rwby.fandom.com/wiki/Team_RNJR
-egyik - https://rwby.fandom.com/wiki/Volume_5
 masik - https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
 WIKI - https://en.wikipedia.org/wiki/RWBY
 */
@@ -52,12 +51,36 @@ var videoSources = {
                     title: "Alone Together / Egyedül Együtt",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/uwciRSLQ#j9WYHnDoAj9rHMJEePpvRNJ6VeMH2_Wqj5TGlUmUbak" allowfullscreen ></iframe>`,
                     desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">Az érzelmek fokozódnak, ahogy Ruby és Weiss rájön, hogy Yang még nem bocsátott meg Blake-nek. Illia belső konfliktusa egyre nő. Blake rájön, hogy a családja veszélyben van.</p>`
-                }
-                ,
+                },
                 {
                     title: "A Perfect Storm / A Tökéletes Vihar",
                     sourceCode: iimmgg,
                     desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">Raven táborát Cinder bandája megtámadja, miközben a Tavasz Hajadon után kutatnak. Ilia hagy egy levelet Blake-nek, amelyben arra kéri, hogy találkozzon vele titokban.</p>`
+                },
+                {
+                    title: "True Colors / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">10. rész rövid leírása</p><p id="ltwo">Blake attempts to reason with Ilia as Ghira and Sun fight Corsac and Fennec.</p>`
+                },
+                {
+                    title: "The More the Merrier / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">11. rész rövid leírása</p><p id="ltwo">Ruby and the rest of the gang meet with Professor Lionheart at Haven Academy, unaware that they are walking right into a trap.</p>`
+                },
+                {
+                    title: "Vault of the Spring Maiden / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">12. rész rövid leírása</p><p id="ltwo">Hazel's past is brought to light. Jaune discovers something about himself. Raven, Vernal, and Cinder enter the Vault.</p>`
+                },
+                {
+                    title: "Downfall / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">13. rész rövid leírása</p><p id="ltwo">Ruby distracts Emerald and Mercury so Yang cam pursue Raven and Cinder. Adam prepares to destroy the school, but Blake arrives with the rest of the Faunus to take him into custody.</p>`
+                },
+                {
+                    title: "Haven's Fate / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald breaks down upon learning of Cinder's defeat while Adam and Lionheart flee, forcing Mercury and Hazel to retreat. Despite brief tension in Yang, Blake is welcomed back by RWBY.</p>`
                 }
             ]
         },
@@ -80,6 +103,71 @@ var videoSources = {
                     title: "Grimm / Grimm",
                     sourceCode: iimmgg,
                     desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat harmadik epizódja, amely a Remnant történetét és tudományát taglalja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p>`
+                },
+                {
+                    title: "Aura / Aura",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">This episode examines the powerful effects of Aura, a powerful force that can be wielded by all living creatures for both defence and offence.</p>`
+                },
+                {
+                    title: "Vytal Festival Tournament / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">Delves into the history and purpose of the Vytal Festival Tournament. </p>`
+                },
+                {
+                    title: "Huntsmen / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">The occupation of Huntsmen and Huntresses, describing the purpose of their careers and the Academies themselves. It also introduces some of the Academies that the Huntsmen-in-training attend.</p>`
+                },
+                {
+                    title: "Cross Continental Transmit System / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">7. rész rövid leírása</p><p id="ltwo">The history and capabilities of the Cross Continental Transmit System, the vital wireless communication network that allows the Kingdoms to communicate with one another.</p>`
+                },
+                {
+                    title: "The Four Maidens / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">An old wizard, who lives alone in the mountains, is visited by four sisters, who each in their own unique ways are kind to him. The first, Winter, encourages him to meditate and reflect; the second, Spring, brings him fruit and flowers and revitalizes his garden; the third, Summer, convinces him to step outside and embrace the world; and the fourth, Fall, urges him to be thankful for what he has. Moved by their kindness, the old man gives the four sisters great powers so that they may go throughout Remnant continuing to share their gifts. The four sisters promise to return and visit him yearly.</p>`
+                },
+                {
+                    title: "Vale / Vale",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">The kingdom of Vale and the territory it covers.</p>`
+                },
+                {
+                    title: "Mistral / Mistral",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">10. rész rövid leírása</p><p id="ltwo">The kingdom of Mistral and its cultural heritage, including its cultured upper class and well-resourced underground. Two of Mistral's outlying cities, Windpath and Kuchinashi, are mentioned.</p>`
+                },
+                {
+                    title: "Atlas / Atlas",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">11. rész rövid leírása</p><p id="ltwo">The Kingdom of Atlas, originally known as Mantle. Founded by settlers who traveled north to the barren, cold continent of Solitas, the people of Mantle were protected from the Grimm by the hostile climate, but were also forced to adapt quickly in order to survive. They quickly learned to utilize Dust and other technologies. Following the end of the Great War, Atlas Academy was founded to the north of the original city of Mantle. The Academy and its grounds soon grew to overshadow Mantle and eventually became the new capital and namesake of the Kingdom.</p>`
+                },
+                {
+                    title: "Vacuo / Vacuo",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">12. rész rövid leírása</p><p id="ltwo">The history of the kingdom of Vacuo. A one-time hidden paradise, Vacuo was conquered by the other kingdoms and turned into one of the hardest places to live on Remnant.</p>`
+                },
+                {
+                    title: "Between Kingdoms / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">13. rész rövid leírása</p><p id="ltwo">Showcases Remnant outside of the main Kingdoms, including the reasons why villages exist and the dangers they have to face.</p>`
+                },
+                {
+                    title: "Faunus / Faunus",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">14. rész rövid leírása</p><p id="ltwo">History of Faunus, their genetics, and their relationship with humans.</p>`
+                },
+                {
+                    title: "Schnee Dust Company / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">15. rész rövid leírása</p><p id="ltwo">The shady backstory of Remnant's most renowned dust company.</p>`
+                },
+                {
+                    title: "The Great War / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">16. rész rövid leírása</p><p id="ltwo">Qrow continues to narrate more into the World of Remnant, this time talking about a massive war that changed the world forever. While also giving more of an insight as to why the world is in its current state.</p>`
                 }
             ]
         },
@@ -157,7 +245,7 @@ var videoSources = {
         {
             title: "Zenék",
             ti: "Szinopszis",
-            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, RWBY 9.évad, SSnVR, TSKD<br>Endingek: ---<br>Betétdalok: ---</p>`,
+            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, RWBY 9.évad, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
             episodes: [
                 {
                     title: "RWBY: The Triumph",
@@ -178,11 +266,6 @@ var videoSources = {
                     title: "RWBY: Inside",
                     sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="660" height="380" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
                     desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.évad Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p>`
-                },
-                {
-                    title: "Tensei Shitara Ken Deshita",
-                    sourceCode: `- Egyenlőre nincsen elérhető videó -`,
-                    desc: `<p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/49891/Tensei_shitara_Ken_deshita?q=tensei%20shitara%20ken%20deshita&cat=anime" target="_blank" title="MAL link">Tensei shitara Ken deshita</a> Openingje.<br>Zeneszerzők: Kishida Kyoudan & The Akeboshi Rockets</p>`
                 }
             ]
         }
