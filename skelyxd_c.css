@@ -25,7 +25,7 @@ body {
   text-align: justify;
   font-size: 18px;
   background-image: url(images/background.jpg);
-  
+
   /*background-color: var(--sotetszurke2);*/
   color: var(--alap);
   text-align: justify;
@@ -215,14 +215,6 @@ p.p_down {
   margin: 5px auto;
 }
 
-/* Videólejátszó fül */
-table#videos { 
-  border-collapse: collapse;
-  /*border-spacing: 30px 0px;*/
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Infók fül */
 p.kerdes {
   color: var(--kek);
@@ -243,10 +235,14 @@ span.semmi {
   text-decoration: underline;
 }
 
-/* Videó fül */
+/* Videólejátszó fül */
 table#videos {
   text-align: center;
   max-width: 660px;
+  border-collapse: collapse;
+  /*border-spacing: 30px 0px;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 td#video {
   height: 415px;

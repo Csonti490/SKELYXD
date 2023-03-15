@@ -15,22 +15,22 @@ var videoSources = {
                 {
                     title: "Welcome to Haven / Üdv Haven-ben",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/DotiWZaT#5nAO0LmbY2pdqqJ5c5H7RV6fbEwD6kJKYjUOF9eY4cQ" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>- Leírás hamarosan -</p>`
+                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>After a long and arduous journey, Team RNJR and Qrow finally meet with Professor Lionheart, Weiss continues to flee from her father, Blake confronts Ilia about her alliegence to the White Fang and Yang finds a lead to her mother.</p>`
                 },
                 {
                     title: "Dread in the air / Rettegés a levegőben",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/q5UXQbhZ#jVB8zhyYF4OpKk3lYcLz62gzPZkaA2l2Hy8F4McoIK8" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>- Leírás hamarosan -</p>`
+                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Weiss' path to Haven is blocked by a swarm of Lancers ambushing any aircraft in their territory. Adam meets with the White Fang's leader, Sienna Khan to introduce Hazel.</p>`
                 },
                 {
                     title: "Unforeseen Complications / Váratlan bonyodalmak",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/m9NS3bRb#cDIs-KxG9CbOxZrv8YHAO7a5iCOyS8hqxy40NlMv5Pc" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>- Leírás hamarosan -</p>`
+                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ghira and Blake's attempt to convince the Faunus of Menagerie to help save Haven are interrupted by Ilia. Weiss' captors reveal their plans to ransom her back to her father. Team RNJR learn more about Oscar's strange ability.</p>`
                 },
                 {
                     title: "Lighting the Fire / A Tűz Meggyújtása",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/O1dyFJ5L#lzcIivNTZbJINt43e79DkkG1hss6y986pSx41wUngaM" allowfullscreen ></iframe>`,
-                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>- Leírás hamarosan -</p>`
+                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ruby and Oscar begin training in hand-to-hand combat. Yang finds Raven's camp, but the discovery of Weiss' kidnapping sours their reunion.</p>`
                 },
                 {
                     title: "Necessary Sacrifice / Szükséges Áldozat",
@@ -112,7 +112,7 @@ var videoSources = {
                 {
                     title: "Vytal Festival Tournament / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">Delves into the history and purpose of the Vytal Festival Tournament. </p>`
+                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">Delves into the history and purpose of the Vytal Festival Tournament.</p>`
                 },
                 {
                     title: "Huntsmen / ?",
@@ -186,52 +186,52 @@ var videoSources = {
                 {
                     title: "A Place of Particular Concern / A Különös Aggodalmas Hely",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">Team RWBY washes up on an huge island in unknown location with Jaune and Neo, while their friends and the people of both Altas and Mantle journey across Vacuo.</p>`
+                    desc: `<p id="lone">1. rész rövid leírása</p><p id="ltwo">A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p>`
                 },
                 {
                     title: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">In which Team RWBY gets more than they bartered for.</p>`
+                    desc: `<p id="lone">2. rész rövid leírása</p><p id="ltwo">Amelyben az RWBY csapat többet kap, mint amennyiért elcserélték.</p>`
                 },
                 {
-                    title: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
+                    title: "Rude, Red, and Royal / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">In which the rules of a game are broken.</p>`
+                    desc: `<p id="lone">3. rész rövid leírása</p><p id="ltwo">Amelyben megszegik a játékszabályokat.</p>`
                 },
                 {
-                    title: "? / ?",
+                    title: "A Cat Most Curious / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
-                },
-                {
-                    title: "? / ?",
-                    sourceCode: iimmgg,
-                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p>`
                 },
                 {
                     title: "? / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.03.18.</p>`
                 },
                 {
                     title: "? / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">7. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.03.25.</p>`
                 },
                 {
                     title: "? / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">7. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.01.</p>`
                 },
                 {
                     title: "? / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">8. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.08.</p>`
                 },
                 {
                     title: "? / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-</p>`
+                    desc: `<p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.15.</p>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.22.</p>`
                 }
             ]
         },
