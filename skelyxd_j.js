@@ -359,3 +359,17 @@ function Vissza(){
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodes").style.display="block";
 }
+function Mutat(n){
+    /*
+    if (n.style.display === 'block')
+        document.getElementsByClassName("whatisthis")[n].style.display = 'none';
+    else
+        document.getElementsByClassName("whatisthis")[n].style.display = 'block';
+    */
+    var x = document.getElementsByClassName('whatisthis')[n];
+    if (x.style.display === 'none')
+        x.style.display = 'inline';
+    else
+        x.style.display = 'none';
+}
+//https://www.w3schools.com/jsref/prop_style_display.asp
