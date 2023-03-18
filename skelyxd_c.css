@@ -25,7 +25,7 @@ body {
   text-align: justify;
   font-size: 18px;
   background-image: url(images/background.jpg);
-
+  
   /*background-color: var(--sotetszurke2);*/
   color: var(--alap);
   text-align: justify;
@@ -264,6 +264,12 @@ td#video {
 div.whatisthis {
   display: none; /*none*/
 }
+img#sad {
+  display: block;
+  width: 660px;
+  height: 380px;
+  margin: 0 auto;
+}
 
 /* videó kis előnézes képe infókkal */
 .kiskep2 {
@@ -351,13 +357,6 @@ td#leiras a:hover {
   display: flex;
   align-items: flex-end;
 }
-/*Nemtommiez
-#sad {
-  display: block;
-  width: 660px;
-  height: 380px;
-  margin: 0 auto;
-}*/
 
 /* Fejléces kép
 #imgheader {
