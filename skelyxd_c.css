@@ -20,6 +20,7 @@
   /**/
   --feketeat: rgba(17,17,17,0.6);
   /*Sushi-s*/
+  --zoldkekk3: #071e1e;
   --zoldkekk2: #0e2828;
   --zoldkekk: #003C3C;
   --vilkekk: #25b7fa;
@@ -255,6 +256,9 @@ li button.showshide:hover {
   /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
   box-shadow: 0px 0px 2px 1px rgba(255, 250, 250, 0.5);
 }
+div.whatisthis {
+  display: none; /*none*/
+}
 
 /* Videólejátszó fül */
 table#videos {
@@ -266,9 +270,6 @@ table#videos {
 }
 td#video {
   height: 415px;
-}
-div.whatisthis {
-  display: none; /*none*/
 }
 img#sad {
   display: block;
@@ -288,7 +289,9 @@ img#sad {
   text-align: justify;
   padding: 10px;
   margin: 0px;
-  border: 1px solid white;
+  border: 1px solid var(--vilszurke);
+  background-color: var(--zoldkekk2);
+  border-radius: 10px;
   min-height: 150px;
   font-size: 16px;
 }
@@ -307,9 +310,10 @@ ul#episodes > li {
   padding: 5px;
   text-decoration: none;
   min-width: 100px;
-  background-color: var(--sotetszurke);
+  background-color: var(--zoldkekk3);
   margin: 5px 10px;
-  border: 1px groove var(--szurke2);
+  border: 1px groove var(--vilszurke);
+  border-radius: 5px;
   cursor: pointer;
 }
 td#video {
@@ -320,6 +324,7 @@ td#leiras {
   text-align: justify;
   min-height: 100px;
   font-size: 16px;
+  background-color: var(--zoldkekk2);
 }
 td#leiras>p#lone {
   text-align: center;
@@ -347,10 +352,11 @@ td#leiras a:hover {
   text-align: center;
   padding: 10px;
   color: var(--alap);
-  background-color: var(--sotetszurke);
+  background-color: var(--zoldkekk3);
   margin: 5px 10px;
-  border: 1px groove var(--szurke2);
+  border: 1px groove var(--vilszurke);
   border-radius: 5px;
+  cursor: pointer;
 }
 #bttn1:hover {
   transition: 0.5s ease;
