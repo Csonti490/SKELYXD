@@ -204,14 +204,14 @@ var videoSources = {
                     desc: `<p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p>`
                 },
                 {
-                    title: "? / ?",
+                    title: "The Parfait Predicament / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.03.18.</p>`
+                    desc: `<p id="lone">5. rész rövid leírása</p><p id="ltwo">In which a dessert is assembled.</p>`
                 },
                 {
-                    title: "? / ?",
+                    title: "Confessions Within Cumulonimbus Clouds / ?",
                     sourceCode: iimmgg,
-                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.03.25.</p>`
+                    desc: `<p id="lone">6. rész rövid leírása</p><p id="ltwo">In which old friends reunite.</p>`
                 },
                 {
                     title: "? / ?",
@@ -327,7 +327,7 @@ function EpisodeChange(n) {
     let series = (+localStorage.getItem('result')), episode = n;
     // Lineáris keresés (most epizódot keresünk) sorozat > epizód
     if(window.location.pathname.includes("/skelyxd_v.html")){
-        console.log("VALID URL")
+        //console.log("VALID URL")
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("leiras").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
@@ -358,18 +358,5 @@ function Vissza(){
     document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].ti}`;
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodes").style.display="block";
-}
-function Mutat(n){
-    /*
-    if (n.style.display === 'block')
-        document.getElementsByClassName("whatisthis")[n].style.display = 'none';
-    else
-        document.getElementsByClassName("whatisthis")[n].style.display = 'block';
-    */
-    var x = document.getElementsByClassName('whatisthis')[n];
-    if (x.style.display === 'none')
-        x.style.display = 'inline';
-    else
-        x.style.display = 'none';
 }
 //https://www.w3schools.com/jsref/prop_style_display.asp

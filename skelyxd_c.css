@@ -2,13 +2,14 @@
   --fekete: #111111;
   --sotetszurke: #1a1a1a;
   --szurke: #333333;
-  --alap: snow;
+  --alap: #fff;
   --zold: #00D900;
   --pink2: #B4007B;
   --fekete2: #0D0E0E;
   --sotetszurke2: #181A1B;
   --szurke2: #262A2B;
   --szurke3: #2C2F31;
+  --vilszurke: #888888;
   --kek: rgb(78, 190, 227);
   --kek2:rgb(22, 71, 187);
  /*Nem használt színek*/
@@ -18,40 +19,54 @@
   --kek4: rgb(0, 0, 92);
   /**/
   --feketeat: rgba(17,17,17,0.6);
+  /*Sushi-s*/
+  --zoldkekk2: #0e2828;
+  --zoldkekk: #003C3C;
+  --vilkekk: #25b7fa;
+  --feheress: #acacac;
+  --szurkee: #2B2A33;
+  --atlatszofeherr: #ffffff66;
+
+
 }
 /*Font: https://fonts.google.com/specimen/Yatra+One?preview.text=SkelyXD%20Subs&preview.text_type=custom&category=Display,Handwriting*/
 /* Alap */
+/*
+* {
+  box-sizing: border-box;
+}
+*/
 body {
   text-align: justify;
-  font-size: 18px;
-  background-image: url(images/background.jpg);
-  
-  /*background-color: var(--sotetszurke2);*/
+  background-color: var(--zoldkekk);
   color: var(--alap);
   text-align: justify;
-}
-
-p {
+  margin: 0;
   font-size: 18px;
+  /*font-family: 'Noto Sans', sans-serif;*/
+  /*font-family: 'Kaushan Script', cursive;*/
+  font-family: 'Rajdhani', sans-serif;
+  /*font-family: 'Alkatra', cursive;*/
+  /*font-family: 'Kanit', sans-serif;*/
 }
 
 h1 {
   text-align: center;
+  color: var(--vilkekk);
 }
 
 /*Menü*/
 nav {
-  border: 1px solid var(--zold);
   /*width: 1500px;
   float: center;
   margin: 0 auto;*/
+  background-color: var(--zoldkekk2);
 }
 ul#menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--feketeat);
 }
 ul#menu > li {
   float: left;
@@ -59,14 +74,16 @@ ul#menu > li {
 }
 ul#menu > li a {
   display: block;
-  color: white;
+  color: var(--alap);
   text-align: center;
   padding: 16px;
   text-decoration: none;
   min-width: 100px;
 }
 ul#menu > li a:hover {
-  background-color: var(--szurke);
+  transition: 0.25s ease;
+  background-color: var(--vilkekk);
+  color: var(--zoldkekk2);
   font-weight: bold;
 }
 ul#menu li#name {
@@ -78,29 +95,27 @@ ul#menu li#name {
 
 /*Tartalom*/
 div#tartalom {
-  margin: 10px auto;
-  border: 1px solid var(--pink2);
-  background-color: var(--feketeat);
   min-height: 100vh;
   padding: 0px 30px;
 }
-p#versions {
+div#versions {
   color: var(--alap);
-  border: 1px solid var(--zold);
-  background-color: var(--feketeat);
+  background-color: var(--zoldkekk2);
   margin: 0px;
   text-align: center;
   padding: 5px;
+  height: 52.8px;
 }
+/*Font-növelés*/
 
 /* Posztok */
 div.posztok {
-  border: 2px solid var(--szurke3);
+  border: 2px solid var(--vilszurke);
   margin: 30px auto;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px -1px #888888;
+  box-shadow: 2px 2px 5px -1px var(--vilkekk);
   max-width: 1000px;
-  background-color: var(--sotetszurke2);
+  background-color: var(--zoldkekk2);
 }
 div.posztok>h2, div.posztok>p {
   padding: 0px 10px;
@@ -109,14 +124,14 @@ div.posztok>h2 {
   color: var(--kek2);
   text-shadow: 0.5px 0.5px var(--kek);
   padding-bottom: 5px;
-  border-bottom: 1px solid var(--szurke2);
+  border-bottom: 1px solid var(--vilszurke);
   margin-top: 10px;
   text-align: center;
 }
 div.posztok p.datum {
   font-size: 80%;
   text-align: right;
-  color: #888888;
+  color: var(--vilszurke);
 }
 a {
   color: goldenrod;
@@ -126,29 +141,22 @@ a:hover{
   text-decoration: underline;
 }
 
-div.p_all {
-  color: var(--alap);
-  text-align: center;
-  width: 250px;
-  border: 2px solid red;
-  border-radius: 20px;
-  margin: 10px;
-  display: inline-block;
-  background-color: var(--szurke2);
-}
 div.tagok {
   color: var(--alap);
   text-align: center;
   width: 250px;
-  border: 2px solid var(--szurke3);
+  border: 2px solid var(--vilszurke);
   border-radius: 20px;
-  box-shadow: 2px 2px 5px -1px #888888;
+  box-shadow: 2px 2px 5px -1px var(--vilkekk);
   margin: 10px;
   display: inline-block;
-  background-color: var(--sotetszurke2);
+  background-color: var(--zoldkekk2);
 }
 div.tagok>h2 {
   text-align: center;
+}
+div.tagok hr {
+  border: 1px solid var(--vilszurke);
 }
 div.tagok img {
   height: 150px;
@@ -170,24 +178,24 @@ div.p_all {
   color: var(--alap);
   text-align: center;
   width: 250px;
-  border: 2px solid red;
+  border: 2px solid var(--vilszurke);
   border-radius: 20px;
   margin: 10px;
   display: inline-block;
-  background-color: var(--szurke2);
+  background-color: var(--zoldkekk2);
 }
 div.p_center > a > img:hover {
   opacity: 0.5;
   transition: .5s ease;
 }
 /* 'Nagyít'-ja a képet */
-/*div.p_center > a > .kiskep:hover {
+div.p_center > a > .kiskep:hover {
   transform: scale(1.1);
 }
 div.p_center {
   overflow: hidden;
   margin: 0 auto;
-}*/
+}
 /* transform: scale(1.1); <- img-re */
 .kiskep {
   width: 225px;
@@ -202,7 +210,6 @@ div.p_center {
 }
 p.p_up {
   font-weight: bold;
-  font-size: 18px;
   height: 20.5px;
   text-align: center;
   padding: 20px auto;
@@ -211,8 +218,8 @@ p.p_up {
   align-items: center;
 }
 p.p_down {
-  /*height: 61px;*/
   margin: 5px auto;
+  font-size: 16px;
 }
 
 /* Infók fül */
@@ -227,7 +234,7 @@ p.valasz {
   line-height: 1.3;
 }
 span#elerhetoseg {
-  color: #888888;
+  color: var(--vilszurke);
   font-style: italic;
 }
 span.semmi {
@@ -254,7 +261,6 @@ table#videos {
   text-align: center;
   max-width: 660px;
   border-collapse: collapse;
-  /*border-spacing: 30px 0px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -284,6 +290,7 @@ img#sad {
   margin: 0px;
   border: 1px solid white;
   min-height: 150px;
+  font-size: 16px;
 }
 
 ul#episodes {
@@ -295,7 +302,7 @@ ul#episodes {
 }
 ul#episodes > li {
   display: inline-block;
-  color: white;
+  color: var(--alap);
   text-align: center;
   padding: 5px;
   text-decoration: none;
@@ -303,6 +310,7 @@ ul#episodes > li {
   background-color: var(--sotetszurke);
   margin: 5px 10px;
   border: 1px groove var(--szurke2);
+  cursor: pointer;
 }
 td#video {
   min-height: 438px;
@@ -311,19 +319,20 @@ td#video {
 td#leiras {
   text-align: justify;
   min-height: 100px;
+  font-size: 16px;
 }
 td#leiras>p#lone {
   text-align: center;
   margin: 0px;
   text-decoration: underline;
-  border: 1px solid white;
+  border: 1px solid var(--alap);
   border-bottom: none;
 }
 td#leiras>p#ltwo {
   text-align: justify;
   margin: 0px;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--alap);
   border-top: none;
 }
 td#leiras a {
@@ -345,7 +354,6 @@ td#leiras a:hover {
 }
 #bttn1:hover {
   transition: 0.5s ease;
-  /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
   box-shadow: 0px 0px 2px 1px rgba(255, 250, 250, 0.5);
 }
 
@@ -368,3 +376,55 @@ td#leiras a:hover {
   max-width: 100%;
 }
 */
+
+/* Igazítás */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+/*
+@media screen and (max-width: 800px){
+  ul#menu > li {
+    display: block;
+    width: 100%;
+  }
+}
+*/
+
+/* Sushi-s feladatból átvett kód
+img {
+  width: 100%;
+}*/
+.container {
+  position: relative;
+  text-align: center;
+  color: var(--alap);
+}
+#fokep {
+  width: 100%;
+  height: 400px;
+}
+.kepcim {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #0e2828;
+  background-color: rgb(0, 60, 60, 0.7);
+  padding: 0 20px;
+  border-radius: 30px;
+  color: white;
+}
