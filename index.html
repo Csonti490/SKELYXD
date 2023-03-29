@@ -8,70 +8,82 @@
 	<meta name="description" content="SkelyXD Fansub Oldala | RWBY fordítások">
 	<meta name="keywords" content="RWBY, World of Remnant">
 	<meta name="author" content="CsontiXD">
-  <link rel="stylesheet" href="skelyxd_c.css" type="text/css">
   <link rel="icon" type="image/x-icon" href="images/skull.png">
   <title>SkelyXD Subs | Főoldal</title>
+  <style>
+    body {
+      text-align: justify;
+      background-image: url(images/background.jpg);
+      color: var(--alap);
+      border-radius: 25px;
+      font-size: 18px;
+      margin: 1px auto;
+      width: 80%;
+      max-width: 1500px;
+      min-width: 720px;
+      font-family: monospace;
+    }
+    h1 {
+      text-align: center;
+      color: #25b7fa;
+    }
+    .loading-text {
+      display: none;
+    }
+    div#bigline {
+      width: 80%;
+      border: 5px solid #292828;
+      top: 50%;
+      margin: 0 auto;
+    }
+    div#line {
+      background-color: rgb(31, 244, 31);
+      width: 0%;
+      height: 50px;
+    }
+    div#loading-all {
+      margin-top: 25%;
+    }
+    
+  </style>
 </head>
-<body>
-  <section class="background"></section>
-  <div class="loading-text">0%</div>
-  <script src="app.js"></script>
-  <h1 id="cim">Loading</h1>
-  <div id="bigline">
-    <div id="line"></div>
+<body onload="Loading()">
+
+  <div id="loading-all">
+    <div class="loading-text">0%</div>
+    <h1 id="cim">Loading</h1>
+    <div id="bigline">
+      <div id="line"></div>
+    </div>
   </div>
+  <script type="text/javascript">
+    function Loading(){
+      const loadText = document.querySelector(".loading-text");
+      let load = 0;
+      let inter = setInterval(blurring, 30);
+      let a = document.getElementById('line');
+      let b = document.getElementById('cim');
+      function blurring() {
+          load++;
+          if (load > 99) {
+              clearInterval(inter);
+          }
+          loadText.innerText = `${load}%`;
+          a.style.width = `${load}%`;
+          if (load == 30)
+            cim.innerText += ".";
+          if (load == 60)
+            cim.innerText += ".";
+          if (load == 90)
+            cim.innerText += ".";
+          if (load == 100) {
+            window.location.href = "/SKELYXD/skelyxd_h.html";
+          }
+      }
+    }
+    </script>
 </body>
 </html>
-
-<style>
-  div#line {
-    background-color: rgb(31, 244, 31);
-    width: 0%;
-    height: 50px;
-  }
-  div#bigline {
-    width: 80%;
-    border: 5px solid #292828;
-    top: 50%;
-    margin: 0 auto;
-  }
-  .loading-text {
-    display: none;
-  }
-</style>
-
-<script type="text/javascript">
-const loadText = document.querySelector(".loading-text");
-// document.querySelector("KeresettElemOsztálya");
-let load = 0;
-let inter = setInterval(blurring, 30);
-let a = document.getElementById('line');
-let b = document.getElementById('cim');
-//setInterval(MiTörténjen, HányEzredmásodpercenként)
-function blurring() {
-    load++; //Így nő majd a % érték
-    if (load > 99) { //"Ha elérjük a 100%-ot"
-        clearInterval(inter); //SetInterval megtörése
-    }
-    loadText.innerText = `${load}%`;//AltGr+7 idézőjel
-    //loadText.style.opacity = scale(load,0,100,1,0);
-    a.style.width = `${load}%`;
-    if (load == 30)
-      cim.innerText += ".";
-    if (load == 60)
-      cim.innerText += ".";
-    if (load == 90)
-      cim.innerText += ".";
-    if (load == 100) {
-      window.location.href = "/SKELYXD/skelyxd_h.html";
-    }
-}
-
-/*const scale = (num, in_min, in_max, out_min, out_max) => {
-    return ((num-in_min)*(out_max-out_min))/(in_max-in_min)+out_min;
-};*/
-
-</script>
 
 <!--
 <p>Redirecting...</p>

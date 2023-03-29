@@ -291,7 +291,7 @@ function EpisodeDefault(){
     let pagination = ``;
     for(let i = 0; i < videoSources.series[(+localStorage.getItem('result')) - 1].episodes.length; i++){
         pagination += `
-            <li onmouseover="hover(this)" onmouseout="hoverOff(this)" class="target" onclick="EpisodeChange(${(+i + 1)})">${i + 1}. rész</li>
+            <li class="target" onclick="EpisodeChange(${(+i + 1)})">${i + 1}. rész</li>
         `;
     }
     document.getElementById("episodes").innerHTML = pagination;
@@ -337,16 +337,6 @@ function EpisodeChange(n) {
     // alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].sourceCode}`); // <- Kiválasztott sorozat, kiválasztott epizódjának source code-ja.
 }
 
-
-function hover(element)
-{
-    element.style.backgroundColor = "red";
-}
-function hoverOff(element)
-{
-    element.style.backgroundColor = "var(--zoldkekk3)";
-}
-
 function Mehet(adat){
     document.getElementById("episodeTitle").innerHTML = `Előzetes`;
     //document.getElementById("video").innerHTML = `${adat}`;
@@ -360,3 +350,20 @@ function Vissza(){
     document.getElementById("episodes").style.display="block";
 }
 //https://www.w3schools.com/jsref/prop_style_display.asp
+
+function ISeeYou(n){
+    const a = document.getElementsByClassName("whatisthis")[n];
+    const b = document.getElementsByClassName("ISeeYouButton")[n];
+    /*if(a.style.display == "inline")
+        a.style.display = "none";
+    else
+        a.style.display = "inline";*/
+    a.style.display == "inline" ? a.style.display = "none" : a.style.display = "inline";
+    
+    /*b.innerText = "Hide" ? b.innerText = "Katt" : b.innerText = "Hide";*/
+
+
+    /*b.addEventListener('click', function handleClick() {
+        b.textContent = 'Button clicked';
+      });*/
+}
