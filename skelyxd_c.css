@@ -46,9 +46,7 @@ body {
   border-radius: 25px;
   font-size: 18px;
   margin: 1px auto;
-  /*max-width: 80%;*//*ezitt*/
-  width: 80%;/*ezitt*/
-  max-width: 1050px;/*ezitt*/
+  max-width: 80%;/*ezitt*/
   min-width: 720px;
   box-shadow: 1px 1px 50px var(--vilkekk);
   /*font-family: 'Noto Sans', sans-serif;*/
