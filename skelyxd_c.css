@@ -54,7 +54,7 @@ body {
   /*font-family: 'Alkatra', cursive;*/
   /*font-family: 'Kanit', sans-serif;*/
   font-family: 'Rajdhani', sans-serif;
-  /*font-family: monospace;*/
+  /*font-family: 'Space Mono', monospace;*/
 }
 
 h1 {
@@ -65,7 +65,7 @@ h1 {
 }
 
 p {
-  font-family: monospace;
+  font-family: 'Space Mono', monospace;
 }
 
 /*Menü*/
