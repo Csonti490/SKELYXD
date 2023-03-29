@@ -8,9 +8,9 @@ var iimmgg = `<img src="images/sad.jpg" alt="Nincs elérhető videó" id="sad">`
 var videoSources = {
     series: [
         {
-            title: "RWBY 5. évad",
+            title: "RWBY 5. fejezet",
             ti: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
-            de: `<img src="images/v5.jpg" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.évad.</p>`,
+            de: `<img src="images/v5.jpg" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=5 - részenként rövid leírás
                 {
                     title: "Welcome to Haven / Üdv Haven-ben",
@@ -179,7 +179,7 @@ var videoSources = {
             ]
         },
         {
-            title: "RWBY 9. évad",
+            title: "RWBY 9. fejezet",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
             de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Ugrás a videóhoz</a></p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=9
@@ -245,17 +245,17 @@ var videoSources = {
         {
             title: "Zenék",
             ti: "Szinopszis",
-            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.évad, RWBY 8.évad, RWBY 9.évad, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
+            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
             episodes: [
                 {
                     title: "RWBY: The Triumph",
                     sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/9HcEHMDQSFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 5.évad Openingje. "The Triumph"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
+                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 5.fejezet Openingje. "The Triumph"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
                 },
                 {
                     title: "RWBY: For Every Life",
                     sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/yel_We3OW7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 8.évad Openingje. "For Every Life"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
+                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 8.fejezet Openingje. "For Every Life"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
                 },
                 {
                     title: "Shokei Shoujo no Virgin Road: Paper Bouquet",
@@ -265,7 +265,7 @@ var videoSources = {
                 {
                     title: "RWBY: Inside",
                     sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="660" height="380" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.évad Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p></td>`
+                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.fejezet Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p></td>`
                 }
             ]
         }
