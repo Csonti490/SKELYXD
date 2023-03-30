@@ -15,42 +15,42 @@ var videoSources = {
                 {
                     title: "Welcome to Haven / Üdv Haven-ben",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/DotiWZaT#5nAO0LmbY2pdqqJ5c5H7RV6fbEwD6kJKYjUOF9eY4cQ" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>After a long and arduous journey, Team RNJR and Qrow finally meet with Professor Lionheart, Weiss continues to flee from her father, Blake confronts Ilia about her alliegence to the White Fang and Yang finds a lead to her mother.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Egy hosszú és fárasztó út után a RNJR csapat és Qrow végre találkozik Lionheart Professzorral. Weiss továbbra is menekül apja elől, Blake szembesíti Aliát a "White Fang"-el való szővetségével kapcsolatban, Yang pedig nyomra bukkan az anyjával kapcsolatban.</p></td>`
                 },
                 {
                     title: "Dread in the air / Rettegés a levegőben",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/q5UXQbhZ#jVB8zhyYF4OpKk3lYcLz62gzPZkaA2l2Hy8F4McoIK8" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Weiss' path to Haven is blocked by a swarm of Lancers ambushing any aircraft in their territory. Adam meets with the White Fang's leader, Sienna Khan to introduce Hazel.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Weiss útját Haven felé a Lancerek raja blokkolja, akik lesből támadnak a területüket átszelő repülőgépekre. Adam találkozik a "White Fang" vezetőjével, Sienna Khannal, hogy bemutassa Hazelt.</p></td>`
                 },
                 {
                     title: "Unforeseen Complications / Váratlan bonyodalmak",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/m9NS3bRb#cDIs-KxG9CbOxZrv8YHAO7a5iCOyS8hqxy40NlMv5Pc" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ghira and Blake's attempt to convince the Faunus of Menagerie to help save Haven are interrupted by Ilia. Weiss' captors reveal their plans to ransom her back to her father. Team RNJR learn more about Oscar's strange ability.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ilia félbeszakítja Ghira és Blake kísérletét, hogy meggyőzzék a Menagerie Faunusait, hogy segítsenek megmenteni Havent. Weiss fogvatartói felfedik terveiket, hogy visszaváltsák őt apjának. Eközben az RNJR csapat többet tud meg Oscar furcsa képességéről.</p></td>`
                 },
                 {
                     title: "Lighting the Fire / A Tűz Meggyújtása",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/O1dyFJ5L#lzcIivNTZbJINt43e79DkkG1hss6y986pSx41wUngaM" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ruby and Oscar begin training in hand-to-hand combat. Yang finds Raven's camp, but the discovery of Weiss' kidnapping sours their reunion.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ruby és Oscar elkezdenek edzeni a kézi harcban. Yang megtalálja Raven táborát, de Weiss elrablásának felfedezése megnehezíti a találkozásukat.</p></td>`
                 },
                 {
                     title: "Necessary Sacrifice / Szükséges Áldozat",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/upEiWTAb#xEbLHhiAdeNQU6d3wbh_FbpoLPWPOUOaQ4KRlMTz6vA" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Blake és Sun nem kap elég aláírást a Haven Academy megmentésére irányuló petíciójukhoz. Ilia parancsot kap az Albain testvérektől, hogy gyilkolják meg Blake szüleit és fogják el Blake-et.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Blake és Sun nem kap elég aláírást a Haven Akadémia megmentésére irányuló petíciójukhoz. Mindeközben Ilia parancsot kap az Albain testvérektől, hogy gyilkolják meg Blake szüleit és fogják el Blake-et.</p></td>`
                 },
                 {
                     title: "Known by its Song / Felismerni a Daláról",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WhVh2IoR#dXSP9JLHjfBFpBEQ8uxHruO8zm70ijK3yxUdXoLHEKo" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Raven elmagyarázza Yangnak és Weissnek Ozpin iránti bizalmatlanságát, miután tudomást szerzett Salem létezéséről. Bizonyítékként megmutatja alakváltó képességét, és választási lehetőséget kínál Yangnak, hogy vele maradjon. Yang és Weiss úgy dönt, hogy elmennek, és újra összefognak Rubyval.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Raven elmagyarázza Yangnak és Weissnak Ozpin iránti bizalmatlanságát, miután tudomást szerzett Salem létezéséről. Bizonyítékként megmutatja alakváltó képességét, és választási lehetőséget kínál Yangnak, hogy vele maradjon. De Yang és Weiss úgy dönt, hogy elmennek, és újra összefognak Rubyval.</p></td>`
                 },
                 {
                     title: "Rest and Resolutions / Pihenés és Állásfoglalások",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/D0FVWJYb#pZH6Aq0nQax-dgnH-pF2KnijCFfifJorQGxdEwtc4A8" allowfullscreen ></iframe> `,
-                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">Yang szembesíti Ozpint azzal, hogy mágiát használ Qrow-n és Ravenen, aki mindent elárul hatalmáról és a Hajadonok-ról. Eközben Cinder, Watts, Mercury és Emerald megérkezik Raven táborába.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">Yang szembesíti Ozpint azzal, hogy mágiát használt Qrow-n és Ravenen, aki mindent elárul hatalmáról és a Hajadonok-ról. Eközben Cinder, Watts, Mercury és Emerald megérkezik Raven táborába.</p></td>`
                 },
                 {
                     title: "Alone Together / Egyedül Együtt",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/uwciRSLQ#j9WYHnDoAj9rHMJEePpvRNJ6VeMH2_Wqj5TGlUmUbak" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">Az érzelmek fokozódnak, ahogy Ruby és Weiss rájön, hogy Yang még nem bocsátott meg Blake-nek. Illia belső konfliktusa egyre nő. Blake rájön, hogy a családja veszélyben van.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">Az érzelmek fokozódnak, ahogy Ruby és Weiss rájön, hogy Yang még nem bocsátott meg Blake-nek. Ilia belső konfliktusa egyre nő. Blake rájön, hogy a családja veszélyben van.</p></td>`
                 },
                 {
                     title: "A Perfect Storm / A Tökéletes Vihar",
@@ -58,27 +58,27 @@ var videoSources = {
                     desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">Raven táborát Cinder bandája megtámadja, miközben a Tavasz Hajadon után kutatnak. Ilia hagy egy levelet Blake-nek, amelyben arra kéri, hogy találkozzon vele titokban.</p></td>`
                 },
                 {
-                    title: "True Colors / ?",
+                    title: "True Colors / Igaz Színek",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">Blake attempts to reason with Ilia as Ghira and Sun fight Corsac and Fennec.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">Blake próbálja érvekkel meggyőzni Iliát, miközben Ghira és Sun - Corsac és Fennec ellen küzd.</p></td>`
                 },
                 {
-                    title: "The More the Merrier / ?",
+                    title: "The More the Merrier / Minél Több, annál Jobb",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">Ruby and the rest of the gang meet with Professor Lionheart at Haven Academy, unaware that they are walking right into a trap.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">Ruby és a banda többi tagja találkozik Lionheart Professzorral a Haven Akadémián, és nem is sejtik, hogy épp csapdába sétálnak.</p></td>`
                 },
                 {
-                    title: "Vault of the Spring Maiden / ?",
+                    title: "Vault of the Spring Maiden / A Tavasz Hajadon Pincéje",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">Hazel's past is brought to light. Jaune discovers something about himself. Raven, Vernal, and Cinder enter the Vault.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">Hazel múltja napvilágra kerül. Jaune felfedez valamit magáról. Raven, Vernal és Cinder belép az alagsorba.</p></td>`
                 },
                 {
-                    title: "Downfall / ?",
+                    title: "Downfall / Bukás",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">13. rész rövid leírása</p><p id="ltwo">Ruby distracts Emerald and Mercury so Yang cam pursue Raven and Cinder. Adam prepares to destroy the school, but Blake arrives with the rest of the Faunus to take him into custody.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">13. rész rövid leírása</p><p id="ltwo">Ruby elvonja Emerald és Mercury figyelmét, így Yang üldözőbe vehette Ravent és Cindert. Adam arra készül, hogy lerombolja az iskolát, de Blake megérkezik a többi faunussal, hogy őrizetbe vegyék.</p></td>`
                 },
                 {
-                    title: "Haven's Fate / ?",
+                    title: "Haven's Fate / Haven Sorsa",
                     sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald breaks down upon learning of Cinder's defeat while Adam and Lionheart flee, forcing Mercury and Hazel to retreat. Despite brief tension in Yang, Blake is welcomed back by RWBY.</p></td>`
                 }
@@ -102,72 +102,72 @@ var videoSources = {
                 {
                     title: "Grimm / Grimm",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">Egy kiegészítő sorozat harmadik epizódja, amely a Remnant történetét és tudományát taglalja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A rész amely a Remnant világának történetét és tudományát taglalja. Ez az epizód Grimm szörnyű lényeit vizsgálja.</p></td>`
                 },
                 {
                     title: "Aura / Aura",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">This episode examines the powerful effects of Aura, a powerful force that can be wielded by all living creatures for both defence and offence.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Ez az epizód az Aura erőteljes hatásait vizsgálja, egy olyan hatalmas erőt, amelyet minden élőlény védekezésre és támadásra egyaránt fel tud használni.</p></td>`
                 },
                 {
-                    title: "Vytal Festival Tournament / ?",
+                    title: "Vytal Festival Tournament / Vytal Fesztivál Torna",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Delves into the history and purpose of the Vytal Festival Tournament.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Belemerülünk a "Vytal Fesztivál Torna" történetébe és céljába.</p></td>`
                 },
                 {
-                    title: "Huntsmen / ?",
+                    title: "Huntsmen / Vadászok",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">The occupation of Huntsmen and Huntresses, describing the purpose of their careers and the Academies themselves. It also introduces some of the Academies that the Huntsmen-in-training attend.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">A Vadászok és Vadásznők foglalkozása, leírva pályájuk célját és magukat az Akadémiákat. Bemutat néhány akadémiát is, amelyeken a vadászok képzésén lévők résztvesznek.</p></td>`
                 },
                 {
-                    title: "Cross Continental Transmit System / ?",
+                    title: "Cross Continental Transmit System / Kontinentális Átviteli Rendszer",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">The history and capabilities of the Cross Continental Transmit System, the vital wireless communication network that allows the Kingdoms to communicate with one another.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">A "Cross Continental Transmit System" története és képességei, a létfontosságú vezeték nélküli kommunikációs hálózat, amely lehetővé teszi a királyságok számára, hogy kommunikálni tudjanak egymással.</p></td>`
                 },
                 {
-                    title: "The Four Maidens / ?",
+                    title: "The Four Maidens / A Négy Hajadon",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">An old wizard, who lives alone in the mountains, is visited by four sisters, who each in their own unique ways are kind to him. The first, Winter, encourages him to meditate and reflect; the second, Spring, brings him fruit and flowers and revitalizes his garden; the third, Summer, convinces him to step outside and embrace the world; and the fourth, Fall, urges him to be thankful for what he has. Moved by their kindness, the old man gives the four sisters great powers so that they may go throughout Remnant continuing to share their gifts. The four sisters promise to return and visit him yearly.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">Egy öreg varázslót, aki egyedül él a hegyekben, meglátogat négy nővér, akik a maguk egyedi módján kedvesek hozzá. Az első, Winter/Tél, meditációra és elmélkedésre ösztönzi; a második, a Spring/Tavasz, gyümölcsöt és virágot hoz neki, és újjáéleszti a kertjét; a harmadik, Summer/Nyár, meggyőzi őt, hogy lépjen ki, és ölelje át a világot; a negyedik pedig, a Fall/Ősz, arra készteti, hogy legyen hálás azért, amije van. Az öregúr a kedvességüktől meghatva nagy hatalmat ad a négy nővérnek, hogy továbbmenjenek a Remnant világán, és továbbra is megosszák ajándékaikat. A négy nővér megígéri, hogy évente visszatérnek és meglátogatják.</p></td>`
                 },
                 {
                     title: "Vale / Vale",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">The kingdom of Vale and the territory it covers.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">Vale királysága és az általa lefedett területek.</p></td>`
                 },
                 {
                     title: "Mistral / Mistral",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">The kingdom of Mistral and its cultural heritage, including its cultured upper class and well-resourced underground. Two of Mistral's outlying cities, Windpath and Kuchinashi, are mentioned.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">Mistral királysága és kulturális öröksége, beleértve a kulturált felső osztályt és a jól felszerelt földalattit. Mistral két távoli városát, Windpath-ot és Kuchinasi-t említik.</p></td>`
                 },
                 {
                     title: "Atlas / Atlas",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">The Kingdom of Atlas, originally known as Mantle. Founded by settlers who traveled north to the barren, cold continent of Solitas, the people of Mantle were protected from the Grimm by the hostile climate, but were also forced to adapt quickly in order to survive. They quickly learned to utilize Dust and other technologies. Following the end of the Great War, Atlas Academy was founded to the north of the original city of Mantle. The Academy and its grounds soon grew to overshadow Mantle and eventually became the new capital and namesake of the Kingdom.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">Az Atlas Királysága, eredeti nevén Mantle. Az északra, Solitas kopár, hideg kontinensére utazó telepesek alapították, Mantle lakosságát a zord éghajlat védte a Grimmektől, de a túlélés érdekében gyorsan alkalmazkodni kényszerültek. Gyorsan megtanulták használni a Port és más technológiákat. A Nagy Háború végét követően az Atlas Akadémiát az eredeti Mantle városától északra alapították. Az Akadémia és területei hamarosan Mantle-t beárnyékolták, és végül a Királyság új fővárosává és névadójává váltak.</p></td>`
                 },
                 {
                     title: "Vacuo / Vacuo",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">The history of the kingdom of Vacuo. A one-time hidden paradise, Vacuo was conquered by the other kingdoms and turned into one of the hardest places to live on Remnant.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">Vacuo királyságának története. Egykor rejtett paradicsom volt. De Vacuo-t a többi királyság meghódította, és ezt követően Remnant egyik legnehezebben élhető helyévé változott.</p></td>`
                 },
                 {
-                    title: "Between Kingdoms / ?",
+                    title: "Between Kingdoms / Királyságok között",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">13. rész rövid leírása</p><p id="ltwo">Showcases Remnant outside of the main Kingdoms, including the reasons why villages exist and the dangers they have to face.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">13. rész rövid leírása</p><p id="ltwo">Bemutatja a főbb királyságokon kívüli helyeket Renmant világában, beleértve a falvak létezésének okait és a veszélyeket, amelyekkel szembe kell nézniük.</p></td>`
                 },
                 {
                     title: "Faunus / Faunus",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">History of Faunus, their genetics, and their relationship with humans.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Faunus története, genetikájuk és az emberekkel való kapcsolatuk.</p></td>`
                 },
                 {
-                    title: "Schnee Dust Company / ?",
+                    title: "Schnee Dust Company / Schnee Por Vállalat",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">15. rész rövid leírása</p><p id="ltwo">The shady backstory of Remnant's most renowned dust company.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">15. rész rövid leírása</p><p id="ltwo">A Remnant leghíresebb Por cégének árnyas háttértörténete.</p></td>`
                 },
                 {
-                    title: "The Great War / ?",
+                    title: "The Great War / A Nagy Háború",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">16. rész rövid leírása</p><p id="ltwo">Qrow continues to narrate more into the World of Remnant, this time talking about a massive war that changed the world forever. While also giving more of an insight as to why the world is in its current state.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">16. rész rövid leírása</p><p id="ltwo">Qrow továbbra is többet mesél a Remnant világáról, ezúttal egy hatalmas háborúról beszél, amely örökre megváltoztatta a világot. Egyben jobban betekintést nyújt abba is, hogy miért van a világ a jelenlegi állapotában.</p></td>`
                 }
             ]
         },
@@ -191,27 +191,27 @@ var videoSources = {
                 {
                     title: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Amelyben az RWBY csapat többet kap, mint amennyiért elcserélték.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p></td>`
                 },
                 {
-                    title: "Rude, Red, and Royal / ?",
+                    title: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
                     sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">Amelyben megszegik a játékszabályokat.</p></td>`
                 },
                 {
-                    title: "A Cat Most Curious / ?",
+                    title: "A Cat Most Curious / A Legkíváncsibb Macska",
                     sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p></td>`
                 },
                 {
-                    title: "The Parfait Predicament / ?",
+                    title: "The Parfait Predicament / A tökéletes kínos helyzet",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">In which a dessert is assembled.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Amelyben egy desszert van összeállítva.</p></td>`
                 },
                 {
-                    title: "Confessions Within Cumulonimbus Clouds / ?",
+                    title: "Confessions Within Cumulonimbus Clouds / Vallomások a gomolyfelhőkben",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">In which old friends reunite.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Amelyben a régi barátok újraegyesülnek.</p></td>`
                 },
                 {
                     title: "? / ?",
