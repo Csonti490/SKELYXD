@@ -8,9 +8,297 @@ var iimmgg = `<img src="images/sad.jpg" alt="Nincs elérhető videó" id="sad">`
 var videoSources = {
     series: [
         {
+            title: "RWBY: 1.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v1.jpg" class="kiskep2"><p id ="soriinfo">A young hero, an exalted heiress, a troubled rogue, and a party girl- These are the four members of RWBY, a team brought together and trained for the sole purpose of combating the rampant evils that plague the fantastic world of Remnant. If these four girls want to graduate Beacon Academy they'll have to learn to work together both on the battlefield and in the classroom.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a>, <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a> fordította.</p>`,
+            episodes: [
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">13. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">15. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">16. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Chihana" title="Chihana csatija (Indavideó)" target="_blank">Chihana</a><br>-Leírás-</p></td>`
+                },
+            ]
+        },
+        {
+            title: "RWBY: 2.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v2.jpg" class="kiskep2"><p id ="soriinfo">Team RWBY is back and ready for their second semester at Beacon, but real life doesn't stop there. Between classes and homework, they still have to find time to save the world. And between the White Fang, Roman Torchwick, and a mysterious new trio, they certainly have their work cut out for them!<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a> fordította.</p>`,
+            episodes: [
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                }
+            ]
+        },
+        {
+            title: "RWBY: 3.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v3.jpg" class="kiskep2"><p id ="soriinfo">The Vytal Festival Tournament is the ultimate battle of skill, pitting the world's most powerful Huntsmen and Huntresses in training against one another... and it's finally here! Ruby, Weiss, Blake, and Yang are back for a season of over-the-top action, and they're not alone. New fighters from around Remnant are ready to bring glory to their Kingdom, but there are those among them with a far more sinister goal in mind.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a> fordította.</p>`,
+            episodes: [
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a><br>-Leírás-</p></td>`
+                }
+            ]
+        },
+        {
+            title: "RWBY: 4.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v4.jpg" class="kiskep2"><p id ="soriinfo">It's been several months since the Fall of Beacon, and the world of Remnant is still recovering. Tensions are high, lives have been lost, and the members of Team RWBY... are divided. Each of our heroines now faces a journey of their own.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította.</p>`,
+            episodes: [
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">11. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">12. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>-Leírás-</p></td>`
+                }
+            ]
+        },
+        {
             title: "RWBY 5. fejezet",
             ti: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
-            de: `<img src="images/v5.jpg" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>`,
+            de: `<img src="images/v5.jpg" class="kiskep2"><p id ="soriinfo">A RNJR csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=5 - részenként rövid leírás
                 {
                     title: "Welcome to Haven / Üdv Haven-ben",
@@ -80,7 +368,151 @@ var videoSources = {
                 {
                     title: "Haven's Fate / Haven Sorsa",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald breaks down upon learning of Cinder's defeat while Adam and Lionheart flee, forcing Mercury and Hazel to retreat. Despite brief tension in Yang, Blake is welcomed back by RWBY.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p></td>`
+                }
+            ]
+        },
+        {
+            title: "RWBY: 6.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v6.jpg" class="kiskep2"><p id ="soriinfo">évad</p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "RWBY: 7.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v7.jpg" class="kiskep2"><p id ="soriinfo">évad</p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "RWBY: 8.fejezet",
+            ti: "Szinopszis",
+            de: `<img src="images/v8.jpg" class="kiskep2"><p id ="soriinfo">évad</p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "RWBY 9. fejezet",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
+            de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Ugrás a videóhoz</a></p>`,
+            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=9
+                {
+                    title: "A Place of Particular Concern / A Különös Aggodalmas Hely",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p></td>`
+                },
+                {
+                    title: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p></td>`
+                },
+                {
+                    title: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">Amelyben megszegik a játékszabályokat.</p></td>`
+                },
+                {
+                    title: "A Cat Most Curious / A Legkíváncsibb Macska",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p></td>`
+                },
+                {
+                    title: "The Parfait Predicament / A tökéletes kínos helyzet",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Amelyben egy desszert van összeállítva.</p></td>`
+                },
+                {
+                    title: "Confessions Within Cumulonimbus Clouds / Vallomások a gomolyfelhőkben",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Amelyben a régi barátok újraegyesülnek.</p></td>`
+                },
+                {
+                    title: "The Perils of Paper Houses / A Papírházak Veszedelmei",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">In which plans and schedules are made.</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.08.</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.15.</p></td>`
+                },
+                {
+                    title: "? / ?",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.22.</p></td>`
+                }
+            ]
+        },
+        {
+            title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
+            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
+            episodes: [
+            ]
+        },
+        {
+            title: "Trailers",
+            ti: "Szinopszis", //https://rwby.fandom.com/wiki/Trailers
+            de: `<img src="images/rwby_team.png" class="kiskep2"><p id ="soriinfo">Four trailers were released leading up to the premiere of RWBY. Unlike regular previews, the trailers for RWBY were not cut using animation from the series, instead being original self-contained animated short films that told their own unique stories. In this sense, they acted more like prequels for the series proper than actual trailers.<br><br>Each trailer is referred to by a certain color and letter and features a character corresponding to those themes, revealing a little about the central characters' backstory. For example, the "Red", or "R", Trailer featured the character Ruby Rose. </p>`,
+            episodes: [
+                {
+                    title: "Red Trailer",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">Red like roses fills my dreams and brings me to the place you rest...</p></td>`
+                },
+                {
+                    title: "White Trailer",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Everyone is entitled to their own sorrow, for the heart has no metrics or forms of measure. And all of it... irreplaceable.</p></td>`
+                },
+                {
+                    title: "Black Trailer",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">Your hopes have become my burden. I will find my own liberation...</p></td>`
+                },
+                {
+                    title: "Yellow Trailer",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Scathing eyes ask that we be symmetrical, one sided and easily processed. Yet every misshapen spark's unseen beauty is greater than its would be judgement.</p></td>`
+                },
+            ]
+        },
+        {
+            title: "Shorts",
+            ti: "Szinopszis",
+            de: `<img src="images/rwby_team_emblems.jpg" class="kiskep2"><p id ="soriinfo">- Nincs elérhető leírás -</p>`,
+            episodes: [
+                {
+                    title: "Volume 4 Character Short",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">It's been several months since the Fall of Beacon, and the world of Remnant is still recovering. Tensions are high, lives have been lost, and the members of Team RWBY... are divided. Each of our heroines now faces a journey of their own.</p></td>`
+                },
+                {
+                    title: "Volume 5 Weiss Character Short",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">All her life, Weiss Schnee has lived a privileged and pampered life... but it did not come without its own hardships.</p></td>`
+                },
+                {
+                    title: "Volume 5 Blake Character Short",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">The White Fang was once a peaceful organization fighting for true equality for the Faunus. Over the years, however, many members began to favor violent and extreme tactics in order to demand respect from the humans of Remnant. Though Blake Belladonna eventually decided to leave the White Fang and its growing acts of terror, not all of her friends made the same decision.</p></td>`
+                },
+                {
+                    title: "Volume 5 Yang Character Short",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">You know that Ruby is unstoppable with her scythe, but Yang knows the true power of hand-to-hand combat. In the midst of a weapon-free training session, can Yang convince her sister of the importance of fighting without a weapon?</p></td>`
+                },
+                {
+                    title: "Volume 6 Adam Character Short",
+                    sourceCode: iimmgg,
+                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Willing to strike down anyone who gets in the way of his twisted version of justice, Adam has declared to fight for the rights of his people, but over the years he's strayed further and further from these idealistic claims. He's a dangerous combination of ferocity and delusion who's [sic] only goal is to torment his ex-partner, Blake Belladonna, whom he considers to be responsible for his fall from power.</p></td>`
                 }
             ]
         },
@@ -179,70 +611,6 @@ var videoSources = {
             ]
         },
         {
-            title: "RWBY 9. fejezet",
-            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
-            de: `<img src="images/v9.jpg" class="kiskep2"><p id ="soriinfo">Kezdés dátuma (Crunchyroll-on): 2023. február 18.<br><br>A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.<br><br>Magyar feliratos előzetes: <a  title="Magyar feliratos előzetes" onclick="Mehet('https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0')">Ugrás a videóhoz</a></p>`,
-            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=9
-                {
-                    title: "A Place of Particular Concern / A Különös Aggodalmas Hely",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p></td>`
-                },
-                {
-                    title: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p></td>`
-                },
-                {
-                    title: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">Amelyben megszegik a játékszabályokat.</p></td>`
-                },
-                {
-                    title: "A Cat Most Curious / A Legkíváncsibb Macska",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p></td>`
-                },
-                {
-                    title: "The Parfait Predicament / A tökéletes kínos helyzet",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Amelyben egy desszert van összeállítva.</p></td>`
-                },
-                {
-                    title: "Confessions Within Cumulonimbus Clouds / Vallomások a gomolyfelhőkben",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Amelyben a régi barátok újraegyesülnek.</p></td>`
-                },
-                {
-                    title: "? / ?",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">7. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.01.</p></td>`
-                },
-                {
-                    title: "? / ?",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.08.</p></td>`
-                },
-                {
-                    title: "? / ?",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.15.</p></td>`
-                },
-                {
-                    title: "? / ?",
-                    sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.22.</p></td>`
-                }
-            ]
-        },
-        {
-            title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
-            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
-            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
-            episodes: [
-            ]
-        },
-        {
             title: "Zenék",
             ti: "Szinopszis",
             de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
@@ -272,6 +640,10 @@ var videoSources = {
     ]
 }
 
+
+
+/*..............................................................................................................................................*/
+
 function FirstLoad(){
     localStorage.setItem('result_was_set', true);
     if((localStorage.getItem('result_was_set') === "false")) localStorage.setItem('result', 0);
@@ -298,6 +670,31 @@ function EpisodeDefault(){
 
 }
 
+/*
+Most:
+    5 -> 1
+    Remnant -> 2
+    Fairy Tales -> 3
+    9 -> 4
+    RWBY x JL -> 5
+    Zenék -> 6
+Kéne:
+    1 -> 1
+    2 -> 2
+    3 -> 3
+    4 -> 4
+    5 -> 5
+    6 -> 6
+    7 -> 7
+    8 -> 8
+    9 -> 9
+    RWBY x JL -> 10
+    Trailers -> 11
+    Shorts -> 12
+    Remnant -> 13
+    Fairy Tales -> 14
+    Zene - 15
+*/
 function ProjectChange(n) {
     localStorage.removeItem('result');
     switch (n){
@@ -318,6 +715,33 @@ function ProjectChange(n) {
             break;
         case 6:
             localStorage.setItem('result', 6);
+            break;/*itt volt a vége*/
+        case 7:
+            localStorage.setItem('result', 7);
+            break;
+        case 8:
+            localStorage.setItem('result', 8);
+            break;
+        case 9:
+            localStorage.setItem('result', 9);
+            break;
+        case 10:
+            localStorage.setItem('result', 10);
+            break;
+        case 11:
+            localStorage.setItem('result', 11);
+            break;
+        case 12:
+            localStorage.setItem('result', 12);
+            break;
+        case 13:
+            localStorage.setItem('result', 13);
+            break;
+        case 14:
+            localStorage.setItem('result', 14);
+            break;
+        case 15:
+            localStorage.setItem('result', 15);
             break;
     }
 }
@@ -353,17 +777,23 @@ function Vissza(){
 
 function ISeeYou(n){
     const a = document.getElementsByClassName("whatisthis")[n];
-    const b = document.getElementsByClassName("ISeeYouButton")[n];
-    /*if(a.style.display == "inline")
-        a.style.display = "none";
-    else
-        a.style.display = "inline";*/
     a.style.display == "inline" ? a.style.display = "none" : a.style.display = "inline";
-    
-    /*b.innerText = "Hide" ? b.innerText = "Katt" : b.innerText = "Hide";*/
-
-
-    /*b.addEventListener('click', function handleClick() {
-        b.textContent = 'Button clicked';
-      });*/
 }
+var db = 0;
+function ProjectHide(){
+    const p = document.getElementsByClassName("pallhide");
+
+    if(db == 0){
+        for (var i = 0; i < p.length; ++i) {
+            p[i].style.display = "inline-block";
+        }
+        db++;
+    }
+    else {
+        for (var i = 0; i < p.length; ++i) {
+            p[i].style.display = "none";
+        }
+        db=0;
+    }
+    
+}// Most : 400 sor - 04.06.

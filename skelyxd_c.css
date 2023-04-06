@@ -45,8 +45,8 @@ body {
   border-radius: 25px;
   font-size: 18px;
   margin: 1px auto;
-  width: 80%;/*ezitt - mw*/
-  max-width: 1500px;/*ezitt*/
+  width: 80%;
+  max-width: 1500px;
   min-width: 720px;
   box-shadow: 1px 1px 50px var(--vilkekk);
   /*font-family: 'Noto Sans', sans-serif;*/
@@ -88,16 +88,12 @@ h1 {
   
 }
 .kepcim h1#name {
-  /*font-size: 3.5vw;*/
   font-size: 40px;
   color: white;
   text-shadow: rgb(255, 250, 250, 0.3);
   padding: 0px 30px;
 }
 nav {
-  /*width: 1500px;
-  float: center;
-  margin: 0 auto;*/
   background-color: var(--zoldkekk2);
 }
 ul#menu {
@@ -126,6 +122,21 @@ ul#menu > li a:hover {
 }
 
 /*Tartalom*/
+.kiskep3 {
+  height: 250px;
+  width: 160px;
+  display: inline-block;
+  border: 2px solid white;
+  margin: 10px;
+}
+.cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ccc {
+  padding: 10px;
+}
 div#tartalom {
   min-height: 100vh;
   padding: 0px 30px;
@@ -140,7 +151,6 @@ div#versions {
   height: 52.8px;
   border-radius: 0px 0px 25px 25px;
 }
-/*Font-növelés*/
 
 /* Posztok */
 div.posztok {
@@ -155,8 +165,7 @@ div.posztok>h2, div.posztok>p {
   padding: 0px 10px;
 }
 div.posztok>h2 {
-  color: var(--vilkekk);/**/
-  /*text-shadow: 0.5px 0.5px var(--kek);*/
+  color: var(--vilkekk);
   padding-bottom: 5px;
   border-bottom: 1px solid var(--vilszurke);
   margin-top: 10px;
@@ -177,7 +186,7 @@ a {
 a:hover{
   text-decoration: underline;
 }
-
+/* Tagok fül */
 div.tagok {
   color: var(--alap);
   text-align: center;
@@ -222,6 +231,10 @@ div.p_all {
   background-color: var(--zoldkekk2);
   box-shadow: 2px 2px 5px -1px var(--vilkekk);
 }
+div.p_center {
+  overflow: hidden;
+  margin: auto;
+}
 div.p_center > a > img:hover {
   opacity: 0.5;
   transition: .5s ease;
@@ -230,11 +243,7 @@ div.p_center > a > img:hover {
 div.p_center > a > .kiskep:hover {
   transform: scale(1.1);
 }
-div.p_center {
-  overflow: hidden;
-  margin: 0 auto;
-}
-/* transform: scale(1.1); <- img-re */
+
 .kiskep {
   width: 225px;
   height: 318px;
@@ -243,12 +252,11 @@ div.p_center {
   margin-right: auto;
   transition: .5s ease;
   border-radius: 10px;
-
   /*transition: 0.5s all ease-in-out;*/
 }
 p.p_up {
   font-weight: bold;
-  height: 20.5px;
+  height: 20px;
   text-align: center;
   padding: 20px auto;
   display: flex;
@@ -258,6 +266,33 @@ p.p_up {
 p.p_down {
   margin: 5px auto;
   font-size: 16px;
+  height: 60px;
+  /*0406*/
+  /*text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+/*Az összes projekt megjelenítése*/
+div.pallhide {
+  display: none;/*0406 - inline-block v none*/
+}
+#p_all_button {
+  transition: 0.5s ease;
+  padding: 5px 10px;
+  color: var(--alap);
+  background-color: var(--zoldkekk3);
+  border: 1px groove var(--vilszurke);
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+#p_all_button:hover {
+  transition: 0.5s ease;
+  box-shadow: 0px 0px 2px 1px rgba(255, 250, 250, 0.5);
+  color: black;
+  background-color: var(--vilkekk);
 }
 
 /* Infók fül */
@@ -310,7 +345,7 @@ li button.showshide:hover {
   box-shadow: 0px 0px 2px 1px rgba(255, 250, 250, 0.5);
 }
 div.whatisthis {
-  display: none; /*none*/
+  display: none;
 }
 
 /* Videólejátszó fül */
@@ -387,6 +422,7 @@ td#leiras a:hover {
 /* videó kis előnézes képe infókkal */
 .kiskep2 {
   height: 250px;
+  width: 180px;
   display: block;
   border: 2px solid white;
   margin: 5px auto;
@@ -424,23 +460,11 @@ td#leiras a:hover {
 /* Tesztek */
 #neo_kep {
   width: 300px;
-  /*display: block;*/
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
   background-position:center bottom;
 }
-
-/* Fejléces kép
-#imgheader {
-  padding: 4px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-}
-*/
 
 /* Igazítás */
 .col-1 {width: 8.33%;}
@@ -468,17 +492,3 @@ td#leiras a:hover {
   }
 }
 */
-.kiskep3 {
-  height: 250px;
-  display: inline-block;
-  border: 2px solid white;
-  margin: 10px;
-}
-.cc {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-.ccc {
-  padding: 10px;
-}
