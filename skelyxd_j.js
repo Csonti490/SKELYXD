@@ -515,17 +515,17 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         {
             title: "RWBY: 8.fejezet",
             ti: "Szinopszis",
-            de: `<img src="images/v8.jpg" class="kiskep2"><p id ="soriinfo">Hőseink legrosszabb félelmei végre beteljesültek: Salem itt van, és az időzítés nem is lehetne rosszabb a megosztott Atlasz Királyság számára. A félelem a barátokat ellenségekké változtatta, míg a kétség az emberiség megmaradt szövetségeseinek szétzúzásával fenyeget. Mivel Salem és Ironwood is ellenük küzdenek, és a Remnant sorsa forog kockán, az RWBY csapaton múlik, hogy megtegye a lépéseit, mielőtt túl késő lenne.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a> fordította.</p>`,
+            de: `<img src="images/v8.jpg" class="kiskep2"><p id ="soriinfo">Hőseink legrosszabb félelmei végre beteljesültek: Salem itt van, és az időzítés nem is lehetne rosszabb a megosztott Atlasz Királyság számára. A félelem a barátokat ellenségekké változtatta, míg a kétség az emberiség megmaradt szövetségeseinek szétzúzásával fenyeget. Mivel Salem és Ironwood is ellenük küzdenek, és a Remnant sorsa forog kockán, az RWBY csapaton múlik, hogy megtegye a lépéseit, mielőtt túl késő lenne.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a>, <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a> fordította.</p>`,
             episodes: [
                 {
                     title: "Divide / Feloszlás",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WRZ1xBgA#1ZcPZ_bW5lIdaQLgd0i_vFcNeIIvMjHfhoiDz8-pegI" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>-Leírás-</p></td>`
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a><br>-Leírás-</p></td>`
                 },
                 {
                     title: "Refuge / Menedék",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/zZx0RQiC#d03AAFvfzzc7CKmKR3rtxxE-2AUr30Kmznvx88GFpII" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santiia><br>Ruby, Nora, Blake, May és Penny az Atlasz Katonai Parancsnokságra szegezik tekintetüket. Eközben Yang, Ren, Jaune és Oscar intézi az evakuálást Mantle-ben. Ha mindenkit idejében eljuttatnak a kráterhez, talán meg tudják menteni őket.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a><br>Ruby, Nora, Blake, May és Penny az Atlasz Katonai Parancsnokságra szegezik tekintetüket. Eközben Yang, Ren, Jaune és Oscar intézi az evakuálást Mantle-ben. Ha mindenkit idejében eljuttatnak a kráterhez, talán meg tudják menteni őket.</p></td>`
                 },
                 {
                     title: "Strings / Fonalak",
