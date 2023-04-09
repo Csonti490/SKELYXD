@@ -275,7 +275,7 @@ p.p_down {
 }
 /*Az összes projekt megjelenítése*/
 div.pallhide {
-  display: none;/*0406 - inline-block v none*/
+  display: inline-block;/*0406 - inline-block v none*/
 }
 #p_all_button {
   transition: 0.5s ease;
@@ -287,6 +287,7 @@ div.pallhide {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  visibility: hidden; /*Egyenlőre hidden*/
 }
 #p_all_button:hover {
   transition: 0.5s ease;
@@ -418,6 +419,13 @@ td#leiras a {
 td#leiras a:hover {
   text-decoration: underline;
 }
+span.meaning {
+  color: var(--feheress);
+  cursor: pointer;
+}
+span.meaning:hover {
+  text-decoration: underline;
+}
 
 /* videó kis előnézes képe infókkal */
 .kiskep2 {
@@ -492,3 +500,6 @@ td#leiras a:hover {
   }
 }
 */
+.hianyos {
+  color: red;
+}
