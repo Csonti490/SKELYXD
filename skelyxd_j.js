@@ -370,9 +370,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         },
         {
             title: "RWBY: 6.fejezet",
-            ti: "Szinopszis",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_6
             de: `<img src="images/v6.jpg" class="kiskep2"><p id ="soriinfo">Az RWBY csapat újraegyesül, és az első küldetésük nagyon fontos: elkísérik a Tudás Ereklyéjét Atlaszba. Mivel a világ látszólag szétesik körülöttük, és minden sarkon Grimm leselkedik, Remnant-on áthaladva, hogy elérjék céljukat, veszélyesebb lesz, mint azt bárki is gondolta volna.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/Tensza1" title="Tensza1 csatija (Indavideó)" target="_blank">Tensza1</a> fordította.</p>`,
-            episodes: [
+            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=6
                 {
                     title: "Argus Limited / Vasút",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/yBghnRTJ#2LY4ZG3p7G4bnbg2hvPthlLR2NkPfGo2D7USN_grXFQ" allowfullscreen ></iframe>`,
@@ -514,13 +514,13 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         },
         {
             title: "RWBY: 8.fejezet",
-            ti: "Szinopszis",
+            ti: "Szinopszis", // https://rwby.fandom.com/wiki/Volume_8
             de: `<img src="images/v8.jpg" class="kiskep2"><p id ="soriinfo">Hőseink legrosszabb félelmei végre beteljesültek: Salem itt van, és az időzítés nem is lehetne rosszabb a megosztott Atlasz Királyság számára. A félelem a barátokat ellenségekké változtatta, míg a kétség az emberiség megmaradt szövetségeseinek szétzúzásával fenyeget. Mivel Salem és Ironwood is ellenük küzdenek, és a Remnant sorsa forog kockán, az RWBY csapaton múlik, hogy megtegye a lépéseit, mielőtt túl késő lenne.<br><br>UI.: A részeket <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a>, <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a> fordította.</p>`,
-            episodes: [
+            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=8
                 {
                     title: "Divide / Feloszlás",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/WRZ1xBgA#1ZcPZ_bW5lIdaQLgd0i_vFcNeIIvMjHfhoiDz8-pegI" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a><br>-Leírás-</p></td>`
+                    desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">A feliratot készítette: <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a><br>Minden eddiginél jobban össze kell egyesíteni a Salem ellen álló szövetséges erőket. De miután Ironwood nem volt hajlandó folytatni Mantle evakuálását, hőseinknek új utat kell választaniuk – ha csak egyben tudnak megegyezni.</p></td>`
                 },
                 {
                     title: "Refuge / Menedék",
@@ -650,7 +650,7 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
             title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
             de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
-            episodes: [
+            episodes: [ // Nothing
             ]
         },
         {
@@ -714,9 +714,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         },
         {
             title: "RWBY: World of Remnant",
-            ti: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant - Szinopszis
+            ti: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
             de: `<img src="images/rwby_world_of_remnant_poster.jpg" class="kiskep2"><p id ="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
-            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1 - részenkénti rövid leírás
+            episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1
                 {
                     title: "Dust / Por",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/DtMQnS5D#oNb7qSnczIsnF704pwDE3DKjAOqIrm608IFT0WwqHbw" allowfullscreen ></iframe>`,
@@ -801,9 +801,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         },
         {
             title: "RWBY: Fairy Tales", // +(szino.) https://rwby.fandom.com/wiki/RWBY:_Fairy_Tales
-            ti: "Szinopszis", // // https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
+            ti: "Szinopszis", // ep+: https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
             de: `<img src="images/rwby_fairy_tales_poster.jpg" class="kiskep2"><p id ="soriinfo">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br><br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span style="float:right;">- Ozpin Professzor</span>&nbsp;</p>`,
-            episodes: [
+            episodes: [ // https://www.imdb.com/title/tt15830868/episodes?season=1&ref_=tt_eps_sn_1
                 {
                     title: "The Grimm Child / A Grimm Gyermek",
                     sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/v8MkQYAY#n8KNf5FHx5Igay_3BAQu9bu6DiAy24Y5SRTzPFkab1A" allowfullscreen ></iframe>`,
@@ -838,9 +838,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
         },
         {
             title: "Zenék",
-            ti: "Szinopszis",
+            ti: "Szinopszis", // Nothing
             de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
-            episodes: [
+            episodes: [ // Nothing
                 {
                     title: "RWBY: The Triumph",
                     sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/9HcEHMDQSFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
