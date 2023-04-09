@@ -687,27 +687,27 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
             episodes: [ // https://rwby.fandom.com/wiki/Trailers
                 {
                     title: "Volume 4 Character Short",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/7pl0jLTQ#MRg9GKtJrcoqefyTnJdl7X_rCaCU4ztstKYtQ3i4Mlo" allowfullscreen ></iframe>`,
                     desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">Több hónap telt el a Beacon bukása óta, és Remnant világa talpra áll. Nagy a feszültségek kerekednek... rengeteg életet vesztettek, és az RWBY csapat tagjai... megosztottak. Minden hősnőnk saját utazása előtt áll.</p></td>`
                 },
                 {
                     title: "Volume 5 Weiss Character Short",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/vtcAxYzI#YFi3L340R0ixWYlKO4_NZFEXow-MEOyB1eL3Gko3aKw" allowfullscreen ></iframe>`,
                     desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">Weiss Schnee egész életében kiváltságos és elkényeztetett életet élt... de ez nem ment a saját nehézségek nélkül.</p></td>`
                 },
                 {
                     title: "Volume 5 Blake Character Short",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/qtNnXJ5Q#i5LwEkYWZmEgT4TYe4_HzWeCW8kaTL0Ys_9evRiSzmU" allowfullscreen ></iframe>`,
                     desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">A Fehér Agyar egykor békés szervezet volt, amely a Faunusok valódi egyenlőségéért küzdött. Az évek során azonban sok tag az erőszakos és szélsőséges taktikákat kezdte előnyben részesíteni, hogy tiszteletet követelhessen a Maradék embereitől. Bár Blake Belladonna végül úgy döntött, hogy elhagyja a Fehér Agyart és annak egyre növekvő terrorcselekményeit, nem minden barátja döntött így.</p></td>`
                 },
                 {
                     title: "Volume 5 Yang Character Short",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/mhkUSQ5J#o0QKkb9jlnl_hlaDI7wybPvjzjKqWxd4U_px6t2WV08" allowfullscreen ></iframe>`,
                     desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">YTudod, hogy Ruby megállíthatatlan a kaszájával, de Yang ismeri a kézi küzdelem valódi erejét. Egy fegyvermentes edzés kellős közepén Yang meg tudja győzni a nővérét a fegyver nélküli harc fontosságáról?</p></td>`
                 },
                 {
                     title: "Volume 6 Adam Character Short",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/bllGjK7I#ghNmJO-Hpb83enUtZc4ejFFbJorh4ckJuJ-tXEx2SbM" allowfullscreen ></iframe>`,
                     desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Adam hajlandó lesújtani mindenkit, aki az igazság kiforgatott változatának útjába áll, és kijelentette, hogy harcol népe jogaiért, de az évek során egyre távolabb került ezektől az idealista állításoktól. Ő a vadság és a káprázat veszélyes kombinációja, akinek egyetlen célja az, hogy megkínozza volt partnerét, Blake Belladonnát, akit felelősnek tart a hatalomból való kiesésért.</p></td>`
                 }
             ]

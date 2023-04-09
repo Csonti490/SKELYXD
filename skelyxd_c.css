@@ -127,7 +127,7 @@ ul#menu > li a:hover {
   width: 160px;
   display: inline-block;
   border: 2px solid white;
-  margin: 10px;
+  margin: 10px 0px 10px 10px;
 }
 .cc {
   display: flex;
@@ -162,7 +162,7 @@ div.posztok {
   background-color: var(--zoldkekk2);
 }
 div.posztok>h2, div.posztok>p {
-  padding: 0px 10px;
+  padding: 0px 15px;
 }
 div.posztok>h2 {
   color: var(--vilkekk);
