@@ -506,3 +506,19 @@ span.meaning:hover {
   font-size: 14px;
   font-weight: bold;
 }
+
+/*Tartalom*/
+.kiskep4 {
+  height: 250px;
+  display: inline-block;
+  border: 2px solid white;
+  margin: 15px 0px 15px 15px;
+}
+.cc2 {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.ccc2 {
+  padding: 15px;
+}
