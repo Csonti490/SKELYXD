@@ -56,7 +56,10 @@ body {
   font-family: 'Rajdhani', sans-serif;
   /*font-family: 'Space Mono', monospace;*/
 }
-
+/* Font csere a hosszú szövegeknél */
+div.posztok p, div.posztok ul, #soriinfo, td#leiras {
+  font-family: 'Kanit', sans-serif;
+}
 h1 {
   text-align: center;
   color: var(--vilkekk);
@@ -120,22 +123,51 @@ ul#menu > li a:hover {
   color: var(--zoldkekk2);
   font-weight: bold;
 }
+#neo_kep {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  background-position:center bottom;
+}
 
 /*Tartalom*/
-.kiskep3 {
+.kiskep3 { /*Poszter képek*/
   height: 250px;
   width: 160px;
   display: inline-block;
   border: 2px solid white;
-  margin: 10px 0px 10px 10px;
+  margin: 0px;
 }
 .cc {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
+  margin: 15px;
+}
+._kiskep4 {
+  border: 2px solid white;
+  display: inline-block;
+  width: 350px;
+  height: 200px;
+}
+span._idezet, span._idezo, span._kiscim {
+  display: table;
+  margin: 0 auto;
+}
+span._idezet {
+  color: var(--feheress);
+  padding-top: 10px;
+}
+span._idezo {
+  padding-bottom: 10px;
+}
+.ccc2 {
+  padding-left: 15px;
+  text-align: center;
 }
 .ccc {
-  padding: 10px;
+  padding-left: 15px;
 }
 div#tartalom {
   min-height: 100vh;
@@ -171,7 +203,7 @@ div.posztok>h2 {
   margin-top: 10px;
   text-align: center;
 }
-div.posztok p {
+div.posztok p, div.posztok ul {
   font-size: 16px;
 }
 div.posztok p.datum {
@@ -267,15 +299,10 @@ p.p_down {
   margin: 5px auto;
   font-size: 16px;
   height: 60px;
-  /*0406*/
-  /*text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;*/
 }
 /*Az összes projekt megjelenítése*/
 div.pallhide {
-  display: inline-block;/*0406 - inline-block v none*/
+  display: inline-block;
 }
 #p_all_button {
   transition: 0.5s ease;
@@ -465,15 +492,6 @@ span.meaning:hover {
   font-weight: bold;
 }
 
-/* Tesztek */
-#neo_kep {
-  width: 300px;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-end;
-  background-position:center bottom;
-}
-
 /* Igazítás */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -507,18 +525,8 @@ span.meaning:hover {
   font-weight: bold;
 }
 
-/*Tartalom*/
-.kiskep4 {
-  height: 250px;
-  display: inline-block;
-  border: 2px solid white;
-  margin: 15px 0px 15px 15px;
-}
-.cc2 {
-  display: flex;
-  align-items: center;
-  /*justify-content: center;*/
-}
-.ccc2 {
-  padding: 15px;
-}
+/*
+span - középre:
+  display: table;
+  margin: 0 auto;
+*/
