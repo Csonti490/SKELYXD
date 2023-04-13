@@ -150,21 +150,32 @@ ul#menu > li a:hover {
   display: inline-block;
   width: 350px;
   height: 200px;
+
+  vertical-align: bottom;
 }
-span._idezet, span._idezo, span._kiscim {
+span._idezet, span._kepala {
+  color: var(--feheress);
+  text-align: center;
+}
+span._idezet, span._idezo, span._kiscim, span._kepala {
   display: table;
   margin: 0 auto;
 }
+span._kiscim {
+  font-size: 18px;
+  color: var(--vilkekk);
+}
 span._idezet {
-  color: var(--feheress);
   padding-top: 10px;
 }
 span._idezo {
   padding-bottom: 10px;
+  font-style: italic;
 }
 .ccc2 {
   padding-left: 15px;
   text-align: center;
+  margin: 0 auto;
 }
 .ccc {
   padding-left: 15px;
@@ -299,28 +310,6 @@ p.p_down {
   margin: 5px auto;
   font-size: 16px;
   height: 60px;
-}
-/*Az összes projekt megjelenítése*/
-div.pallhide {
-  display: inline-block;
-}
-#p_all_button {
-  transition: 0.5s ease;
-  padding: 5px 10px;
-  color: var(--alap);
-  background-color: var(--zoldkekk3);
-  border: 1px groove var(--vilszurke);
-  border-radius: 5px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  visibility: hidden; /*Egyenlőre hidden*/
-}
-#p_all_button:hover {
-  transition: 0.5s ease;
-  box-shadow: 0px 0px 2px 1px rgba(255, 250, 250, 0.5);
-  color: black;
-  background-color: var(--vilkekk);
 }
 
 /* Infók fül */
@@ -530,3 +519,6 @@ span - középre:
   display: table;
   margin: 0 auto;
 */
+div.ures {
+  display: none;/*inline - none*/
+}
