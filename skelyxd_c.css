@@ -520,5 +520,5 @@ span - középre:
   margin: 0 auto;
 */
 div.ures {
-  display: inline;/*inline - none*/
+  display: none;/*inline - none*/
 }
