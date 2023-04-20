@@ -635,9 +635,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
                     desc: `<td id="leiras"><p id="lone">8. rész rövid leírása</p><p id="ltwo">Amiben egy kis tea kiömlött.</p></td>`
                 },
                 {
-                    title: "? / ?",
+                    title: "A Tale Involving a Tree / Egy mese fával karöltve",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.15.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">In which a door is encountered.</p></td>`
                 },
                 {
                     title: "? / ?",
@@ -647,10 +647,15 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
             ]
         },
         {
-            title: "RWBY x Igazság Ligája: Szuperhősök és Vadászok - Part I",
+            title: "Igazság Ligája x RWBY: Szuperhősök és Vadászok - Part I",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
             de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
             episodes: [ // Nothing
+            {
+                title: "Part I",
+                sourceCode: iimmgg,
+                desc: `<td id="leiras"><p id="lone">Film rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Debütálás (hely: ---): 2023.04.25.</p></td>`
+            }
             ]
         },
         {
@@ -837,6 +842,27 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
             ]
         },
         {
+            title: "RWBY Chibi (1.évad)",
+            ti: "Szinopszis", // Nothing
+            de: `<img src="images/c_1.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [ // Nothing
+            ]
+        },
+        {
+            title: "RWBY Chibi (2.évad)",
+            ti: "Szinopszis", // Nothing
+            de: `<img src="images/c_2.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [ // Nothing
+            ]
+        },
+        {
+            title: "RWBY Chibi (3.évad)",
+            ti: "Szinopszis", // Nothing
+            de: `<img src="images/c_3.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [ // Nothing
+            ]
+        },
+        {
             title: "Zenék",
             ti: "Szinopszis", // Nothing
             de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
@@ -938,7 +964,16 @@ function ProjectChange(n) {
             localStorage.setItem('result', 14); // RWBY: Fairy Tales
             break;
         case 15:
-            localStorage.setItem('result', 15); // Random Zene
+            localStorage.setItem('result', 15); // RWBY Chibi 1
+            break;
+        case 16:
+            localStorage.setItem('result', 16); // RWBY Chibi 2
+            break;
+        case 17:
+            localStorage.setItem('result', 17); // RWBY Chibi 3
+            break;
+        case 18:
+            localStorage.setItem('result', 18); // Random Zene
             break;
     }
 }
