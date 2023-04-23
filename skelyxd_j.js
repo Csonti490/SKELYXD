@@ -640,9 +640,9 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
                     desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">In which a door is encountered.</p></td>`
                 },
                 {
-                    title: "? / ?",
+                    title: "Of Solitude and Self / ?",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Rész megjelenése (CrunchyRoll-on): 2023.04.22.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">In which a choice must be made.</p></td>`
                 }
             ]
         },
@@ -863,6 +863,13 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
             ]
         },
         {
+            title: "RWBY Chibi (4.évad)",
+            ti: "Szinopszis", // Nothing
+            de: `<img src="images/c_4.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [ // Nothing
+            ]
+        },
+        {
             title: "Zenék",
             ti: "Szinopszis", // Nothing
             de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
@@ -888,7 +895,14 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
                     desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/47162/Shokei_Shoujo_no_Virgin_Road" target="_blank" title="MAL link">Shokei Shoujo no Virgin Road</a> Openingje.<br>Komponálta: Cassie Wei & Yamato Kasai<br>Énekli: Cassie Wei / Mili</p></td>`
                 }
             ]
-        }
+        },
+        {
+            title: "Nincs elérhető információ",
+            ti: "", // Nothing
+            de: `<img src="images/sad2.jpg" class="kiskep2"><p id ="soriinfo">&nbsp;</p>`,
+            episodes: [ // Nothing
+            ]
+        },
     ]
 }
 
@@ -973,7 +987,13 @@ function ProjectChange(n) {
             localStorage.setItem('result', 17); // RWBY Chibi 3
             break;
         case 18:
-            localStorage.setItem('result', 18); // Random Zene
+            localStorage.setItem('result', 18); // RWBY Chibi 4
+            break;
+        case 19:
+            localStorage.setItem('result', 19); // Random Zene
+            break;
+        default:
+            localStorage.setItem('result', 20); // Default
             break;
     }
 }
