@@ -364,6 +364,10 @@ li button.showshide:hover {
 div.whatisthis {
   display: none;
 }
+span.oe {
+  color: var(--vilszurke);
+  font-size: 80%;
+}
 
 /* Videólejátszó fül */
 table#videos {
