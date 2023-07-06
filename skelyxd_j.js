@@ -615,7 +615,7 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
                     desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">Amelyben új ismeretségek születnek.</p></td>`
                 },
                 {
-                    title: "The Parfait Predicament / A tökéletes kínos helyzet",
+                    title: "The Parfait Predicament / A tökéletesen kínos helyzet",
                     sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">5. rész rövid leírása</p><p id="ltwo">Amelyben egy desszert van összeállítva.</p></td>`
                 },
@@ -640,7 +640,7 @@ var videoSources = { // 867 sor ez a "kis" adatbázis
                     desc: `<td id="leiras"><p id="lone">9. rész rövid leírása</p><p id="ltwo">In which a door is encountered.</p></td>`
                 },
                 {
-                    title: "Of Solitude and Self / ?",
+                    title: "Of Solitude and Self / Magányról és Önvalóról",
                     sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">10. rész rövid leírása</p><p id="ltwo">In which a choice must be made.</p></td>`
                 }

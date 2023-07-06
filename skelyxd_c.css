@@ -332,12 +332,12 @@ button.ISeeYouButton:hover {
 p.kerdes {
   color: var(--kek);
   font-weight: bold;
-  text-decoration: underline;
 }
 p.valasz {
   color: var(--alap);
   margin-left: 20px;
   line-height: 1.3;
+  margin-right: 15px;
 }
 span#elerhetoseg {
   color: var(--vilszurke);
@@ -513,8 +513,8 @@ span.meaning:hover {
 */
 .hianyos {
   color: crimson;
-  font-family: Tahoma;
-  font-size: 14px;
+  /*font-family: Tahoma;
+  font-size: 14px;*/
   font-weight: bold;
 }
 
