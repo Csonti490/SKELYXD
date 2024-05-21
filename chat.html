@@ -83,6 +83,32 @@
             System.out.println(nemek);
         }
     </pre>
+    <hr>
+    <pre>
+        DefaultListModel< Ember > idegesek = new DefaultListModel<>();
+
+        lb_nevek.setModel(nyugodtak);
+        lbl_db.setText("Darab: "+nyugodtak.size());
+
+        private void feltolt() {
+            File f = new File("grafikus.csv");
+            try {
+                Scanner be = new Scanner(f,"UTF-8");
+                be.nextLine();
+                String sor;
+                String [] adatok;
+                while (be.hasNextLine()) {
+                    sor = be.nextLine();
+                    adatok = sor.split(";");
+                    if(adatok[1].equals("1"))
+                        idegesek.addElement(new Ember(adatok[0], true));
+                    else
+                        nyugodtak.addElement(new Ember(adatok[0],false));
+                }
+            } catch (Exception e) {
+            }
+        }
+    </pre>
 </body>
 </html>
 <style>
