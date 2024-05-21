@@ -32,6 +32,24 @@
     SQL cancel
 
     App_Start>WebApiConfig.cs
+
+    Models>Order
+    >> [JsonIgnore]
+    </pre>
+    <hr>
+    <pre>
+        ordercontrollers
+        public List< Order > Get(){
+            using (NW db = new NW()){
+                return db.Orders.ToList();
+            }
+        }
+
+        public Order Get(int id){
+            using (NW db = new NW()){
+                return db.Orders.ToList()[id];
+            }
+        }
     </pre>
     <hr>
     <pre>
