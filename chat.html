@@ -34,7 +34,54 @@
     </pre>
     <hr>
     <pre>
-        
+        static ArrayList< Ember > emberek = new ArrayList<>();
+        <br>
+        private static void feltolt() {
+            File f = new File("konzol.csv");
+            try {
+                Scanner be = new Scanner(f,"UTF-8");
+                be.nextLine();
+                String sor;
+                String [] adatok;
+                while (be.hasNextLine()) {
+                    sor = be.nextLine();
+                    adatok = sor.split(";");
+                    /*if(adatok[2].equals("1"))
+                        emberek.add(new Ember(adatok[0],Integer.parseInt(adatok[1]),true));
+                    else
+                        emberek.add(new Ember(adatok[0],Integer.parseInt(adatok[1]),false));*/
+                    emberek.add(new Ember(adatok[0],Integer.parseInt(adatok[1]),adatok[2].equals("1")?true:false));
+                    
+                }
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+    
+        private static void atlag() {
+            double avg = 0;
+            for (Ember n : emberek) {
+                avg += n.mag;
+            }
+            avg /= emberek.size();
+            
+            //System.out.println("Átlag: "+avg);
+            // String formázás!!!
+            System.out.printf("Átlag: %.2f",avg);
+            //String s = String.format("Átlag: %.2f", avg);
+        }
+    
+        private static void stat() {
+            HashMap< Boolean,Integer > nemek = new HashMap<>();
+            for (Ember n : emberek) {
+                if(!nemek.containsKey(n.nem))
+                    nemek.put(n.nem, 1);//n.mag
+                else
+                    nemek.put(n.nem,nemek.get(n.nem)+1);//n.mag
+            }
+            
+            System.out.println(nemek);
+        }
     </pre>
 </body>
 </html>
