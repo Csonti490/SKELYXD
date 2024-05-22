@@ -128,6 +128,30 @@
             }
         }
     </pre>
+    <hr>
+    <pre>
+        @Override +++
+        public int compareTo(Ember other) {
+            return this.nev.compareTo(other.nev);
+        }
+
+        @Override ---
+        public int compareTo(Ember other) {
+            return other.nev.compareTo(this.nev);
+        }
+
+        @Override +++
+        public int compareTo(Ember other) {
+            return Integer.compare(this.magassag, other.magassag);
+        }
+
+        @Override ---
+        public int compareTo(Ember other) {
+            return Integer.compare(other.magassag, this.magassag);
+        }
+        class KorComparator implements Comparator< Ember >
+        Collections.sort(emberek, new KorComparator());
+    </pre>
 </body>
 </html>
 <style>
