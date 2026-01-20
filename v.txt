@@ -252,12 +252,11 @@ F – Az Execution Trace cache tárat.
 T – Az elágazástörténeti cache tárat.
 F – Az ugróutasítások címét tartalmazó regisztertárat.
 
-Mivel oldhatók fel a processzor–memória sínen az utasítás‑ és adatkiolvasás (visszaírás) ütközései?
+Mivel oldhatók fel a processzor–memória sínen az utasítás‑ és adatkiolvasás (visszaírás) ütközései? (Ez több helyes válaszos kérdés.)
 F – Utasítás‑átrendezés (fordítóprogram által)
 T – Scoreboarding (hardver által)
 T – Harvard architektúra
 T – Data forwarding (hardver által)
-(Ez több helyes válaszos kérdés.)
 
 A szuperskalár processzor párhuzamosan több utasítást dekódol, kibocsát és végrehajt… Párosítás:
 
@@ -283,7 +282,7 @@ F – A paritásellenőrzés 1 vagy 2 bitnyi hibák esetén lehetséges.
 F – A paritáshibák javításához ún. ECC áramkörökre van szükség.
 (A NEM igaz állítás az első.)
 
-Az asszociatív tárolóként működő cache‑ek esetében…
+Az asszociatív tárolóként működő cache-ek esetében az adatok, amelyek tartalma szerint keresünk vissza, a főtárbeli blokkok címei vagy részcímei.
 T – Igaz
 F – Hamis
 
@@ -292,37 +291,29 @@ F – Képes különböző adathibák felismerésére és javítására.
 T – Képes bizonyos bemásolási stratégia, algoritmus kezelésére.
 F – Képes bizonyos programhibák felismerésére.
 
-Átlapolt memóriakezelésnél… a következő bank már megcímezhető.
+Átlapolt memóriakezelésnél (memory interleaving), feltételezve, hogy a processzor általában a memóriát címfolytonosan olvassa, a 0. memóriabankból kiolvasott adat hozzáférése alatt az 1. memóriabankban lévő következő címen lévő adat már megcímezhető.
 T – Igaz
 F – Hamis
 
 A TLB miss mindig „laphiba” kivételt okoz?
 F – Soha.
-T – Az esetek egy részében.
-F – Igen.
+F – Az esetek egy részében.
+T – Igen.
 F – A TLB miss‑nek nincs köze a laphibához.
 
-A privilegizálási szintek közötti védelmet az is segíti, hogy minden egyes szint egymástól elkülönült önálló tárolóterülettel is rendelkezik… i80x86 esetén ez a TSS.
+A privilegizálási szintek közötti védelmet az is segíti, hogy minden egyes szint egymástól elkülönült önálló tárolóterülettel is rendelkezik, amelybe a felfüggesztett taszkok legfontosabb adatai elmenthetők. i80x86 processzorok esetén ez a TSS = Task State Segment, a taszk állapot szegmens.
 F – Hamis
 T – Igaz
 
 Melyik RAID tároló típus tárolja külön egységen a paritásadatokat és alkalmaz emellett bájtonkénti csíkozást?
 F – RAID 0
 F – RAID 2
-T – RAID 5
-F – RAID 3
+F – RAID 5
+T – RAID 3
 
 23. A mágneslemez hozzáférési ideje (Disk Access Time) alatt egy adatblokk kiolvasásának idejét értjük.
 F – Igaz
 T – Hamis
-
-A programok a virtuális tárat háttértárként látják.
-T – Igaz
-F – Hamis
-
-A virtuális tárban a szegmensek átlapolódóan is megadhatók, azaz ugyanaz az adat két különböző szegmensen belül is megcímezhető.
-T – Igaz
-F – Hamis
 
 Melyik eljárás alkalmazása célszerű a virtuális tár aktualizálására, ha megváltozik egy blokk a főtárban?
 F – Buffered write through
@@ -335,11 +326,11 @@ A szegmentálásos virtuális tárkezelésnél a logikai cím a szegmens sorszá
 T – Igaz
 F – Hamis
 
-Lapozásos virtuális tárkezelésnél minden programfolyamatnak saját laptáblázata van…
+Lapozásos virtuális tárkezelésnél minden programfolyamatnak (processznek) saját laptáblázata van, ennek kezdőcíme sokszor egy regiszterben található.
 T – Igaz
 F – Hamis
 
-Egy paritáshiba észlelése a RAM‑ban … okoz.
+Egy paritáshiba észlelése a RAM‑ban .......... okoz.
 T – NMI megszakítást
 F – laphibakivételt
 F – SM megszakítást
@@ -365,14 +356,14 @@ T – Igaz
 A hibakezelés végrehajtásához a perifériavezérlőknek adatokat kell átadni az operációs rendszernek. Hogyan tehető ez meg?
 F – Polling alkalmazásával.
 T – Mindkettővel.
-T – I/O megszakítás alkalmazásával.
+F – I/O megszakítás alkalmazásával.
 F – Egyikkel sem.
 
 Melyik a „master” eszköz?
 F – Amely rendelkezik a sínen átviendő adatokról (tárolja az adatokat).
-T – Amely bejelenti a foglalási igényt az arbiternek.
+F – Amely bejelenti a foglalási igényt az arbiternek.
 F – Amely buszadapterrel kapcsolódik a processzor‑tárló buszhoz.
-F – Amely dönt a sínfoglalási igények kiszolgálási sorrendjéről.
+T – Amely dönt a sínfoglalási igények kiszolgálási sorrendjéről.
 
 Mi volt a Neumann János nevéhez fűződő IAS számítógép fő tervezési elve?
 T – A tárolt program.
@@ -414,9 +405,9 @@ F – hamis
 T – igaz
 
 Fixpontos bináris ábrázolásban hol van a kettedes pont helye?
-T – A legnagyobb helyiértékű bittől balra.
+F – A legnagyobb helyiértékű bittől balra.
 F – A legnagyobb helyiértékű bittől jobbra.
-F – A legkisebb helyiértékű bittől jobbra.
+T – A legkisebb helyiértékű bittől jobbra.
 
 Melyik jelzőbitet használják többszavas összeadásnál?
 F – O (overflow)
