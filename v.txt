@@ -1,0 +1,1565 @@
+Hogyan lehet a hardvert az ember számára átlátható módon leírni?
+T - A részegységek és ezek kapcsolatát bemutató számítógépmodell.
+F - A Bool-algebrán alapuló kapcsolási rajz adatábrázolással
+F - Hierarchikus rétegmodellel.
+
+Mikor alakult ki a VHDL (Very High Speed Integrated Circuit Hardware Description Language)?
+T - Az 1980-as évek közepén.
+F - Az 1990-es évek közepén.
+F - Az első generációs számítógépek idején.
+
+Melyik közös elemi lépés a gépi utasítások végrehajtása során?
+F – Shiftelés
+F – Multiplexálás
+F – Komplemensképzés
+T – Utasítás-dekódolás
+
+Melyik architektúrába tartozó számítógépek tartalmaznak egy vezérlőegységet (CU) és több aritmetikai‑logikai végrehajtó egységet (ALU)?
+F – MISD
+F – MIMD
+T – SIMD
+
+Melyik számítógépcsoportról mondják, hogy a gyakorlatban ilyen gépek nem léteznek?
+F – SIMD
+F – SISD
+F – MIMD
+T – MISD
+
+Melyik architektúra NEM tartalmaz több pipeline párhuzamos működtetésére képes végrehajtó egységet?
+F – VLIW (Very Large Instruction Word) architektúrák
+T – Skalár processzorok
+F – Dinamikusan ütemezett szuperskalár processzorok
+
+Melyik állítás igaz a valós üzemmódra?
+F – A processzor a regiszterek első 16 bitjét használja.
+F – Kihasználható a 32 bites architektúra.
+F – 8086‑os emuláció.
+T – Egy taszkban fut a DOS.
+
+Lebegőpontos szám ábrázolásához két fixpontos szám – karakterisztika és mantissza – tárolását kell megoldanunk, amelyeket a számítógépen történő művelet‑végrehajtáskor együtt vesszük figyelembe.
+T – Igaz
+F – Hamis
+
+Műveleti vezérlésnek a gépi utasítások elemi lépéseinek ciklusonkénti végrehajtásához a számítógép összes, a művelet‑végrehajtáshoz szükséges hardverrészegységének a gépi utasítás alapján történő összehangolt irányítását nevezzük.
+F – Hamis
+T – Igaz
+
+Válassza ki a megfelelőt!
+Pipelining esetén spekulatív elágazás-feldolgozást alkalmazva
+{dinamikus} esetben a fordítóprogram értékeli ki az ugrási feltételeket, és meghatározza a legnagyobb valószínűséggel előforduló ugrási címeket, és ennek megfelelően szervezi a pipeline-t.
+
+A processzor‑ és memória‑konzisztenciát együttesen soros konzisztenciának nevezzük.
+F – Hamis
+T – Igaz
+
+Melyik állítás helyes? A vertikális mikroprogramozásnál a mikroutasítás … tartalmaz.
+T – Bináris műveleti kódot
+F – Egy nanotároló címet
+F – Egy vezérlési mezőt
+F – Egy ciklikus címkódot
+
+Ha lebegőpontos összeadásnál vagy kivonásnál a művelet
+operandusainak karakterisztikái nem egyeznek meg, akkor ezt a problémát a mantissza jobbra léptetésével és a karakterisztika egyidejű balra léptetésével meg tudjuk oldani.
+T – Igaz
+F – Hamis
+
+A szuperskalár processzorok tervezése során az egyik megoldandó speciális feladat a szuperskalár utasítás-kibocsátás volt. (Ez azért kritikus feladat, mert a magasabb kibocsátási ráta felerősítheti a vezérlési és adatfüggőségek teljesítmény-korlátozó hatásait).
+F – Párhuzamos utasítás‑végrehajtás
+T – Elődekódolás, párhuzamos dekódolás
+F – Utasítás‑várakoztatás
+
+Fixpontos számok aritmetikai műveleteit vissza tudjuk vezetni több lépésben végrehajtott bitenkénti összeadásra és léptetésre (shiftelésre).
+F – Hamis
+T – Igaz
+
+A tárolókezelés feladatainak megoldását a számítógépek tárolókezelő hardver egysége, az {MMU} biztosítja.
+
+A memóriamodulok meghatározott, 2‑hatvány darabszámú csipből kerülnek összeállításra.
+F – Hamis
+T – Igaz
+
+Egy DRAM memóriacellát megcímezni két lépcsőben lehet:
+1. a mátrix egy sorát címezzük meg,
+2. a sorból kiválasztjuk az adott oszlophoz tartozó cellát.**
+F – Hamis
+T – Igaz
+
+A cache‑ekben a legelterjedtebben alkalmazott blokkhelyettesítési stratégia a(z)…
+T – LRU (Least Recently Used)
+F – FCFS (First Come First Serve)
+F – FIFO (First In First Out)
+F – SCF (Short Come First)
+F – OBR (Optimal Block Replacement)
+
+Az asszociatív tárolóként működő cache‑ek esetében az adatok, amelyek tartalma szerint keresünk vissza, a főtárbeli blokkok címei vagy részcímei.
+F – Hamis
+T – Igaz
+
+A flash memóriák alapját az EPROM technológia szolgáltatja, de működésükben az a különbség, hogy a flash memóriák blokkonként törölhetők és elektronikusan újraírhatók.
+T – Igaz
+F – Hamis
+
+Az egymásra következő tárolóhierarchia szintek között mozgatható adatok egysége rögzített méretű és formátumú minden szinten.
+T – Hamis
+F – Igaz
+
+A programok a virtuális tárat háttértárként látják.
+T – Hamis
+F – Igaz
+
+A számítógépen aktuálisan futó programfolyamatok utasításai a virtuális címeket, mint fizikai címeket tartalmazzák.
+F – Hamis
+T – Igaz
+
+Mit tartalmaz a FAT?
+F – A szabad területek CHS címét.
+F – A fájlok kezdetének és végének a címét.
+F – A szektorok nyilvántartását.
+T – A klaszterek (cluster) nyilvántartását.
+
+A virtuális tárban a szegmensek átlapolódóan is megadhatók, azaz ugyanaz az adat két különböző szegmensen belül is megcímezhető.
+T – Igaz
+F – Hamis
+
+A taszkok privilegizált osztályokba történő besorolása azt jelenti, hogy minden egyes taszkhoz hozzárendelésre kerül egy privilegizálási szintszám, amelyhez meghatározott jogosultságok, illetve tiltások kapcsolódnak.
+F – Hamis
+T – Igaz
+
+A virtuális tár blokkjai akkor kerülnek bemásolásra a főtárba, ha valamilyen programutasításban hivatkozás történik az adott blokkban található címre és az nem található meg még a központi memóriában.
+T – Igaz
+F – Hamis
+
+Válassza ki a megfelelőt!
+A virtuális címek fizikai címmé történő leképezését ma már szinte kizárólagosan az {MMU} végzi.
+
+Válassza ki a megfelelőt!
+A tárolóvédelmi rendszer működésében a vezérlésnek kapukon történő „áthaladása” során a privilegizálási szint (PL) {mindig} ellenőrzésre kerül.
+
+Melyik I/O adatátviteli típus esetén legkisebb a processzor terhelése?
+F – PIO mód
+F – Megszakításos I/O
+F – Ultra DMA alkalmazása
+T – I/O processzor alkalmazása
+
+Soros sínfoglalási eljárás esetén egy közös „request” vezérlővonala van a mastereknek és ezek egy felfűzött (daisy‑chain) „grant” vezérlővonallal rendelkeznek.
+T – Igaz
+F – Hamis
+
+Párosítsa a kivételek megnevezését meghatározásukkal:
+
+Hibák (faults):
+– Például az INT utasítások generálják (visszatérés a megszakított programba az IRET utasítással).
+
+Programozott kivételek:
+– Megengedik az utasítás újraindítását, a kivételkezelő rutin visszatérési címe a hibát kiváltó utasításra mutat.
+
+Csapdák (traps):
+– A CPU az utasításhatáron jelenti, azokat az utasításokat követően, amelyekben a kivételeket észlelte.
+
+Abort-ok (aborts):
+– Ezek után nem lehet a kivételt kiváltó programot folytatni.
+
+Ha a processzor utasításkészlete külön utasításokat tartalmaz az I/O műveletekre, alkalmazható‑e a „memory mapped addressing”?
+F – Igen.
+T – Nem.
+F – Csak CISC processzoroknál.
+F – Csak ha a főtár része az I/O eszköz tárolója.
+
+Melyik esetben lehet a kivételt okozó utasítást a kivételkezelést követően megismételni?
+F – Csapda (trap)
+F – Programozott kivétel
+T – Hiba (fault)
+F – Abort
+
+Melyik az aszinkron sínvezérlést mutató ábra?
+F – A
+T – B
+F – Egyik sem.
+
+Párhuzamos sínfoglalási eljárás esetén a masterek egymástól független „request” és „grant” vezérlővonallal rendelkeznek.
+F – Hamis
+T – Igaz
+
+Az alábbiak közül mikroszámítógépeknél melyik NEM tölt be master szerepkört?
+F – CPU
+F – DMA‑t használó I/O eszköz
+T – RAM
+
+Tegye megfelelő sorrendbe a megszakítás‑kiszolgálás alábbi hardver által végrehajtott lépéseit:
+
+1. A megszakítás‑vezérlő beállítja a megszakításkérő vezérlővonal jelszintjét (INT jel).
+
+2. A CPU a folyamatban lévő utasítást befejezi, majd visszaigazolja a megszakítás‑kérelem elfogadását (IACK jel).
+
+3. A CPU elmenti a verembe az utasítás‑számláló és az állapotregiszter tartalmát.
+
+4. A megszakítás‑vezérlő a sínre küldi a megszakítási vektor elemének sorszámát.
+
+5. A CPU tárolja a megszakítási vektor elemének sorszámát.
+
+6. A CPU a megszakítási vektor elemsorszáma alapján a megszakítás‑kiszolgáló rutin kezdőcímét betölti az utasítás‑számlálóba.
+
+A sínprotokollban meghatározott szabályrendszer fizikailag a buszvezérlő hardveregységben testesül meg.
+T – Igaz
+F – Hamis
+
+A hardver fogalmába nem értjük bele a számítógép azon részegységeit, amelyek az ember által közvetlenül nem foghatók meg, mint például a nanotartományba eső áramkörök.
+F – Igaz
+T – Hamis
+
+Mi a VHDL?
+T – Szabványos hardverleíró nyelv
+F – Integrált áramkörök tervezésére szolgáló programnyelv
+F – A hardver modellezésének legmagasabb szintje
+
+Melyik számítógépcsoportba tartoznak a Neumann‑elvű gépek és a PC‑k CPU‑ja a Pentium MMX‑ig?
+T – SISD
+F – MISD
+F – MIMD
+F – SIMD
+
+Mi a pipeline alapgondolata?
+T – Annak kihasználása, hogy az utasítás‑feldolgozás különböző elemi lépéseit autonóm és párhuzamosan működtethető hardveralrendszerek hajthatják végre.
+F – A processzorban több végrehajtó/számításokat végző egység működhet párhuzamosan.
+F – Annak kihasználása, hogy több utasítás‑feldolgozási elemi lépést párhuzamosan tudnak végrehajtani az autonóm működtethető hardveralrendszerek.
+
+Mi határozza meg a fixpontos számoknál a szám előjelét?
+T – A szám legnagyobb helyiértékű bitje.
+F – A szám legkisebb helyiértékű bitje.
+F – A FLAG regiszter előjelbitje.
+
+Lebegőpontos osztásnál, szorzásnál a mantisszákat fixpontos számként osztani/szorozni kell, a karakterisztikák pedig fixpontos számként kivonásra/összeadásra kerülnek.
+F – Hamis
+T – Igaz
+
+Szuperskalár processzorokban a vezérlésfüggőségeket a processzor kezelheti blokkolással vagy spekulatív elágazáskezeléssel.
+T – Igaz
+F – Hamis
+
+BCD kódú műveletvégzésnél a 4 bittel kódolt decimális számjegyeket számjegyenként – azaz 4 bites egységekben – a tízes számrendszerben adjuk össze.
+F – Hamis
+T – Igaz
+
+Melyik lebegőpontos formátum nem szabványos?
+F – Kiterjesztett pontosság
+T – Bővített pontosság
+F – Egyszeres pontosság
+F – Négyszeres pontosság
+
+Mit használ fel a processzor a spekulatív elágazáskezeléshez?
+F – A feltételes ugróutasítások statisztikáját a címfordításkor.
+F – Az Execution Trace cache tárat.
+T – Az elágazástörténeti cache tárat.
+F – Az ugróutasítások címét tartalmazó regisztertárat.
+
+Mivel oldhatók fel a processzor–memória sínen az utasítás‑ és adatkiolvasás (visszaírás) ütközései?
+F – Utasítás‑átrendezés (fordítóprogram által)
+T – Scoreboarding (hardver által)
+T – Harvard architektúra
+T – Data forwarding (hardver által)
+(Ez több helyes válaszos kérdés.)
+
+A szuperskalár processzor párhuzamosan több utasítást dekódol, kibocsát és végrehajt… Párosítás:
+
+Befejezett:
+– A megfelelő végrehajtó egység befejezte az utasítást, és az eredményadat egy átmeneti tárolóba került.
+
+Végetért:
+– Az eredményt a processzor beírta a végleges tárolóhelyre.
+
+A vezérlési pontok … szolgáló kapcsolási helyek.
+F – a vezérlősínen való vezérlőjel továbbítására
+T – az adatutútvonalak nyitására és zárására
+F – a vezérléshez szükséges mikroutasítások tárolására
+F – a műveleti vezérléshez szükséges bitek generálására
+
+Az asszociatív tárolók esetén a tárolóban lévő adatokat nem kell megcímezni…
+F – Hamis
+T – Igaz
+
+A memóriahibák felismerését a paritásellenőrzés szolgálja. Mely állítás NEM igaz?
+T – A paritásbit generálására önálló áramkört alkalmaznak a memóriamodulban.
+F – A paritásellenőrzés 1 vagy 2 bitnyi hibák esetén lehetséges.
+F – A paritáshibák javításához ún. ECC áramkörökre van szükség.
+(A NEM igaz állítás az első.)
+
+Az asszociatív tárolóként működő cache‑ek esetében…
+T – Igaz
+F – Hamis
+
+Miért „intelligens” a cache‑vezérlő?
+F – Képes különböző adathibák felismerésére és javítására.
+T – Képes bizonyos bemásolási stratégia, algoritmus kezelésére.
+F – Képes bizonyos programhibák felismerésére.
+
+Átlapolt memóriakezelésnél… a következő bank már megcímezhető.
+T – Igaz
+F – Hamis
+
+A TLB miss mindig „laphiba” kivételt okoz?
+F – Soha.
+T – Az esetek egy részében.
+F – Igen.
+F – A TLB miss‑nek nincs köze a laphibához.
+
+A privilegizálási szintek közötti védelmet az is segíti, hogy minden egyes szint egymástól elkülönült önálló tárolóterülettel is rendelkezik… i80x86 esetén ez a TSS.
+F – Hamis
+T – Igaz
+
+Melyik RAID tároló típus tárolja külön egységen a paritásadatokat és alkalmaz emellett bájtonkénti csíkozást?
+F – RAID 0
+F – RAID 2
+T – RAID 5
+F – RAID 3
+
+23. A mágneslemez hozzáférési ideje (Disk Access Time) alatt egy adatblokk kiolvasásának idejét értjük.
+F – Igaz
+T – Hamis
+
+A programok a virtuális tárat háttértárként látják.
+T – Igaz
+F – Hamis
+
+A virtuális tárban a szegmensek átlapolódóan is megadhatók, azaz ugyanaz az adat két különböző szegmensen belül is megcímezhető.
+T – Igaz
+F – Hamis
+
+Melyik eljárás alkalmazása célszerű a virtuális tár aktualizálására, ha megváltozik egy blokk a főtárban?
+F – Buffered write through
+T – Write back
+F – Demand fetching
+F – Prefetching
+F – Write through
+
+A szegmentálásos virtuális tárkezelésnél a logikai cím a szegmens sorszámát és a megcímzett bájtnak a szegmenskezdettől való relatív címét tartalmazza.
+T – Igaz
+F – Hamis
+
+Lapozásos virtuális tárkezelésnél minden programfolyamatnak saját laptáblázata van…
+T – Igaz
+F – Hamis
+
+Egy paritáshiba észlelése a RAM‑ban … okoz.
+T – NMI megszakítást
+F – laphibakivételt
+F – SM megszakítást
+F – IRET megszakítást
+
+Mi jellemző az alábbiak közül az I/O buszokra?
+F – Architektúra‑specifikus.
+T – Buszadapterrel kapcsolódik a CPU‑tároló buszhoz.
+F – Rövid, nagy sebességű.
+
+Tegye megfelelő sorrendbe a megszakítás‑kiszolgálás alábbi operációs rendszer által végrehajtott lépéseit.
+– A megszakítás okának behatárolása.
+– A megszakított program adatainak elmentése verembe (ha szükséges).
+– A megszakítás kiszolgáló rutin befejezésének jelzése.
+– A kiszolgáláshoz szükséges adatok összegyűjtése.
+– A megszakítást okozó esemény kezelése.
+– A megszakított program adatainak visszatöltése.
+
+A multiplexált busztranzakció esetén a címek és az adatok egymás után ugyanazon a vezetékeken keresztül kerülnek átvitelre.
+F – Hamis
+T – Igaz
+
+A hibakezelés végrehajtásához a perifériavezérlőknek adatokat kell átadni az operációs rendszernek. Hogyan tehető ez meg?
+F – Polling alkalmazásával.
+T – Mindkettővel.
+T – I/O megszakítás alkalmazásával.
+F – Egyikkel sem.
+
+Melyik a „master” eszköz?
+F – Amely rendelkezik a sínen átviendő adatokról (tárolja az adatokat).
+T – Amely bejelenti a foglalási igényt az arbiternek.
+F – Amely buszadapterrel kapcsolódik a processzor‑tárló buszhoz.
+F – Amely dönt a sínfoglalási igények kiszolgálási sorrendjéről.
+
+Mi volt a Neumann János nevéhez fűződő IAS számítógép fő tervezési elve?
+T – A tárolt program.
+F – A buszrendszer.
+F – A hexadecimális számrendszer.
+
+Mely elemek tartoznak a hierarchia processzor szintjéhez?
+F – Vezérlőegység, főmemória, I/O
+T – Vezérlőegység, ALU, regiszterek
+F – ALU, I/O, rendszerbusz
+
+Melyik nem a processzor (CPU) része?
+T – A központi tár.
+F – A regiszterek.
+F – A vezérlőegység.
+
+Melyik a helyes sorrend csökkenő sebesség szerint egy buszhierarchiában?
+T – Nagysebességű I/O busz, rendszerbusz, bővítőbusz.
+F – Rendszerbusz, nagysebességű I/O busz, bővítőbusz.
+F – Nagysebességű I/O busz, bővítőbusz, gyorsítótár helyi busz.
+
+Melyik regiszter szolgál az I/O modul és a CPU közötti adatcserére?
+F – OIR
+T – I/OBR
+F – I/OAR
+
+Melyik típusú busz használ nyugtázó jelet?
+T – Az aszinkron busz.
+F – A szinkron és az aszinkron busz.
+F – A szinkron busz.
+
+A főmemória
+F – Csak utasításokat tartalmaz.
+F – Csak adatokat tartalmaz.
+T – Utasításokat és adatokat tartalmaz.
+
+Egy bináris negatív szám előjel bitje 1.
+F – hamis
+T – igaz
+
+Fixpontos bináris ábrázolásban hol van a kettedes pont helye?
+T – A legnagyobb helyiértékű bittől balra.
+F – A legnagyobb helyiértékű bittől jobbra.
+F – A legkisebb helyiértékű bittől jobbra.
+
+Melyik jelzőbitet használják többszavas összeadásnál?
+F – O (overflow)
+T – C (carry)
+F – S (sign)
+
+Hogy van tárolva a memóriában egy gépi utasítás?
+F – Szimbólumokkal.
+F – Hexadecimálisan.
+T – Binárisan.
+
+Hány decimális számjegyet lehet tárolni 2 bájton csomagolt decimális számábrázolásnál?
+T – 4
+F – 8
+F – 2
+
+Melyik regiszter tartalmazza a verem tetejének a címét?
+F – IP
+F – BP
+T – SP
+
+Mit tartalmaz a foglalási állomás?
+T – A végrehajtásra váró műveleti kódokat és operandusokat.
+F – A dekódolásra váró utasításokat.
+F – A memóriából lehívott utasításokat.
+
+Az indirekt ciklus egy címszámítási ciklus.
+T – igaz
+F – hamis
+
+Melyik nem okoz adathazárdot?
+F – Olvasás utáni írás.
+F – Írás utáni írás.
+T – Olvasás utáni olvasás.
+
+Melyik adathazárd?
+F – Elágazási hazárd.
+T – Írás utáni olvasás.
+F – Strukturális hazárd.
+
+A késleltetési rés az elágazási utasítás utáni utasításhely.
+T – igaz
+F – hamis
+
+Melyik nem része a regiszterablaknak?
+F – Paraméterregiszter.
+F – Ideiglenes regiszter.
+T – Globális regiszter.
+
+Melyik esetben alkalmazható a késleltetett betöltés?
+F – Programciklusnál.
+T – Memóriából történő olvasásnál.
+F – Elágazásnál.
+
+Mi jellemző a többszálas feldolgozásra?
+T – Több pipeline egyidejű használata.
+F – A pipeline fokozatainak többszörözése.
+F – A pipeline fokozatainak jobb kihasználása.
+
+Honnan kerülnek az utasítások a kibocsátási ablakba?
+F – Az utasításpufferből.
+T – A dekódoló egységből.
+F – Az utasításlehívó egységből.
+
+Az ARM Cortex‑A8 alkalmazásprocesszort beágyazott rendszerekben használják.
+F – hamis
+T – igaz
+
+Hány órajelciklust igényel egy elemi művelet?
+F – Egyet.
+T – Változó.
+F – Kettőt.
+
+Hol tárolják a mikroprogramozott vezérlőegység mikroutasításait?
+F – A processzor utasításpufferében.
+F – A főtár ROM memóriájában.
+T – Egy ROM memóriában a vezérlőegységen belül.
+
+Melyik esetre jellemző az IR tartalma alapján betölteni a címet a mikroprogramozott vezérlőegység címregiszterébe?
+F – Ugrás a megszakítási ciklus rutinjára.
+T – Ugrás a gépi utasítás rutinjára.
+F – A következő utasítás lehívása ugrás nélkül.
+
+Melyik memóriacella tárolja a bitet kondenzátoron?
+T – DRAM
+F – SRAM
+F – EEPROM
+
+Mit jelent a laphiba?
+F – A hivatkozott lap nem került aktualizálásra.
+F – A hivatkozott lap érvénytelen adatokat tartalmaz.
+T – A hivatkozott lap nincs a főmemóriában.
+
+Átlapolt memóriaszervezésben a címszomszédos szavak ugyanabban a bankban vannak.
+F – igaz
+T – hamis
+
+A memóriavédelmi mechanizmus biztosítja a programok tárterületeihez való jogosulatlan hozzáférés megakadályozását.
+F – hamis
+T – igaz
+
+Hány összehasonlítást kell végrehajtani a teljesen asszociatív cache esetében?
+F – Egyet.
+T – Ahány sor van a cache‑ben.
+F – Ahány szó van a cache egy sorában.
+
+Hova kerül egy bizonyos blokk a közvetlen leképezésű cache esetében?
+T – Mindig ugyanabba a sorba.
+F – Mindig ugyanabba a csoportba.
+F – Akármelyik sorba.
+
+Milyen áramkörből épül fel a gyorsítótár?
+T – SRAM
+F – SDRAM
+F – DRAM
+
+A gyorsítótárban mihez tartozik egy tag bejegyzés?
+F – Egy szóhoz.
+T – Egy sorhoz.
+F – Egy oszlophoz.
+
+Melyik RAID‑szint nem használ redundanciát?
+T – RAID 0
+F – RAID 2
+F – RAID 1
+
+A RAID lemezmeghajtóit az operációs rendszer…
+F – sorban egymás után használja.
+F – külön független meghajtókként kezeli.
+T – egyetlen logikai meghajtónak tekinti.
+
+Melyik RAID használ tükrözést?
+T – RAID 1
+F – RAID 2
+F – RAID 0
+
+Megszakításos I/O technikánál maga az adat átvitele egy processzorutasítás hatására történik.
+F – igaz
+T – hamis
+
+Melyik elem nem része az I/O modul blokkvázlatának? (???)
+T – Jelátalakító.
+F – I/O vezérlő logika.
+F – Adatregiszter.
+
+Melyik külső kapcsolat sávjainak száma növelhető egy eszköz esetében?
+T – PCIe
+F – SATA
+F – Ethernet
+
+Egyesre normalizált lebegőpontos szám esetében a szignifikánsnak melyik részét kell eltárolni?
+T – A törtrészt.
+F – Az egész részt.
+F – Az egész részt és a törtrészt.
+
+Mikor keletkezhet alulcsordulás?
+F – Fixpontos műveletnél.
+T – Lebegőpontos műveletnél.
+F – Egész számos műveletnél.
+
+Honnan történik az utasítás lehívása?
+T – A főmemóriából.
+F – A háttértárolóból.
+F – Az utasításregiszterből.
+
+Melyik típusú áramkörnek van állapotmegőrző képessége?
+T – A szekvenciális áramkörnek.
+F – A tranzisztoros áramkörnek.
+F – A kombinációs áramkörnek.
+
+Melyik busznak a szélessége határozza meg a memória maximális méretét?
+T – Címbusz.
+F – Vezérlőbusz.
+F – Adatabusz.
+
+Melyik nagyobb kapacitású tároló?
+F – Blue‑ray DVD
+T – Kétrétegű DVD
+F – Kétoldalas DVD.
+
+Melyik újraírható CD?
+F – CD‑R
+T – CD‑RW
+F – CD‑ROM
+
+Melyik vezérlőegység használ időzítő‑számlálót?
+T – A huzalozott és a mikroprogramozott.
+F – A mikroprogramozott.
+F – A huzalozott.
+
+Milyen típusú hazárd az antidependencia?
+F – Írás utáni olvasás (RAW).
+F – Írás utáni írás (WAW).
+T – Olvasás utáni írás (WAR).
+
+A CD‑n minden szektor tartalmaz címmezőt?
+T – Nem.
+F – Csak Mode 1‑ben.
+F – Igen.
+
+-=-=-=- 1. fejezet -=-=-=-
+
+Melyik mutató méri a processzor lebegőpontos teljesítményét?
+F – MIPS
+F – TIPS
+T – MFLOPS
+F – GIPS
+
+Egy 2 GHz órajelű processzor átlagosan 20 órajelciklus alatt hajt végre egy utasítást. Hány MIPS a teljesítménye?
+F – 1000
+F – 10
+F – 1
+T – 100
+
+Melyik nem igaz?
+F – Az áramköri fejlesztés növeli a csipben lévő tranzisztorok sűrűségét.
+F – A mai processzorokba épített tranzisztorok száma 100 milliós nagyságrendű.
+T – A szuperskalár processzorban több tranzisztor van, mint a többmagos processzorban.
+F – Az órajel frekvencia növelésével nő a processzor hőleadása.
+
+Melyik architektúra jelent rendszerszintű párhuzamosítást?
+F – VLIW
+T – SMP
+F – ILP
+F – SIMD
+
+Mivel csökkenthető az órajelciklus ideje?
+F – architektúra-fejlesztéssel
+F – párhuzamosítás a processzoron kívül
+T – technológiai fejlesztéssel
+F – párhuzamosítás a processzoron belül
+
+Melyik állítás igaz?
+F – A többprocesszoros rendszer mindig hatékonyabb, mint az egyprocesszoros.
+T – Bizonyos esetekben egy processzoros rendszer lehet hatékonyabb.
+F – A hyperpipeline csökkenti a processzormagok számát.
+F – A hyperpipeline növeli a processzorok számát.
+
+Mit mond ki a Moore-szabály?
+F – A csipek száma évente háromszorozódik.
+F – A tranzisztorok száma évente háromszorozódik.
+F – A csipek száma évente kétszereződik.
+T – A tranzisztorok száma évente kétszereződik.
+
+Egy 1 GHz-es processzor CPI = 10. Mennyi egy 1000 utasításos program futási ideje?
+F – 100 µs
+T – 10 µs
+F – 0,1 µs
+F – 1 µs
+
+Milyen számítógéptípusnál meghatározó a tranzakció/másodperc mutató?
+F – PC
+F – mainframe
+T – szerver
+F – beágyazott számítógép
+
+Melyik felhasználási területen fontos kiemelten a skálázhatóság?
+T – szerverek
+F – beágyazott gépek
+F – mainframek
+F – PC-k
+
+Melyik állítás igaz?
+T – A jövőben az órajel‑frekvencia növekedési üteme csökken.
+F – A jövőben az órajel‑frekvencia növekedési üteme már nem növekszik.
+F – A jövőben az órajel‑frekvencia növekedési üteme változatlan lesz.
+F – A jövőben az órajel‑frekvencia növekedési üteme nő.
+
+Milyen típusú áramköröket használnak a csipek gyártásánál napjainkban?
+F – LSI
+F – VLSI
+T – ULSI
+F – GLSI
+
+A számítógépek teljesítménye 5 évenként…
+F – megduplázódik.
+T – megtízszereződik.
+F – megötszöröződik.
+F – megszázszorozódik.
+
+Melyik a helyes sorrend növekvő teljesítőképesség szerint?
+F – beágyazott számítógép, szerver, személyi számítógép
+F – mainframe, beágyazott számítógép, szerver
+F – személyi számítógép, mainframe, beágyazott számítógép
+T – beágyazott számítógép, személyi számítógép, mainframe
+
+Melyik állítás igaz?
+F – Egy utasításciklus mindig egy memória‑hozzáférést jelent.
+F – Egy utasításciklus mindig két memória‑hozzáférést jelent.
+T – Egy utasításciklushoz lehet, hogy két memória‑hozzáférés kell.
+F – Egy utasításciklushoz lehet, hogy nem kell memória‑hozzáférés.
+
+Melyik állítás igaz?
+F – Egy utasításciklus egy órajelciklus.
+F – Az utasításciklus rövidebb, mint az órajelciklus.
+T – Egy utasításciklus több órajelciklus.
+F – Egy órajelciklus több utasításciklus.
+
+A rendelkezésre állási tényező csökken, ha…
+F – az átlagos helyreállítási idő csökken.
+F – az átlagos meghibásodási idő csökken.
+F – a meghibásodások közti átlagos idő csökken.
+T – az átlagos helyreállítási idő nő.
+
+Mi növeli a multiprocesszoros rendszerek hatékonyságát?
+F – a processzorok számának növelése
+T – az egyenletes feladatszétosztás
+F – a Moore‑féle szabály
+F – a processzorok közötti kommunikáció erősítése
+
+Melyik nem jelent processzoron belüli párhuzamosítást?
+F – VLIW rendszerek
+F – pipeline szervezésű rendszer
+F – SIMD rendszerek
+T – MIMD rendszerek
+
+Azonos feladat megoldása esetén melyik processzor‑architektúra növeli vagy csökkenti a gépi kódú utasítások számát?
+F – CISC csökkenti
+T – RISC növeli
+F – RISC csökkenti
+F – CISC növeli
+
+32 bites processzor esetén hány bites a memória címregiszter (MAR)?
+T – 32 bites
+F – 64 bites
+F – A szegmens méretétől függ.
+F – 16 bites
+
+Melyik az a regiszter, amely szimbólikusan nem címezhető az Assembly-ben?
+T – utasítás regiszter
+F – bázis regiszter
+F – bázismutató regiszter
+F – utasításszámláló regiszter
+
+Melyik állítás igaz a RESET áramkörre?
+F – A küszöbfeszültség eléréséig a RESET jel 0.
+F – A küszöbfeszültség elérése kisüti a RESET-kondenzátort.
+F – A küszöbfeszültség elérése után a RESET jel 1.
+T – A küszöbfeszültség elérése után a RESET jel 0.
+
+Milyen áramkörrel lehet megoldani, hogy a DMA át tudja venni a buszvezérlést a processzortól?
+F – háromirányú meghajtókkal
+T – háromállapotú kapukkal
+F – kétállapotú kapukkal
+F – kétirányú meghajtókkal
+
+-=-=-=- 2. fejezet -=-=-=-
+
+Egy processzornak 32 adat- és 32 címkimenete van. Hány bites a memóriacím regiszter (MAR)?
+F – 64
+F – Nincs közvetlen kapcsolat a kettő között.
+F – 16
+T – 32
+
+Melyik az a regiszter, amely szimbólikusan nem címezhető az Assembly-ben?
+T – utasítás regiszter
+F – utasításszámláló regiszter
+F – bázis regiszter
+F – bázismutató regiszter
+
+Melyik állítás igaz?
+T – A port állapotregiszterének bitjeiből megállapítható, hogy az inputeszköz feltöltötte a port pufferét.
+F – A port állapotregiszterében a paritásbit 1-es lesz, ha adathibás az átvitel az adatbuszon.
+F – A port állapotregiszterének bitjeit a processzor a vezérlőbusz segítségével állítja be.
+F – A port pufferregiszterében egy állapotbit jelzi, hogy az adat a pufferből a processzorhoz már továbbításra került.
+
+Mi a feladata a RESET áramkörnek?
+F – leállítja a futó programot
+F – lekapcsolja a tápfeszültséget
+T – alaphelyzetbe állítja a processzort
+F – alaphelyzetbe állítja az operációs rendszert
+
+Melyik állítás igaz a memória-írási buszciklusra?
+T – Az adat és a cím egyszerre kerül a buszra.
+F – Először a MEMWR kerül a buszra.
+F – Először a cím kerül a buszra.
+F – Először az adat kerül a buszra.
+
+Mi a különbség az utasításlehívás memóriából, illetve olvasás memóriából buszciklus között?
+F – Az utasításlehívás az állapotregiszter másik bitjét állítja be.
+F – Az utasításlehívásnál mozgatott adatok a processzor utasításkódjai.
+T – A busztól átvett adatok a processzor más-más regisztereibe kerülnek.
+F – Nincs különbség.
+
+Ha a memória címregiszter (MAR) 16 bites, mennyi a RAM maximális kapacitása?
+F – 256 KB
+F – 32 KB
+F – 128 KB
+T – 64 KB
+
+Hány bites az utasításregiszter (IR)?
+T – A gépi utasítások maximális hossza a megfelelő 2 hatványra felkerekítve.
+F – Ahány bites az adatsín (16 vagy 32 vagy 64).
+F – A memória adatregiszter MDR méretének kétszerese.
+F – Ahány bites a processzor-architektúra.
+
+Melyik állítás nem pontos?
+F – Az I/O-portok regiszterei az I/O-eszközökkel való adatátvitelt szolgálják.
+F – A RAM, ROM a végrehajtás alatt álló programok utasításait és adatait tárolja.
+F – A processzor lehívja, dekódolja és végrehajtja a memóriában levő programok utasításait.
+T – A sínrendszer a processzor nélkül is lehetővé teszi a RAM és az I/O-eszközök közötti adatátvitelt.
+
+Melyik állítás igaz?
+T – Az adatokat az adatbuszról kapja a processzor.
+F – A MEMWR vezérlőinformációt a vezérlőbusz adja át a processzornak.
+F – A címadatokat a címbuszról kapja a processzor.
+F – Az utasításbusz kétirányú.
+
+Mivel állítják elő az órajelet?
+F – a CPU clock megszakításaival
+T – kristály oszcillátorral
+F – multivibrátoros feszültséggenerátorral
+F – RC áramkör rezonanciájával
+
+A multiplexált cím- és adatbusz
+F – növeli a CPU kivezetéseinek (lábainak) számát.
+F – nem változtatja meg a CPU kivezetéseinek (lábainak) számát.
+T – csökkenti a CPU kivezetéseinek (lábainak) számát.
+F – megkétszerezi a CPU kivezetéseinek (lábainak) számát.
+
+A memória-olvasási buszciklusra melyik állítás nem igaz?
+F – A MEMRD vezérlőjelet a processzor az adat beolvasása előtt állítja "1"-re.
+T – Az adat hosszabb ideig van a buszon, mint a cím.
+F – A MEMRD vezérlőjel a cím buszra helyezését követően vált "1"-re.
+F – A cím hosszabb ideig van a buszon, mint az adat.
+
+Mi a memória adatregiszter Assembly programbeli szimbolikus neve?
+F – AR
+T – nincs szimbolikus neve
+F – MDR
+F – MAR
+
+Milyen úton kerül át a processzorba a RAM-ból kiolvasott utasítás?
+F – vezérlőbuszon
+F – címbuszon
+T – adatbuszon
+F – utasításbuszon
+
+Mit tartalmaz az IP utasításszámláló regiszter?
+F – A következő utasítássor számát
+F – A végrehajtott utasítás címét
+F – A végrehajtott utasítások számát
+T – A következő utasítás címét
+
+-=-=-=- 3. fejezet -=-=-=-
+
+Egy 32 bites processzor esetén egy buszciklussal hány bájt kerül átvitelre a címsínen?
+F – 4 x 4 bájt
+T – 4 bájt
+F – 2 bájt
+F – 8 bájt
+
+Melyik utasítás olvassa a port regisztereit?
+F – CMP
+T – IN
+F – OUT
+F – READ
+
+Egy összeadó utasításban egy regiszter bináris kódja szerepel a második operandus helyén. Mivel kell a CPU-nak végrehajtani az összeadást?
+T – a címzési módtól függ a végrehajtás
+F – a regiszter által megcímzett portról beolvasott számmal
+F – a regiszterben lévő címen található számmal
+F – a regiszterben található számmal
+
+Mit eredményez a MOVE AX, [BX] utasítás?
+F – A BX regiszter tartalmát átviszi az AX regiszterbe.
+F – Az AX regiszter tartalmát átviszi a BX regiszterbe.
+T – A BX regiszterben található címről átviszi az adatokat az AX regiszterbe.
+F – Az AX című memóriaterületre átviszi a BX címről az adatokat.
+
+Melyik állítás igaz a közvetlen adatcímzésre?
+F – Az utasításban az operandus helyén a virtuális cím helyett a fizikai cím van.
+T – Az utasításban az operandus helyén az adat bináris értéke van.
+F – Az utasításban szereplő regiszterben közvetlenül megtalálható az adat címe.
+F – Az operandust az utasítás helyett a RAM-ból kell kiolvasni.
+
+Milyen utasítástípusok léteznek?
+T – null-, egy és kétcíműek
+F – egy- és kétcíműek
+F – null-, két- és háromcíműek
+F – egy-, két- és háromcíműek
+
+Melyik logikai utasítás?
+F – ADD
+F – CMP
+T – OR
+F – POP
+
+Melyik szabályrendszert használja fel az Assembler fordítóprogram?
+T – utasításszerkezet
+F – cikluskigöngyölítés
+F – LRU stratégia
+F – Boole algebra
+
+Mi lesz az AX regiszter tartalma a XOR AX, AX utasítás után (XOR a logikai kizáró vagy)?
+F – AX értéke változatlan.
+F – AX értékének 2-es komplementere.
+T – AX értéke bináris 0.
+F – AX értékének 1-es komplementere.
+
+Az ADD CX, BX utasítás végrehajtása során hová kerül az eredményadat?
+T – CX-be.
+F – A RAM-ba az eredményadatok tárterületre.
+F – Az akkumulátorba.
+F – BX-be.
+
+Regiszter indirekt címzés esetén az utasításban szereplő regiszter tartalmazza
+F – a báziscímet
+F – az adatot
+F – az adatindexet
+T – az adat címét
+
+Az ADD BX, 5 utasítás
+F – a BX regiszterhez hozzáadja az 5-ös regiszterben található számot.
+F – hozzáad az akkumulátorhoz 5-öt.
+F – a BX regiszterhez hozzáadja az 5-ös memóriacímen található számot.
+T – a BX regiszterhez hozzáad 5-öt.
+
+Melyik adatmozgatást nem lehet megoldani egy gépi utasítással?
+T – I/O-portról I/O-portba
+F – memóriából verembe
+F – regiszterből regiszterbe
+F – regiszterből verembe
+
+Hány operandust tartalmaz a PUSHF (állapotregiszter betöltése verembe) utasítás?
+F – 1
+T – 0
+F – 2
+F – 3
+
+Melyik regiszter tartalmát lehet korlátozás nélkül megváltoztatni?
+F – állapotjelző (FLAGS)
+F – veremmutató (SP)
+F – utasításszámláló (IP)
+T – adatregiszter (DX)
+
+Melyik kétcímű utasítás?
+F – JMP
+F – RET
+F – IN
+T – AND
+
+Mi az ugró utasítás (pl. JMP) operandusa?
+F – nincs operandusa
+T – szimbolikus cím
+F – bináris fizikai cím
+F – az IP-regiszter
+
+Mivel állíthatjuk elő az Assembly nyelvű forráskódból a tárgykódot?
+T – Assembler
+F – Debug
+F – LINKEDT EDITOR
+F – exe generátor
+
+Hány regiszter-hivatkozást tartalmazhat maximálisan egy Assembly utasítás?
+T – 4
+F – 1
+F – 3
+F – 2
+
+Melyik utasítás változtatja meg a verem tartalmát?
+F – ADD
+T – POPF
+F – INC
+F – MOV
+
+Melyik vezérlésátadó utasítás?
+F – XOR
+F – DEC
+T – JNZ
+F – INC
+
+-=-=-=- 4. fejezet -=-=-=-
+
+Melyik esetben tudjuk egy másik gép utasításait mikroprogram szinten emulálni?
+F – horizontális mikroprogramozásnál
+F – kódolt horizontális mikroprogramozásnál
+T – vertikális mikroprogramozásnál
+F – privilegizált programozás esetén
+
+A két címmezős szerkezetű mikroutasítás megnöveli
+F – a dekódoló regiszteráramkörök számát.
+T – a mikroprogramtár méretét.
+F – az L1 szintű cache méretét.
+F – a RAM-szükségletet.
+
+Melyik esetre igaz, hogy a mikroutasítás minden bitje egy vezérlőjel bináris megfelelője?
+T – horizontális mikroutasítás
+F – huzalozott vezérlés
+F – vertikális mikroutasítás
+F – vertikális és horizontális mikroutasítás
+
+Melyik állítás igaz a kódolt horizontális mikroutasításra?
+F – A kód minden bitje egy vezérlőjelet generál.
+F – Egyszerűsödik az Assembly utasítások szerkezete.
+F – A kódolás megnöveli a vezérlőmemória méretét.
+T – A kódot dekódolva jönnek létre a vezérlőjelek.
+
+Mit eredményez egy mikroutasítás végrehajtása?
+F – az ALU-ban lévő adatokkal a megfelelő művelet elvégzését
+T – vezérlőjelek generálását
+F – a regisztertranszferhez az adatutak megnyitását vagy zárását
+F – a vezérlőjelek funkcionális átkódolását
+
+Hogyan kerül kiválasztásra a vezérlési memória végrehajtási rutinja?
+F – a gépi utasítás szerkezete szerint meghatározott végrehajtási mikrokód szerint
+F – az utasításszámláló regiszterben található cím alapján
+F – a vezérlési pufferregiszterben található aktuális cím alapján
+T – az utasításregiszterben található aktuális műveleti kód alapján
+
+Mikroprogramozott vezérlőegységnél hova kerülnek első lépésben az adatok az utasításregiszterből?
+F – a szekvenciális logikába
+T – a dekóderbe
+F – a vezérlési pufferregiszterbe
+F – a vezérlési címregiszterbe
+
+Melyik mikroutasítás tartalmaz műveleti kódot?
+F – huzalozott
+F – vertikális és horizontális
+T – vertikális
+F – horizontális
+
+Mikroprogramozásnál a vezérlési memória
+F – FLASH
+F – regisztertár
+T – ROM
+F – RAM
+
+Mi határozza meg, hogy egy utasítás végrehajtása során milyen mikroprogramot kell elvégezni?
+T – az aktuálisan végrehajtott utasítás műveleti kódja
+F – a vezérlőegység mikroutasításai
+F – az utasításregiszterben tárolt vezérlőjelek
+F – a gépi kódú utasítás utasításszerkezete
+
+Melyik elemi művelete az utasítás-végrehajtásnak?
+T – adatátvitel az MDR-ből az IR-be
+F – utasítás lehívása a RAM-ból
+F – operandus címszámítása
+F – utasítás dekódolása
+
+Melyik nem feladata a vezérlőegységnek?
+F – ALUOP vezérlőjel generálása
+F – CPU-n belüli adatút engedélyezése
+T – IRQ vezérlővonalon a jelszint beállítása
+F – MEMWR vezérlőjel generálása
+
+Az IP -> MAR elemi lépéshez hány vezérlési pontot kell beállítania a vezérlőegységnek?
+T – 2
+F – 3
+F – 1
+F – 0
+
+Melyik állítás igaz?
+T – A huzalozott vezérlőegység gyorsabb, mint a mikroprogramozott.
+F – A CISC processzorok vezérlőegysége huzalozott.
+F – A RISC processzorok vezérlőegysége mikroprogramozott.
+F – A huzalozott vezérlőegység lassúbb, mint a mikroprogramozott.
+
+Huzalozott vezérlőegységnél mi adja ki a vezérlőjelet?
+F – a dekóder
+F – az utasításciklus fázisregisztere
+T – a kombinációs hálózat
+F – az időzítő számláló
+
+Mi tárolja huzalozott vezérlésnél az utasításciklus alciklusait azonosító kódokat?
+F – az utasításregiszter
+T – az utasításciklus fázisregisztere
+F – az utasításciklus azonosító regisztere
+F – az utasításciklus számláló regisztere
+
+Mikroprogramozásnál a vezérlési memória
+F – RAM
+T – ROM
+F – regisztertár
+F – FLASH
+
+Melyik regiszter tartalmazza a következő mikroutasítás címét?
+F – az utasításszámláló regiszter
+F – a vezérlési pufferregiszter
+T – a vezérlési címregiszter
+F – az utasításregiszter
+
+Mit értünk a mikroprogramozásban szekvenciálás alatt?
+F – a mikroprogram szubrutinok sorrendjének meghívását
+F – egy mikroprogram szubrutinban lévő utasítások sorrendjét
+T – a következő mikroutasítás címének meghatározását
+F – az ugró mikroutasításnál a címbetöltést
+
+Melyik mikroutasítás kódolási technika?
+F – regiszterátviteli
+F – szekvenciális
+T – funkcionális
+F – fázisvezérlő
+
+-=-=-=- 5. fejezet -=-=-=-
+
+Milyen vezérlőjelet kap a ROM áramkör a vezérlőbuszról?
+T – MEMRD
+F – MEMWR
+F – OE
+F – CS
+
+Hogyan történik meg egy memóriarekesz címzése?
+F – rekeszkiválasztás, majd csipkiválasztás
+F – lineáris, majd kódolt szelekció
+F – kódolt, majd lineáris szelekció
+T – csipkiválasztás, majd rekeszkiválasztás
+
+Mit nevezünk memóriatérképnek?
+F – a főtár címtartományának felbontását
+F – a lineáris szelekcióval kiválasztható memóriamodulok összességét
+F – a RAM-ba betölthető BIOS elemek helyét mutató táblázatot
+T – a fizikai memóriaterület felosztásának meghatározását a címtartományon belül
+
+Melyik állítás igaz a ROM memóriára?
+F – A ROM mátrix sorai puffermeghajtókon keresztül csatlakoznak az adatbemenetekhez.
+F – A ROM áramkör csipjei mátrix alakban vannak elrendezve a memóriacellákban.
+T – A ROM áramkör cellái mátrix alakban vannak elrendezve a csipben.
+F – A ROM mátrix oszlopai puffermeghajtókon keresztül csatlakoznak az adatbemenetekhez.
+
+A csip melyik bemenetére kerül a vezérlőbuszról a MEMRD jel?
+F – DATA
+T – OE
+F – CS
+F – WE
+
+A ROM memóriablokk 4 tömbbe van szervezve: Bank0, Bank1, Bank2, Bank3. Melyik bankot címzi meg a 00000110 cím?
+F – Bank0
+F – Bank3
+F – Bank1
+T – Bank2
+
+Egy cache tár sorában 16 bájt adat van. 32 bites adatbusz esetén hogy történik a cache sor feltöltése?
+T – 4 × 4 bájt
+F – 8 × 2 bájt
+F – 1 × 16 bájt
+F – 2 × 8 bájt
+
+Egy 64 bites adatsín esetén hány bájtkiválasztó vezérlőjelet kell alkalmazni?
+F – 16
+T – 8
+F – 2
+F – 4
+
+Mennyi ideig kell megmaradnia a címnek a ROM bemenetén?
+F – amíg az OE jel 1
+F – amíg a CS és az OE vezérlőjel 0
+F – a hozzáférési idő alatt
+T – az olvasási ciklus alatt
+
+Melyik igaz a lineáris szelekcióra?
+T – minden memóriaáramkör kiválasztására külön címvonalat használunk
+F – a lineáris szelekciót megelőzi a kódolt szelekció
+F – minden memóriaáramkör kiválasztására külön vezérlővonalat használunk
+F – a kódolt szelekciót megelőzi a lineáris szelekció
+
+Hány címbemente van egy 1 KB-os memória áramkörnek?
+T – 10
+F – 32
+F – 64
+
+Egy számítógép RAM címtartománya 4 GB. Hány bites a címbusz?
+F – 16
+T – 32
+F – 8
+F – 64
+
+Ha a 64 KB-os címtartományt 1 KB-os zónákra bontjuk, mennyi bitet használunk fel a rekesz kiválasztására?
+F – 16
+F – 6
+T – 10
+F – 8
+
+Ha a 64 KB-os címtartományt 1 KB-os zónákra bontjuk, mennyi bitet használunk fel a csip kiválasztására?
+F – 8
+T – 6
+F – 10
+F – 16
+
+Miben tér el a ROM és a RAM áramkörnek a buszhoz való bekötése?
+F – a MEMRD vezérlőjel csak a RAM-nál van
+T – a MEMWR vezérlőjel csak a RAM-nál van
+F – a CS vezérlőjel csak a RAM-nál van
+F – nincs különbség
+
+Írási ciklusban mennyi ideig vannak az adatok az adatbuszon?
+F – minimum a címzési időig
+T – az előkészítési idő és a tartási idő összegéig
+F – minimum az előkészítési időig
+F – minimum a tartási időig
+
+Milyen a RAM memória-áramkör olvasási ciklusnál a jelek időbeli ütemezésének sorrendje?
+F – adat, cím, Output Enable (OE)
+T – cím, Output Enable (OE), adat
+F – cím, adat, Output Enable (OE)
+F – adat, Output Enable (OE), cím
+
+Milyen a RAM memória-áramkör írási ciklusánál a jelek időbeli ütemezésének sorrendje?
+F – Write Enable (WE), cím, adat
+T – cím, Write Enable (WE), adat
+F – adat, cím, Write Enable (WE)
+F – cím, adat, Write Enable (WE)
+
+A RAM memóriablokk 8 tömbbe van szervezve: Bank0, Bank1 ... Bank7. Melyik bankot címzi a 00001001 cím?
+F – Bank0
+T – Bank1
+F – Bank4
+F – Bank2
+
+Egy cache tár sorában 16 bájt adat van. 24 bites címzés esetén hol található a soron belüli bájt címe?
+T – A0 .. A3
+F – A4 .. A7
+F – A0 .. A8
+F – A0 .. A4
+
+-=-=-=- 6. fejezet -=-=-=-
+
+Mit jelent a kézfogásos protokollban az ACK vezérlőjel?
+T – visszaigazolást
+F – adatkérést
+F – tranzakcióindítást
+F – tranzakciólezárást
+
+Melyik vezérlőjel aktív a memória címtartományába beágyazott I/O esetén, ha adatot írunk a port regiszterébe?
+T – MEMWR
+F – IOWR
+F – MEMRD
+F – IORD
+
+Melyik címzésnél számozzuk meg a mágneslemez szektorait egy folyamatos sorszámmal?
+T – logikai blokkcímzés
+F – fizikai címzés
+F – ATA-címzés
+F – soros szektorcímzés
+
+Mi a közös a soros és a párhuzamos interfész működésében?
+F – Az adatok léptető regiszterből kerülnek ki az adatvonalra.
+F – A fogadó mindig visszaigazolja az adatok átvételét.
+F – Az adatátvitel órajelenként egymás után továbbított bitenként történik.
+T – Outputnál a kimeneti puffer kiürülése megszakítást okozhat.
+
+Melyik vezérlőjel aktív izolált I/O esetén, ha a port regiszteréből adatot olvasunk ki?
+T – IORD
+F – IOWR
+F – MEMWR
+F – MEMRD
+
+Párhuzamos interfésznél adatkivitel esetén mi okozhat megszakítást a számítógép processzoránál?
+F – bemeneti puffer üres
+T – kimeneti puffer üres
+F – bemeneti puffer megtelt
+F – kimeneti puffer megtelt
+
+Hogyan történik a lemezblokk címzése?
+F – fej/cilinder/szektor
+T – cilinder/fej/szektor
+F – fej/szektor/cilinder
+F – szektor/fej/cilinder
+
+Melyik állítás nem igaz a soros interfészre?
+F – a vevő órajele eltérhet az adó órajelétől
+T – a vevő órajele nem térhet el az adó órajelétől
+F – az adatátvitel lehet szinkron
+F – az adatátvitel lehet aszinkron
+
+Ha az adatküldő kezdeményez a kézfogásos protokollban, mit jelent a READY vezérlőjel?
+T – Az adatvonalakon átvitelre kész adatok vannak.
+F – Az adatátviteli tranzakció lezárult.
+F – Az adatfogadó jelzi, hogy adatokat kér.
+F – Az adatok átvétele befejeződött.
+
+Melyik állítás igaz?
+F – A periféria-interfész a port része.
+F – Az interfész processzora a sínre teszi a periféria által átadott adatokat.
+F – A port processzora a sínre teszi a periféria által átadott adatokat.
+T – A port a periféria interfész része.
+
+Melyik regiszterbe írjuk be a szektorolvasási parancsot?
+F – ATA LBA regiszter
+F – DMA Command regiszter
+F – DMA Count regiszter
+T – ATA Command regiszter
+
+Mágneslemez I/O esetén melyik adatátviteli mód terheli jobban a processzort?
+T – PIO mód
+F – LBA mód
+F – CHS mód
+F – DMA mód
+
+Mi a legkisebb olvasható/írható fizikai egység a lemezen?
+T – szektor
+F – klaszter
+F – cilinder
+F – egy bájt
+
+Hogyan helyezkedhetnek el az adatok a merevlemezen?
+F – lineáris folytonossággal
+F – egymás fölött szakaszosan
+F – spirálisan
+T – koncentrikus körökön
+
+Melyik állítás igaz a soros interfészre?
+F – Két adatszó továbbítása között 1 órajel szünet van az aszinkron átvitelnél.
+F – Két adatszó továbbítása között 1 órajel szünet van a szinkron átvitelnél.
+F – Szinkron átvitelnél start, stop bitek fogják közre az adatbájtokat.
+T – Aszinkron átvitelnél start, stop bitek fogják közre az adatbájtokat.
+
+Párhuzamos interfésznél adatbevitel esetén mi okozhat megszakítást a számítógép processzoránál?
+F – kimeneti puffer üres
+F – bemeneti puffer üres
+F – kimeneti puffer megtelt
+T – bemeneti puffer megtelt
+
+Ha az adatfogadó kezdeményez a kézfogásos protokollban, mit jelent a READY jel?
+F – Az adatvonalakhoz átvitelre kész adatok vannak.
+F – Az adatok átvétele befejeződött.
+T – Az adatfogadó jelzi, hogy adatokat kér.
+F – Az adatátviteli tranzakció lezárult.
+
+Melyik utasítással lehet I/O portba írni izolált I/O esetén?
+F – IN
+F – PORTIN
+F – PORTOUT
+T – OUT
+
+Mikor lehet a MOV utasítással adatot kiolvasni az I/O portból?
+F – többrétegű I/O esetén
+F – szektált I/O esetén
+F – izolált I/O esetén
+T – a memória címtartományba beágyazott I/O esetén
+
+Melyik regiszter része az I/O portnak? T – állapot F – cím F – protokoll F – utasítás
+
+-=-=-=- 7. fejezet -=-=-=-
+
+Mikor igényel a buszarchitektúrájú multiprocesszoros rendszerben egy processzor rendszerbusz foglalást?
+F – Ha a processzor lokális memóriája megtelt.
+F – Ha egy programutasításban olyan címet talál, amely a lokális memória címtartományába esik.
+T – Ha egy programutasításban olyan címet talál, amely a globális memória címtartományába esik.
+F – Ha a rendszerbusz szabad és nincs magasabb prioritású igénylő.
+
+Mi köti össze a processzort és a lokális memóriát buszarchitektúrájú multiprocesszoros rendszerekben?
+F – a buszillesztő egység
+F – a rendszerbusz
+F – a buszarbiter
+T – a helyi sín
+
+Mit jelent a cella alapú hálózat?
+T – A 2×2 cross-bar kapcsolókból felépülő hálózat.
+F – Olyan hálózat, amely bármelyik bemenet/kimenet párjához létezik útvonal.
+F – Olyan hálózat, amely bármelyik bemenet/kimenet párjához létezik legalább egy útvonal.
+F – A 4×4 cross-bar kapcsolókból felépülő hálózat.
+
+Mikor lesz egy többfokozatú kapcsolóhálózat blokkolásmentes?
+F – Ha van olyan bemenet/kimenet kombináció, hogy minden egyes bemenet összekapcsolható egy-egy kimenettel.
+F – Ha minden bemenetről minden kimenet elérhető automatikus útvonalválasztással.
+T – Ha az összes bemenet/kimenet kombináció esetén minden egyes bemenet összekapcsolható egy-egy kimenettel.
+F – Ha minden bemenetről legalább egy kimenet elérhető.
+
+Mit mondhatunk azonos bemenet és kimenet esetén a többfokozatú és a cross-bar hálózatok sávszélességéről?
+F – A kapcsolás topológiájától függően bármelyik hálózat sávszélessége lehet nagyobb.
+F – A cross-bar hálózatok sávszélessége mindig megegyezik a többfokozatú hálózatokéval.
+F – A cross-bar hálózatok sávszélessége mindig kisebb a többfokozatú hálózatokénál.
+T – A cross-bar hálózatok sávszélessége mindig nagyobb a többfokozatú hálózatokénál.
+
+Melyik állítás igaz a tökéletes keverésű hálózatra?
+T – blokkoló, de rendelkezik az önálló útvonalválasztás tulajdonságával
+F – nem blokkoló, de rendelkezik az önálló útvonalválasztás tulajdonságával
+F – blokkoló, és nem rendelkezik az önálló útvonalválasztás tulajdonságával
+F – nem blokkoló, és nem rendelkezik az önálló útvonalválasztás tulajdonságával
+
+Buszarchitektúrájú multiprocesszoros rendszerekben melyik részegység generálja a rendszerbusz foglalási kérelmet?
+F – a globális memória vezérlője
+T – a buszillesztő címdekódere
+F – a lokális memória vezérlője
+F – a buszarbiter címdekódere
+
+Melyik állítás igaz lokális és globális memóriát tartalmazó multiprocesszoros rendszerekre?
+F – A processzorok egy másik processzor lokális memóráját több lépcsőben érhetik el.
+F – A processzorok mindegyike a többiétől elkülönített címtartományt használ.
+T – A processzorok a postafiók elv szerint kommunikálnak a globális memóriában.
+F – A globális memória a master processzor címtartományába esik.
+
+Mi jellemzi a cross-bar típusú összeköttetést?
+F – több fokozatú kapcsolóhálózat
+T – egy fokozatú kapcsolóhálózat
+F – egy buszos hálózat
+F – több buszos hálózat
+
+Milyen architektúrájúak a multiprocesszoros rendszerek?
+F – SISD
+T – MIMD
+F – MISD
+F – SIMD
+
+Melyik állítás igaz a cross-bar multiprocesszoros rendszerre?
+F – A memóriamodulok egy mátrixban kerülnek elhelyezésre.
+F – Minden processzor–processzor összeköttetéshez önálló kapcsoló tartozik.
+T – Minden memóriamodulhoz önálló arbiter tartozik.
+F – Minden processzorhoz önálló arbiter tartozik.
+
+Mit jelent a párhuzamos arbitráció?
+F – A párhuzamosan kérelmező masterek prioritását az arbitertől való távolságuk határozza meg.
+T – A buszfoglalási igények elbírálása valamilyen prioritási algoritmus szerint történik meg.
+F – Több master is lefoglalhatja párhuzamosan a buszt.
+F – Minden masternek és slavenek önálló Busz Request vezérlővonala van.
+
+Mit jelent a soros arbitráció?
+F – Minden master egyszerre jelenti be igényét, és ezeket az arbiter rendezi sorba.
+F – A masterek prioritásuk szerinti várakozó sorokat generálnak az arbiterben.
+F – A masterek az LRU algoritmus szerint foglalhatják le a rendszerbuszt.
+T – A masterek láncba vannak kapcsolva prioritásuk szerint.
+
+Mi tartalmazza buszarchitektúrájú multiprocesszoros rendszerekben a helyi és a rendszerbusz közötti puffereket?
+F – a globális memória tárolója
+T – a buszillesztő egység
+F – a buszarbiter átmeneti tárolója
+F - a processzorok lokális cache tárolója
+
+Mit jelent egybuszos multiprocesszoros rendszerben a busz sávszélessége?
+F - A hozzáférési ráta reciproka.
+F - Az a kritikus érték, ami felett újabb processzor már nem tudja használni a buszt.
+T - A buszt átlagos foglaltsága.
+F - A time-sharing egy idő szelete alatt átvihető adatok mennyisége.
+
+Melyik slave eszköz az egybuszos multiprocesszoros rendszerben?
+F - a processzormodul
+T - a memóriamodul
+F - a DMA modul
+F - a time-sharing modul
+
+Melyik lehet master eszköz az egybuszos, multiprocesszoros rendszerben?
+T - a processzormodul
+F - a memóriamodul
+F - az I/O modul
+F - a time-sharing modul
+
+Melyik lehet klaszter?
+F - MPP számítógép
+T - interneten együttműködő PC-k
+F - NUMA számítógép
+F - UMA számítógép
+
+Az erősen párhuzamos processzrokból (MMP) álló architektúra
+F - klaszter.
+T - elosztott rendszer.
+F - megosztott memóriájú sztatikus összeköttetésű rendszer.
+F - megosztott memóriájú dinamikus összeköttetésű rendszer.
+
+Melyik állítás igaz az üzenetátadásos multiprocesszoros rendszerre?
+F - A processzorok egy közös memóriához férhetnek hozzá.
+F - A processzoroknak egy közös I/O alrendszerük van.
+T - Minden processzornak saját I/O alrendszere van.
+F - A processzort egy belső hálózaton keresztül férhetnek hozzá a memóriához.
+
+-=-=-=- 8. fejezet -=-=-=-
+
+Egy 7 modulból álló NMR rendszer képes tolerálni maximum hány hibát?
+T – 3 hibát
+F – 5 hibát
+F – 6 hibát
+F – 4 hibát
+
+Mit nevezünk meghibásodásnak (failure)?
+T – a rendszer viselkedésének első eltérése a specifikációtól
+F – egy fizikai romlás a hardverben
+F – egy rossz érték a rendszer belső állapotában
+F – egy hiányosság a szoftverben
+
+A standby sparing rendszerben melyik állítás igaz?
+F – csak egy modul található
+T – minden modulhoz tartozik egy-egy hibadetektor
+F – a modulok eredményeit egy többségi szavazó összehasonlítja
+F – a modulok eredményeit párosával összehasonlítják
+
+A hibatűrő rendszer feladatai közé tartozik:
+F – a hibák beazonosítása a rendszer meghibásodása után
+F – az adatok helyreállítása a rendszer meghibásodása után
+F – a hibás adatok törlése a rendszer által szolgáltatott eredményekről
+T – a hibák felismerése a rendszer meghibásodása előtt
+
+Az előre látott hibák melyik csoportra vonatkoznak?
+F – tervezési hibák
+F – kivitelezési hibák a megépítésben
+T – a hardveralkatrészekre vonatkoznak
+F – a szoftverre vonatkoznak
+
+Tartalékos N-moduláris redundanciát alkalmazó hibrid rendszerekben 5 alapmodul és 2 tartalék esetén maximum hány hiba tolerálható?
+F – 3
+F – 5
+T – 4
+F – 6
+
+A pair-and-spare rendszerben melyik állítás igaz?
+F – a modulok eredményeit egy többségi szavazó összehasonlítja
+F – minden modulhoz tartozik egy-egy hibadetektor
+T – a modulok eredményeit párosával összehasonlítják
+F – csak egy modul található
+
+Dinamikus redundancia esetén egy modul meghibásodása után mit várunk el a rendszertől?
+F – leáll
+T – átkapcsol egy tartalék modulra
+F – folytatja a működését változtatás nélkül
+F – képes maszkolni a meghibásodott modul hibáját
+
+A hármas moduláris redundanciát (TMR) használó rendszernél melyik állítás igaz?
+T – a szavazó összehasonlítja három modul eredményét
+F – a szavazó csak egy modul eredményét veszi figyelembe
+F – nincs szükség szavazásra
+F – a szavazó két modul eredményét hasonlítja össze
+
+Mely redundanciatípusok alkalmaznak hibamaszkolást?
+F – statikus és dinamikus
+F – dinamikus
+T – statikus
+F – egyik sem
+
+A fizikai redundancia feltételezi…
+T – az erőforrások sokszorozását
+F – a feldolgozás megismétlését
+F – csak a szükséges erőforrások beépítését
+F – az adatok tárolását
+
+Specifikációs és implementációs tévedések lehetnek…
+F – csak szoftverben
+T – a szoftverben és hardverben
+F – csak hardverben
+F – egyikben sem
+
+Melyik állítás helyes?
+T – A hiba okozza az adathibát, ez utóbbi a meghibásodást
+F – A meghibásodás okozza az adathibát, ez utóbbi a hibát
+F – A hiba okozza a meghibásodást, ez utóbbi az adathibát
+F – Az adathiba okozza a hibát, ez utóbbi a meghibásodást
+
+Melyik az adathiba (error)?
+F – Egy rossz algoritmus alkalmazása a programban
+F – Egy adatvezeték megszakadása
+F – Egy memóriacella meghibásodása
+T – Egy bináris változó helytelen értéke
+
+A magas megbízhatóság elérésének két módszere:
+F – a hibák megelőzése és elkerülése
+F – a hibák megelőzése és eltávolítása
+F – a hibák elkerülése és eltávolítása
+T – a hibák megelőzése és a hibatűrés
